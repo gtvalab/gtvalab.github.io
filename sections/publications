@@ -1,0 +1,46 @@
+<section id="publications" class="container">
+	<h3>Publications</h3>
+	<div class="publicationContainer row">
+		<div class="col-lg-3" style="background-image: url('../images/bias1.png');background-size: cover;">			
+		</div>
+		<div class="col-lg-9">
+			<span class="publicationTitle">Warning, Bias May Occur: A Proposed Approach to Detecting Cognitive Bias in Interactive Visual Analytics</span>
+			<br>
+		    <span class="publicationAuthors">Emily Wall, Leslie M. Blaha, Lyndsey Franklin, and Alex Endert</span>
+		    <br>
+		    <span class="publicationVenue">IEEE Visual Analytics Science and Technology (VAST), 2017</span>
+		    <br>
+		    <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/BiasVAST17.pdf" target="_blank">PDF</a> | <a href="" target="_blank">Slides (VAST 17)</a> | <a href="" target="_blank">Talk (VAST 17)</a></span>
+		</div>		
+	</div>
+
+	<div class="publicationContainer row">
+		<div class="col-lg-3" style="background-image: url('../images/encodings.png');background-size: cover;">			
+		</div>
+		<div class="col-lg-9">
+			<span class="publicationTitle">Evaluating Interactive Graphical Encodings for Data Visualization</span>
+			<br>
+		    <span class="publicationAuthors">Bahador Saket, Arjun Srinivasan, Eric Ragan, and Alex Endert</span>
+		    <br>
+		    <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics, 2017</span>
+		    <br>
+		    <span class="publicationSupplementary"><a href="http://arjun010.github.io/static/papers/interactive-encodings.pdf" target="_blank">PDF</a> | <a href="" target="_blank">Slides (InfoVis 17)</a></span>
+		</div>
+	</div>	
+	<!-- Use the below code as a template to add a publication -->
+	<!--
+	<div class="publicationContainer row">
+		<div class="col-lg-3" style="background-image: url('../images/');background-size: cover;">			
+		</div>
+		<div class="col-lg-9">
+			<span class="publicationTitle"></span>
+			<br>
+		    <span class="publicationAuthors"></span>
+		    <br>
+		    <span class="publicationVenue"></span>
+		    <br>
+		    <span class="publicationSupplementary"><a href="" target="_blank">PDF</a> | <a href="" target="_blank">Slides</a> | <a href="" target="_blank">Talk</a></span>
+		</div>
+	</div>	
+	-->
+</section>
