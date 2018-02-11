@@ -27,6 +27,22 @@
 		    <span class="publicationSupplementary"><a href="http://arjun010.github.io/static/papers/interactive-encodings.pdf" target="_blank">PDF</a> | <a href="" target="_blank">Slides (InfoVis 17)</a></span>
 		</div>
 	</div>	
+
+	<div class="publicationContainer row">
+		<div class="col-lg-3" style="background-image: url('../images/interaxis.png');background-size: cover;">			
+		</div>
+		<div class="col-lg-9">
+			<span class="publicationTitle">InterAxis: Steering Scatterplot Axes via Observation-Level Interaction</span>
+			<br>
+		    <span class="publicationAuthors">Hannah Kim, Jaegul Choo, Haesun Park, and Alex Endert</span>
+		    <br>
+		    <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (Proc. VAST'15), 2015</span>
+		    <br>
+		    <span class="publicationSupplementary"><a href="http://www.cc.gatech.edu/~aendert3/resources/kim-vast-2015.pdf" target="_blank">PDF</a></span>
+		</div>
+	</div>	
+
+
 	<!-- Use the below code as a template to add a publication -->
 	<!--
 	<div class="publicationContainer row">
