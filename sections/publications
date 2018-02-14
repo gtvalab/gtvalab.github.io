@@ -15,6 +15,20 @@
 	</div>
 
 	<div class="publicationContainer row">
+		<div class="col-lg-3" style="background-image: url('../images/17-vigor-vast.png');background-size: cover;">			
+		</div>
+		<div class="col-lg-9">
+			<span class="publicationTitle">VIGOR: Interactive Visual Exploration of Graph Query Results</span>
+			<br>
+		    <span class="publicationAuthors">Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris Gates, Shamkant Navathe, Duen Horng Chau</span>
+		    <br>
+		    <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (Proc. VAST’17), 2018</span>
+		    <br>
+		    <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~dchau/papers/17-vast-vigor.pdf" target="_blank">PDF</a> | <a href="https://www.youtube.com/watch?v=-jeck0yrT_Q&index=3&list=PLM5RAudXfaumbXG2vOk1eFMHY3rkPCRNR" target="_blank">Video</a> | <a href="https://vimeo.com/groups/480818/videos/230830163" target="_blank">Preview</a></span>
+		</div>		
+	</div>
+
+	<div class="publicationContainer row">
 		<div class="col-lg-3" style="background-image: url('../images/encodings.png');background-size: cover;">			
 		</div>
 		<div class="col-lg-9">
