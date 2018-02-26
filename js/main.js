@@ -28,6 +28,6 @@
         $(".nav-item").removeClass("active");
         $(this).parent().addClass("active");
       })
-
+      //nonsense comment
     });
 })();
