@@ -1,6 +1,14 @@
 <section id="projects">
-	<h3>Projects</h3>
-	Project info here.
+<h3>Projects</h3>
 
-	<a href="projects/vabydemo.html">VABYDEMO</a>
+<div class="publicationContainer row">
+	<div class="col-lg-3" style="background-image: url('../images/change-cluster.png');background-size: cover;">
+	</div>
+	<div class="col-lg-9">
+		<span class="publicationTitle"><a href="../projects/vabydemo.html">Visual Analytics by Demonstration for Interactive Data Analysis</a></span>
+		<br>
+			<span class="publicationAuthors">Helping people visually analyze data by demonstration.</span>
+	</div>
+</div>
+
 </section>
