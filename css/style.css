@@ -24,5 +24,20 @@ body {
 	font-size: large;
 }
 
-.publicationAuthors{	
+.publicationAuthors{
+}
+
+.projectContainer{
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.projectTitle{
+	font-weight: bold;
+	font-size: large;
+}
+
+.projectAbstract{
+	/* font-weight: bold; */
+	/* font-size: large; */
 }

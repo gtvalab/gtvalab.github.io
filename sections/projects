@@ -1,13 +1,16 @@
-<section id="projects">
+<section id="projects" class="container">
 <h3>Projects</h3>
 
-<div class="publicationContainer row">
+<div class="projectContainer row">
 	<div class="col-lg-3" style="background-image: url('../images/change-cluster.png');background-size: cover;">
 	</div>
 	<div class="col-lg-9">
-		<span class="publicationTitle"><a href="../projects/vabydemo.html">Visual Analytics by Demonstration for Interactive Data Analysis</a></span>
+		<span class="projectTitle"><a href="../projects/vabydemo.html">Visual Analytics by Demonstration for Interactive Data Analysis</a></span>
 		<br>
-			<span class="publicationAuthors">Helping people visually analyze data by demonstration.</span>
+			<span class="projectAbstract">Helping people visually analyze data by demonstration.</span>
+			<br>
+			<br>
+			<br>
 	</div>
 </div>
 
