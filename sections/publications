@@ -2,7 +2,7 @@
 	<h3>Publications</h3>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/17-vigor-vast.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/17-vigor-vast.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">VIGOR: Interactive Visual Exploration of Graph Query Results</span>
@@ -12,11 +12,11 @@
 		    <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (Proc. VAST’17), 2018</span>
 		    <br>
 		    <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~dchau/papers/17-vast-vigor.pdf" target="_blank">PDF</a> | <a href="https://www.youtube.com/watch?v=-jeck0yrT_Q&index=3&list=PLM5RAudXfaumbXG2vOk1eFMHY3rkPCRNR" target="_blank">Video</a> | <a href="https://vimeo.com/groups/480818/videos/230830163" target="_blank">Preview</a></span>
-		</div>		
+		</div>
 	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/podium.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/podium.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Podium: Ranking Data Using Mixed-Initiative Visual Analytics</span>
@@ -26,11 +26,11 @@
 		    <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (Proc. VAST’17), 2018</span>
 		    <br>
 		    <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/PodiumVAST17.pdf" target="_blank">PDF</a> | <a href="https://vimeo.com/238467013" target="_blank">Talk (VAST 17)</a></span>
-		</div>		
+		</div>
 	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/bias1.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/bias1.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Warning, Bias May Occur: A Proposed Approach to Detecting Cognitive Bias in Interactive Visual Analytics</span>
@@ -40,11 +40,11 @@
 		    <span class="publicationVenue">IEEE Visual Analytics Science and Technology (VAST), 2017</span>
 		    <br>
 		    <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/BiasVAST17.pdf" target="_blank">PDF</a> | <a href="https://vimeo.com/238344585" target="_blank">Talk (VAST 17)</a></span>
-		</div>		
+		</div>
 	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/encodings.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/encodings.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Evaluating Interactive Graphical Encodings for Data Visualization</span>
@@ -55,10 +55,10 @@
 		    <br>
 		    <span class="publicationSupplementary"><a href="http://arjun010.github.io/static/papers/interactive-encodings.pdf" target="_blank">PDF</a> | <a href="" target="_blank">Slides (InfoVis 17)</a></span>
 		</div>
-	</div>	
+	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/teamfirstva.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/teamfirstva.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Supporting Team-First Visual Analytics through Group Activity Representations</span>
@@ -72,7 +72,7 @@
 	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/decisive.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/decisive.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Four Perspectives on Human Bias in Visual Analytics</span>
@@ -86,7 +86,7 @@
 	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/axisketcher.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/axisketcher.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Axisketcher: Interactive Nonlinear Axis Mapping of Visualizations through User Drawings</span>
@@ -100,7 +100,7 @@
 	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/interaxis.png');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/interaxis.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">InterAxis: Steering Scatterplot Axes via Observation-Level Interaction</span>
@@ -111,13 +111,13 @@
 		    <br>
 		    <span class="publicationSupplementary"><a href="http://www.cc.gatech.edu/~aendert3/resources/kim-vast-2015.pdf" target="_blank">PDF</a></span>
 		</div>
-	</div>	
+	</div>
 
 
 	<!-- Use the below code as a template to add a publication -->
 	<!--
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/');background-size: cover;">			
+		<div class="col-lg-3" style="background-image: url('../images/');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle"></span>
@@ -128,6 +128,6 @@
 		    <br>
 		    <span class="publicationSupplementary"><a href="" target="_blank">PDF</a> | <a href="" target="_blank">Slides</a> | <a href="" target="_blank">Talk</a></span>
 		</div>
-	</div>	
+	</div>
 	-->
 </section>
