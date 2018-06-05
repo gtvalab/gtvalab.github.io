@@ -1,4 +1,4 @@
-<section id="people">
+<section id="people" class="container">
 	<h3>People</h3>
 
 	<!-- <div class="card-group"> -->
@@ -37,7 +37,5 @@
 
 		</div>
 	</div>
-
-
 
 </section>
