@@ -1,4 +1,43 @@
 <section id="people">
 	<h3>People</h3>
-	People info here.		
+
+	<!-- <div class="card-group"> -->
+	<div class="container">
+    <div class="row">
+			<!-- Alex -->
+      <div class="col-sm-3">
+				<div class="card">
+					<a href="http://www.endert.org">
+						<img class="card-img-top" src="../images/endert-portrait.jpg" alt="Alex Endert">
+					</a>
+				  <div class="card-body">
+				    <h5 class="card-title">Alex Endert</h5>
+						<!--  style="margin-top: 0.25em;" -->
+				    <h6 class="card-subtitle mb-2 text-muted">Assistant Professor</h6>
+				    <p class="card-text">visual analytics; information visualization; HCI; coffee</p>
+				    <!-- <a href="http://www.endert.org" class="card-link">Homepage</a>
+				    <a href="mailto:endert@gatech.edu" class="card-link">Email</a> -->
+					</div>
+				</div>
+			</div>
+
+			<!-- NAME BLANK TEMPLATE
+      <div class="col-sm-3">
+				<div class="card">
+					<a href="">
+						<img class="card-img-top" src="" alt="">
+					</a>
+				  <div class="card-body">
+				    <h5 class="card-title"></h5>
+				    <h6 class="card-subtitle mb-2 text-muted"></h6>
+				    <p class="card-text"></p>
+				  </div>
+				</div>
+			</div> -->
+
+		</div>
+	</div>
+
+
+
 </section>
