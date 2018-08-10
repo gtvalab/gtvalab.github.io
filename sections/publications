@@ -65,7 +65,7 @@
 		<div class="col-lg-9">
 			<span class="publicationTitle">The State of the Art in Integrating Machine Learning into Visual Analytics</span>
 			<br>
-		    <span class="publicationAuthors">Alex Endert, William Ribarsky, Cagatay Turkay, B. William Wong, Ian Nabney, Ignacio Diaz Blanco, and Gabrice Rossi</span>
+		    <span class="publicationAuthors">Alex Endert, William Ribarsky, Cagatay Turkay, B. William Wong, Ian Nabney, Ignacio Diaz Blanco, and Fabrice Rossi</span>
 		    <br>
 		    <span class="publicationVenue">Computer Graphics Forum (Proc. EuroVis'17), 2017</span>
 		    <br>
@@ -207,7 +207,7 @@
 		<div class="col-lg-3" style="background-image: url('../images/high-low.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
-			<span class="publicationTitle">Semantic Interaction: Coupling Cognition with Computation through USable Interactive Analytics</span>
+			<span class="publicationTitle">Semantic Interaction: Coupling Cognition with Computation through Usable Interactive Analytics</span>
 			<br>
 		    <span class="publicationAuthors">Alex Endert, Remco Chang, Chris North, and Michelle Zhou</span>
 		    <br>
