@@ -59,7 +59,7 @@
 		</div>
 	</div>
 
-	<div class="publicationContainer row">
+	<!-- <div class="publicationContainer row">
 		<div class="col-lg-3" style="background-image: url('../images/state-ml.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
@@ -71,7 +71,7 @@
 		    <br>
 		    <span class="publicationSupplementary"><a href="http://www.cc.gatech.edu/~aendert3/resources/Endert2017State.pdf" target="_blank">PDF</a></span>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="publicationContainer row">
 		<div class="col-lg-3" style="background-image: url('../images/encodings.png');background-size: cover;">
