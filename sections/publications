@@ -148,7 +148,7 @@
 	<h4>2016</h4>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('');background-size: cover;">
+		<div class="col-lg-3" style="background-image: url('../images/vis-by-demo.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Visualization by Demonstration: An Interaction Paradigm for Visual Data Exploration</span>
