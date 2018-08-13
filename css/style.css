@@ -42,8 +42,11 @@ li {
 
 .projectTitle{
 	font-weight: bold;
-	font-size: large;
+  font-size: large;
 }
+
+
+
 
 .projectAbstract{
 	/* font-weight: bold; */
