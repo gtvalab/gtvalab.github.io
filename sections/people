@@ -22,40 +22,53 @@
 			</div>
 
 			<!-- Fred -->
-      <div class="col-sm-3">
-				<div class="card">
-					<a href="https://fredhohman.com">
-						<img class="card-img-top" src="../images/fred.jpg" alt="Alex Endert">
-					</a>
-				  <div class="card-body">
-				    <h5 class="card-title">Fred Hohman</h5>
-						<!--  style="margin-top: 0.25em;" -->
-				    <h6 class="card-subtitle mb-2 text-muted">CSE PhD Student</h6>
-				    <p class="card-text">visual analytics; HCI; machine learning; drummer</p>
-				    <!-- <a href="http://www.endert.org" class="card-link">Homepage</a>
-				    <a href="mailto:fredhohman@gatech.edu" class="card-link">Email</a> -->
-					</div>
+      	<div class="col-sm-3">
+			<div class="card">
+				<a href="https://fredhohman.com">
+					<img class="card-img-top" src="../images/fred.jpg" alt="Fred Hohman">
+				</a>
+			  <div class="card-body">
+			    <h5 class="card-title">Fred Hohman</h5>
+					<!--  style="margin-top: 0.25em;" -->
+			    <h6 class="card-subtitle mb-2 text-muted">CSE PhD Student</h6>
+			    <p class="card-text">visual analytics; HCI; machine learning; drummer</p>
+			    <!-- <a href="http://www.endert.org" class="card-link">Homepage</a>
+			    <a href="mailto:fredhohman@gatech.edu" class="card-link">Email</a> -->
 				</div>
 			</div>
+		</div>
 
 
-                        <!-- Emily -->
-      <div class="col-sm-3">
-                                <div class="card">
-                                        <a href="https://cc.gatech.edu/~ewall9">
-                                                <img class="card-img-top" src="../images/Emily.png" alt="Emily Wall">
-                                        </a>
-                                  <div class="card-body">
-                                    <h5 class="card-title">Emily Wall</h5>
-                                                <!--  style="margin-top: 0.25em;" -->
-                                    <h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
-                                    <p class="card-text">visual analytics; human bias; cat lady</p>
-                                    <!-- <a href="http://cc.gatech.edu/~ewall9" class="card-link">Homepage</a>
-                                    <a href="mailto:emilywall@gatech.edu" class="card-link">Email</a> -->
-                                        </div>
-                                </div>
-                        </div>
-
+    	<!-- Emily -->
+  	<div class="col-sm-3">
+        <div class="card">
+                <a href="https://cc.gatech.edu/~ewall9">
+                        <img class="card-img-top" src="../images/Emily.png" alt="Emily Wall">
+                </a>
+          <div class="card-body">
+            <h5 class="card-title">Emily Wall</h5>
+                        <!--  style="margin-top: 0.25em;" -->
+            <h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+            <p class="card-text">visual analytics; human bias; cat lady</p>
+            <!-- <a href="http://cc.gatech.edu/~ewall9" class="card-link">Homepage</a>
+            <a href="mailto:emilywall@gatech.edu" class="card-link">Email</a> -->
+                </div>
+        </div>
+    </div>
+	<!-- Matt -->
+  	<div class="col-sm-3">
+		<div class="card">
+			<a href="https://mattbritton.info">
+				<img class="card-img-top" src="../images/Matt.jpg" alt="Matt Britton">
+			</a>
+		  <div class="card-body">
+		    <h5 class="card-title">Matt Britton</h5>
+				<!--  style="margin-top: 0.25em;" -->
+		    <h6 class="card-subtitle mb-2 text-muted">CS Masters Student</h6>
+		    <p class="card-text">visual analytics; HCI; know-it-all</p>
+			</div>
+		</div>
+	</div>
 
 
 			<!-- NAME BLANK TEMPLATE
