@@ -69,6 +69,21 @@
 			</div>
 		</div>
 	</div>
+    
+    <!-- Hannah -->
+  	<div class="col-sm-3">
+		<div class="card">
+			<a href="https://kimhannah.net">
+				<img class="card-img-top" src="../images/hannah.jpg" alt="Hannah Kim">
+			</a>
+		  <div class="card-body">
+		    <h5 class="card-title">Hannah Kim</h5>
+				<!--  style="margin-top: 0.25em;" -->
+		    <h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+		    <p class="card-text">visual analytics; machine learning; data mining; lego</p>
+			</div>
+		</div>
+	</div>
 
 
 			<!-- NAME BLANK TEMPLATE
