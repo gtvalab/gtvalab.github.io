@@ -16,7 +16,7 @@
 	<div class="col-lg-9">
 		<br>
 		<!-- <span class="projectTitle"><a href="../projects/bias.html">Detecting and Mitigating Biased Visual Analysis Strategies</a></span> -->
-		<span class="projectTitle"><a href="">Detecting and Mitigating Biased Visual Analysis Strategies</a></span>
+		<span class="projectTitle"><a href="../projects/bias.html">Detecting and Mitigating Biased Visual Analysis Strategies</a></span>
 		<br>
 		<span>People are critical to human-in-the-loop visual analytics. Systems learn important domain expertise from people, and combined with the visualization and computational strengths of VA, lead to impactful insights. However, we learn from the cognitive sciences that people can be biased. This project explore how to build systems that detect and mitigate potentially biased strategies.</span>
 		<br>
