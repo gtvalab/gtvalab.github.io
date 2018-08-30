@@ -38,8 +38,7 @@
 			</div>
 		</div>
 
-
-    	<!-- Emily -->
+    <!-- Emily -->
   	<div class="col-sm-3">
         <div class="card">
                 <a href="https://cc.gatech.edu/~ewall9">
@@ -55,6 +54,7 @@
                 </div>
         </div>
     </div>
+
 	<!-- Matt -->
   	<div class="col-sm-3">
 		<div class="card">
@@ -69,9 +69,9 @@
 			</div>
 		</div>
 	</div>
-    
+
     <!-- Hannah -->
-  	<div class="col-sm-3">
+  	<div class="col-sm-3" style="margin-top: 2em;">
 		<div class="card">
 			<a href="https://kimhannah.net">
 				<img class="card-img-top" src="../images/hannah.jpg" alt="Hannah Kim">
@@ -79,11 +79,26 @@
 		  <div class="card-body">
 		    <h5 class="card-title">Hannah Kim</h5>
 				<!--  style="margin-top: 0.25em;" -->
-		    <h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+		    <h6 class="card-subtitle mb-2 text-muted">CSE PhD Student</h6>
 		    <p class="card-text">visual analytics; machine learning; data mining; lego</p>
 			</div>
 		</div>
 	</div>
+
+	<!-- Bahador -->
+	<div class="col-sm-3" style="margin-top: 2em;">
+	<div class="card">
+		<a href="http://bahadorsaket.com/">
+			<img class="card-img-top" src="../images/bahador.jpg" alt="Bahador Saket">
+		</a>
+		<div class="card-body">
+			<h5 class="card-title">Bahador Saket</h5>
+			<!--  style="margin-top: 0.25em;" -->
+			<h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+			<p class="card-text">information visualization; HCI</p>
+		</div>
+	</div>
+</div>
 
 
 			<!-- NAME BLANK TEMPLATE
