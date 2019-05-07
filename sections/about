@@ -3,7 +3,7 @@
 	<p>About the lab.</p>-->
 	<div class="row" style="margin-top:5%;">
 		<div class="col-lg-7">
-			We are the <b>Georgia Tech Visual Analytics Lab</b>.
+			<h5>We are the Georgia Tech Visual Analytics Lab.</h5>
 			The goal of our research is to develop interactive visual analytic applications that help people make sense of data. We approach this challenge through combining scientific techniques from information visualization, machine learning, data mining, and human-computer interaction to produce usable, yet powerful visual analytic applications.
 		</div>
 		<div class="col-lg-5">
