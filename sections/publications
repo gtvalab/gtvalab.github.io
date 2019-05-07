@@ -22,7 +22,7 @@
 	<h4>2018</h4>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/2018-saket-task.png');background-size: cover;">
+		<div class="col-lg-3" style="background-image: url('../images/2018-saket-task.png');background-size: cover; background-repeat:no-repeat;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Task-Based Effectiveness of Basic Visualizations</span>
@@ -208,7 +208,7 @@
 	</div>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('');background-size: cover;">
+		<div class="col-lg-3" style="background-image: url('../images/crouser-theoretical.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Toward Theoretical Techniques for Measuring the Use of Human Effort in Visual Analytic Systems</span>
@@ -224,7 +224,7 @@
 	<h4>2015</h4>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('');background-size: cover;">
+		<div class="col-lg-3" style="background-image: url('../images/activedata.png');background-size: cover;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">Mixed-Initiative Visual Analytics using Task-Driven Recommendations</span>
