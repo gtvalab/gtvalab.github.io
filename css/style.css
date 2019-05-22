@@ -17,10 +17,12 @@ body {
 
 ul {
   list-style-type: none;
+  padding-inline-start: 0px;
 }
 
 li {
   list-style-type: none;
+  padding-bottom:8px;
 }
 
 .publicationContainer{
