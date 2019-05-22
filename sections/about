@@ -4,12 +4,13 @@
 	<div class="row" style="margin-top:5%;">
 		<div class="col-lg-7">
 			<h5>We are the Georgia Tech Visual Analytics Lab.</h5>
-			The goal of our research is to develop interactive visual analytic applications that help people make sense of data. We approach this challenge through combining scientific techniques from information visualization, machine learning, data mining, and human-computer interaction to produce usable, yet powerful visual analytic applications.
+			The goal of our research is to develop interactive visual analytic applications that <b>help people make sense of data.</b> We approach this challenge through combining scientific techniques from information visualization, machine learning, data mining, and human-computer interaction to produce usable, yet powerful visual analytic applications.
 		</div>
 		<div class="col-lg-5">
 			<h5>Recent News</h5>
 			<ul>
-				<li><a href="https://www.cc.gatech.edu/~ewall9/" target="_blank">Alex Endert</a> gave an invited talk titled <i>Considering Cognitive Bias during Interactive Visual Analysis</i> at the <a href="https://sites.google.com/math.arizona.edu/tripodssummerconference2019/home">2019 TRIPODS Southwest Conference </a></li>
+				<li><a href="https://www.endert.org" target="_blank">Alex Endert</a> gave an invited talk titled <i>Considering Cognitive Bias during Interactive Visual Analysis</i> at the <a href="https://sites.google.com/math.arizona.edu/tripodssummerconference2019/home">2019 TRIPODS Southwest Conference </a></li>
+				<li><a href="http://bahadorsaket.com/" target="_blank">Bahador Saket</a> gave an invited talk titled <i>Visualization by Demonstration</i> at the <a href="https://sites.google.com/math.arizona.edu/tripodssummerconference2019/home">2019 TRIPODS Southwest Conference </a></li>
 				<li><a href="https://www.cc.gatech.edu/~ewall9/" target="_blank">Emily Wall</a> has been awarded the Siemens FutureMaker Fellowship</li>
 			</ul>
 		</div>
