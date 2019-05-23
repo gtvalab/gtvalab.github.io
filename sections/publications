@@ -5,7 +5,7 @@
 	<h4>2019</h4>
 
 	<div class="publicationContainer row">
-		<div class="col-lg-3" style="background-image: url('../images/value_vis.png');background-size: cover;">
+		<div class="col-lg-3" style="background-image: url('../images/value_vis.png'); background-size:cover; background-repeat:no-repeat;">
 		</div>
 		<div class="col-lg-9">
 			<span class="publicationTitle">A Heuristic Approach to Value-Driven Evaluation of Visualizations</span>
