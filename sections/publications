@@ -5,6 +5,20 @@
 	<h4>2019</h4>
 
 	<div class="publicationContainer row">
+		<div class="col-lg-3" style="background-image: url('../images/voder-teaser.png'); background-size:cover; background-repeat:no-repeat;">
+		</div>
+		<div class="col-lg-9">
+			<span class="publicationTitle">Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication</span>
+			<br>
+		    <span class="publicationAuthors">Arjun Srinivasan, Steven M. Drucker, Alex Endert, and John Stasko</span>
+		    <br>
+		    <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'18), 2019</span>
+		    <br>
+		    <span class="publicationSupplementary"><a href="https://arjun010.github.io/static/papers/voder-infovis18.pdf" target="_blank">PDF</a> | <a href="https://arjun010.github.io/projects/voder.html" target="_blank">Website</a></span> | <a href="https://vimeo.com/299862032" target="_blank">Talk (IEEE VIS '18)</a></span>
+		</div>
+	</div>
+
+	<div class="publicationContainer row">
 		<div class="col-lg-3" style="background-image: url('../images/value_vis.png'); background-size:cover; background-repeat:no-repeat;">
 		</div>
 		<div class="col-lg-9">
