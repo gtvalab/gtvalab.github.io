@@ -4,37 +4,38 @@
 	<!-- <div class="card-group"> -->
 	<div class="container">
     <div class="row">
-			<!-- Alex -->
-      <div class="col-sm-3">
-				<div class="card">
-					<a href="http://www.endert.org">
-						<img class="card-img-top" src="../images/endert-portrait.jpg" alt="Alex Endert">
-					</a>
-				  <div class="card-body">
-				    <h5 class="card-title">Alex Endert</h5>
-						<!--  style="margin-top: 0.25em;" -->
-				    <h6 class="card-subtitle mb-2 text-muted">Assistant Professor</h6>
-				    <p class="card-text">visual analytics; information visualization; HCI; coffee</p>
-				    <!-- <a href="http://www.endert.org" class="card-link">Homepage</a>
-				    <a href="mailto:endert@gatech.edu" class="card-link">Email</a> -->
-					</div>
-				</div>
+	
+	<!-- Alex -->
+    <div class="col-sm-3">
+		<div class="card">
+			<a href="http://www.endert.org">
+				<img class="card-img-top" src="../images/endert-portrait.jpg" alt="Alex Endert">
+			</a>
+		  <div class="card-body">
+		    <h5 class="card-title">Alex Endert</h5>
+				<!--  style="margin-top: 0.25em;" -->
+		    <h6 class="card-subtitle mb-2 text-muted">Assistant Professor</h6>
+		    <p class="card-text">visual analytics; information visualization; HCI; coffee</p>
+		    <!-- <a href="http://www.endert.org" class="card-link">Homepage</a>
+		    <a href="mailto:endert@gatech.edu" class="card-link">Email</a> -->
 			</div>
+		</div>
+	</div>
 
 	<!-- Bahador -->
 	<div class="col-sm-3" style="margin-top: 2em;">
-	<div class="card">
-		<a href="http://bahadorsaket.com/">
-			<img class="card-img-top" src="../images/bahador.jpg" alt="Bahador Saket">
-		</a>
-		<div class="card-body">
-			<h5 class="card-title">Bahador Saket</h5>
-			<!--  style="margin-top: 0.25em;" -->
-			<h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
-			<p class="card-text">information visualization; HCI</p>
+		<div class="card">
+			<a href="http://bahadorsaket.com/">
+				<img class="card-img-top" src="../images/bahador.jpg" alt="Bahador Saket">
+			</a>
+			<div class="card-body">
+				<h5 class="card-title">Bahador Saket</h5>
+				<!--  style="margin-top: 0.25em;" -->
+				<h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+				<p class="card-text">information visualization; HCI</p>
+			</div>
 		</div>
 	</div>
-</div>
 
     <!-- Emily -->
   	<div class="col-sm-3">
@@ -72,18 +73,18 @@
 
 	<!-- Subhajit -->
 	<div class="col-sm-3" style="margin-top: 2em;">
-	<div class="card">
-		<a href="https://www.ic.gatech.edu/content/subhajit-das">
-			<img class="card-img-top" src="../images/subhajit.jpg" alt="Subhajit Das">
-		</a>
-		<div class="card-body">
-			<h5 class="card-title">Subhajit Das</h5>
-			<!--  style="margin-top: 0.25em;" -->
-			<h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
-			<p class="card-text">interactive machine learning; interactive optimization</p>
+		<div class="card">
+			<a href="https://www.ic.gatech.edu/content/subhajit-das">
+				<img class="card-img-top" src="../images/subhajit.jpg" alt="Subhajit Das">
+			</a>
+			<div class="card-body">
+				<h5 class="card-title">Subhajit Das</h5>
+				<!--  style="margin-top: 0.25em;" -->
+				<h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+				<p class="card-text">interactive machine learning; interactive optimization</p>
+			</div>
 		</div>
 	</div>
-</div>
 
 	<!-- Matt -->
   	<div class="col-sm-3">
@@ -115,7 +116,9 @@
 		</div>
 	</div>
 
-			<!-- NAME BLANK TEMPLATE
+	<!-- Terrance -->
+
+	<!-- NAME BLANK TEMPLATE
       <div class="col-sm-3">
 				<div class="card">
 					<a href="">
