@@ -117,6 +117,18 @@
 	</div>
 
 	<!-- Terrance -->
+	<div class="col-sm-3">
+		<div class="card">
+			<a href="https://terrancelaw.github.io" target="_blank">
+				<img class="card-img-top" src="../images/terrance.jpg" alt="Terrance Law">
+			</a>
+			<div class="card-body">
+				<h5 class="card-title">Terrance Law</h5>
+		    	<h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+		    	<p class="card-text">HCI; visual analytics</p>
+			</div>
+		</div>
+	</div>
 
 	<!-- NAME BLANK TEMPLATE
       <div class="col-sm-3">
