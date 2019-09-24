@@ -23,7 +23,7 @@
 	</div>
 
 	<!-- Bahador -->
-	<div class="col-sm-3" style="margin-top: 2em;">
+	<div class="col-sm-3" style="margin-top: 3em;">
 		<div class="card">
 			<a href="http://bahadorsaket.com/">
 				<img class="card-img-top" src="../images/bahador.jpg" alt="Bahador Saket">
@@ -55,7 +55,7 @@
     </div>
 
 	<!-- Fred -->
-  	<div class="col-sm-3">
+  	<div class="col-sm-3" style="margin-top: 3em;">
 		<div class="card">
 			<a href="https://fredhohman.com">
 				<img class="card-img-top" src="../images/fred.jpg" alt="Fred Hohman">
@@ -72,7 +72,7 @@
 	</div>
 
 	<!-- Subhajit -->
-	<div class="col-sm-3" style="margin-top: 2em;">
+	<div class="col-sm-3">
 		<div class="card">
 			<a href="https://www.ic.gatech.edu/content/subhajit-das">
 				<img class="card-img-top" src="../images/subhajit.jpg" alt="Subhajit Das">
@@ -87,7 +87,7 @@
 	</div>
 
 	<!-- Matt -->
-  	<div class="col-sm-3">
+  	<div class="col-sm-3" style="margin-top: -3em;">
 		<div class="card">
 			<a href="https://mattbritton.info">
 				<img class="card-img-top" src="../images/Matt.jpg" alt="Matt Britton">
@@ -102,7 +102,7 @@
 	</div>
 
     <!-- Hannah -->
-  	<div class="col-sm-3" style="margin-top: 2em;">
+  	<div class="col-sm-3" style="margin-top: 4.5em;">
 		<div class="card">
 			<a href="https://kimhannah.net">
 				<img class="card-img-top" src="../images/hannah.jpg" alt="Hannah Kim">
@@ -117,7 +117,7 @@
 	</div>
 
 	<!-- Terrance -->
-	<div class="col-sm-3">
+	<div class="col-sm-3" style="margin-top: 3em;">
 		<div class="card">
 			<a href="https://terrancelaw.github.io" target="_blank">
 				<img class="card-img-top" src="../images/terrance.jpg" alt="Terrance Law">
