@@ -130,6 +130,23 @@
 		</div>
 	</div>
 
+	<!-- Grace
+      <div class="col-sm-3">
+				<div class="card">
+					<a href="https://gracegsy.github.io/">
+						<img class="card-img-top" src="../images/grace.jpeg" alt="Grace Guo">
+					</a>
+				  <div class="card-body">
+				    <h5 class="card-title">Grace Guo</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">HCC PhD Student</h6>
+				    <p class="card-text">visual analytics; HCI; musical theatre enthusiast</p>
+				  </div>
+				</div>
+			</div> -->
+
+		</div>
+	</div>
+
 	<!-- NAME BLANK TEMPLATE
       <div class="col-sm-3">
 				<div class="card">
