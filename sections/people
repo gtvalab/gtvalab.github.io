@@ -120,6 +120,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Grace -->
             <div class="col-sm-3">
                 <div class="card">
@@ -133,6 +134,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Arpit -->
             <div class="col-sm-3">
                 <div class="card">
@@ -146,7 +148,23 @@
                     </div>
                 </div>
             </div>
-            <!--             
+
+            <!-- Julia -->
+            <div class="col-sm-3">
+                <div class="card">
+                    <a href="https://www.julia.deebswih.art" target="_blank" >
+						<img class="card-img-top" src="../images/julia.jpeg" alt="Julia Deeb-Swihart">
+					</a>
+                    <div class="card-body">
+                        <h5 class="card-title">Julia Deeb-Swihart</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+                        <p class="card-text">a;b;c</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--
 			NAME BLANK TEMPLATE
             <div class="col-sm-3">
                 <div class="card">
