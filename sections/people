@@ -6,7 +6,7 @@
             <!-- Alex -->
             <div class="col-sm-3">
                 <div class="card">
-                    <a href="http://www.endert.org">
+                    <a href="http://www.endert.org" target="_blank">
 				<img class="card-img-top" src="../images/endert-portrait.jpg" alt="Alex Endert">
 			</a>
                     <div class="card-body">
@@ -22,7 +22,7 @@
             <!-- Bahador -->
             <div class="col-sm-3" style="margin-top: 3em;">
                 <div class="card">
-                    <a href="http://bahadorsaket.com/">
+                    <a href="http://bahadorsaket.com/" target="_blank">
 				<img class="card-img-top" src="../images/bahador.jpg" alt="Bahador Saket">
 			</a>
                     <div class="card-body">
@@ -36,7 +36,7 @@
             <!-- Emily -->
             <div class="col-sm-3">
                 <div class="card">
-                    <a href="https://cc.gatech.edu/~ewall9">
+                    <a href="https://cc.gatech.edu/~ewall9" target="_blank">
                         <img class="card-img-top" src="../images/Emily.jpg" alt="Emily Wall">
                 </a>
                     <div class="card-body">
@@ -52,7 +52,7 @@
             <!-- Fred -->
             <div class="col-sm-3" style="margin-top: 3em;">
                 <div class="card">
-                    <a href="https://fredhohman.com">
+                    <a href="https://fredhohman.com" target="_blank">
 						<img class="card-img-top" src="../images/fred.jpg" alt="Fred Hohman">
 					</a>
                     <div class="card-body">
@@ -68,7 +68,7 @@
             <!-- Subhajit -->
             <div class="col-sm-3">
                 <div class="card">
-                    <a href="https://www.ic.gatech.edu/content/subhajit-das">
+                    <a href="https://www.ic.gatech.edu/content/subhajit-das" target="_blank">
 				<img class="card-img-top" src="../images/subhajit.jpg" alt="Subhajit Das">
 			</a>
                     <div class="card-body">
@@ -82,7 +82,7 @@
             <!-- Matt -->
             <div class="col-sm-3" style="margin-top: -3em;">
                 <div class="card">
-                    <a href="https://mattbritton.info">
+                    <a href="https://mattbritton.info" target="_blank">
 				<img class="card-img-top" src="../images/Matt.jpg" alt="Matt Britton">
 			</a>
                     <div class="card-body">
@@ -96,7 +96,7 @@
             <!-- Hannah -->
             <div class="col-sm-3" style="margin-top: 4.5em;">
                 <div class="card">
-                    <a href="https://kimhannah.net">
+                    <a href="https://kimhannah.net" target="_blank">
 				<img class="card-img-top" src="../images/hannah.jpg" alt="Hannah Kim">
 			</a>
                     <div class="card-body">
@@ -125,7 +125,7 @@
             <!-- Grace -->
             <div class="col-sm-3" style="margin-top: -2em;">
                 <div class="card">
-                    <a href="https://gracegsy.github.io/">
+                    <a href="https://gracegsy.github.io/" target="_blank">
 				<img class="card-img-top" src="../images/grace.jpeg" alt="Grace Guo">
 			</a>
                     <div class="card-body">
@@ -153,7 +153,7 @@
             <!-- Julia -->
             <div class="col-sm-3" style="margin-top: 2em;">
                 <div class="card">
-                    <a href="https://www.julia.deebswih.art" target="_blank" >
+                    <a href="https://www.julia.deebswih.art" target="_blank">
 						<img class="card-img-top" src="../images/julia.jpg" alt="Julia Deeb-Swihart">
 					</a>
                     <div class="card-body">
@@ -167,7 +167,7 @@
             <!-- Shenyu -->
             <div class="col-sm-3" style="margin-top: 5em;">
                 <div class="card">
-                    <a href="https://thomasxu2009.github.io/">
+                    <a href="https://thomasxu2009.github.io/" target="_blank">
                         <img class="card-img-top" src="../images/shenyu.jpeg" alt="Shenyu Xu">
                     </a>
                     <div class="card-body">
