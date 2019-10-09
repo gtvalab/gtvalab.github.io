@@ -107,6 +107,7 @@
                     </div>
                 </div>
             </div>
+
             <!-- Terrance -->
             <div class="col-sm-3" style="margin-top: 3em;">
                 <div class="card">
@@ -122,7 +123,7 @@
             </div>
 
             <!-- Grace -->
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="margin-top: -2em;">
                 <div class="card">
                     <a href="https://gracegsy.github.io/">
 				<img class="card-img-top" src="../images/grace.jpeg" alt="Grace Guo">
@@ -136,7 +137,7 @@
             </div>
 
             <!-- Arpit -->
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="margin-top: -5.5em;">
                 <div class="card">
                     <a href="https://cc.gatech.edu/~anarechania3" target="_blank" >
 						<img class="card-img-top" src="../images/arpit.jpeg" alt="Arpit Narechania">
@@ -150,7 +151,7 @@
             </div>
 
             <!-- Julia -->
-            <div class="col-sm-3">
+            <div class="col-sm-3" style="margin-top: 2em;">
                 <div class="card">
                     <a href="https://www.julia.deebswih.art" target="_blank" >
 						<img class="card-img-top" src="../images/julia.jpg" alt="Julia Deeb-Swihart">
@@ -163,6 +164,19 @@
                 </div>
             </div>
 
+            <!-- Shenyu -->
+            <div class="col-sm-3" style="margin-top: 5em;">
+                <div class="card">
+                    <a href="https://thomasxu2009.github.io/">
+                        <img class="card-img-top" src="../images/shenyu.jpeg" alt="Shenyu Xu">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Shenyu Xu</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">CS PhD Student</h6>
+                        <p class="card-text">Visual Analytics; HCI; Opera</p>
+                    </div>
+                </div>
+            </div>
 
             <!--
 			NAME BLANK TEMPLATE
