@@ -63,3 +63,27 @@ h1, h2, h3, h4 {
 	/* font-weight: bold; */
 	/* font-size: large; */
 }
+
+.p-md{
+  padding: 16px;
+}
+
+.m-md{
+  margin: 16px;
+}
+
+.h-100{
+  object-fit: cover;
+}
+
+.profile-pic{
+  height: 150px;
+  margin: auto;    
+  display: block;
+  margin-top: 8px;
+}
+
+.img-center{
+  display: block;
+  margin: 0 auto;
+}
