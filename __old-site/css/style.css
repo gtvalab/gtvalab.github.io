@@ -1,0 +1,91 @@
+/*!
+ * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  font-size: small;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: none;
+  padding-bottom: 8px;
+}
+
+.publicationContainer {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.publicationTitle {
+  font-weight: bold;
+  font-size: normal;
+}
+
+.publicationAuthors {
+}
+
+.projectContainer {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.projectTitle {
+  font-weight: bold;
+  font-size: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  /* margin-right: -15px; */
+  /* margin-left: -15px; */
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.projectAbstract {
+  /* font-weight: bold; */
+  /* font-size: large; */
+}
+
+.p-md {
+  padding: 16px;
+}
+
+.m-md {
+  margin: 16px;
+}
+
+.h-100 {
+  object-fit: cover;
+}
+
+.profile-pic {
+  height: 150px;
+  margin: auto;
+  display: block;
+  margin-top: 8px;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,89 +1,124 @@
-/*!
- * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
- */
-
-body {
-  padding-top: 54px;
-  font-size: small;
+/* PRIMARY COLORS */
+.color-techgold {
+  background-color: #b3a369;
+}
+.color-navyblue {
+  background-color: #003057;
+}
+.color-white {
+  background-color: #ffffff;
+}
+.text-techgold {
+  color: #b3a369;
+}
+.text-navyblue {
+  color: #003057;
+}
+.text-white {
+  color: #ffffff;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
+/* SECONDARY COLORS */
+.color-graymatter {
+  background-color: #54585a;
+}
+.color-pimile {
+  background-color: #d6dbd4;
+}
+.color-diploma {
+  background-color: #f9f6e5;
+}
+.color-buzzgold {
+  background-color: #eaaa00;
+}
+.text-graymatter {
+  color: #54585a;
+}
+.text-pimile {
+  color: #d6dbd4;
+}
+.text-diploma {
+  color: #f9f6e5;
+}
+.text-buzzgold {
+  color: #eaaa00;
+}
+
+/* NAVIGATION BAR */
+#nav-bar a {
+  color: #54585a;
+}
+.brand-logo {
+  display: flex !important;
+  color: #54585a;
+  white-space: nowrap;
+}
+.nav-bar-logo {
+  width: 48px;
+  height: 48px;
+}
+.nav-bar-logo-title {
+  color: #54585a;
+}
+@media only screen and (min-width: 0) {
+  .brand-logo {
+    height: 56px;
+  }
+  .nav-bar-logo {
+    margin: 4px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .brand-logo {
+    height: 64px;
+  }
+  .nav-bar-logo {
+    margin: 8px;
   }
 }
 
-ul {
-  list-style-type: none;
-  padding-inline-start: 0px;
+/* CAROUSEL */
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+.carousel-item-container {
+  display: flex;
+  height: 360px;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-img {
+  width: fit-content !important;
+  max-width: 70vw;
+  max-height: 300px;
+  border-radius: 6px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.carousel-caption {
+  margin-top: 6px;
+  font-size: 10pt;
+  max-width: 70vw;
+  color: #54585a;
+}
+.carousel .indicators {
+  height: 32px;
+  width: fit-content;
+  margin: auto;
+  padding: 0px 6px;
+  border-radius: 6px;
+  background-color: #54585a;
+}
+.carousel .indicators .indicator-item {
+  margin: 12px 6px 0px 6px;
 }
 
-li {
-  list-style-type: none;
-  padding-bottom:8px;
+/* OTHER */
+.icon-block {
+  padding: 0 15px;
 }
-
-.publicationContainer{
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-}
-
-.publicationTitle{
-	font-weight: bold;
-	font-size: normal;
-}
-
-.publicationAuthors{
-}
-
-.projectContainer{
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-}
-
-.projectTitle{
-	font-weight: bold;
-  font-size: normal;
-}
-
-h1, h2, h3, h4 {
-  /* margin-right: -15px; */
-  /* margin-left: -15px; */
-}
-
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-
-.projectAbstract{
-	/* font-weight: bold; */
-	/* font-size: large; */
-}
-
-.p-md{
-  padding: 16px;
-}
-
-.m-md{
-  margin: 16px;
-}
-
-.h-100{
-  object-fit: cover;
-}
-
-.profile-pic{
-  height: 150px;
-  margin: auto;    
-  display: block;
-  margin-top: 8px;
-}
-
-.img-center{
-  display: block;
-  margin: 0 auto;
+.icon-block .material-icons {
+  font-size: inherit;
 }

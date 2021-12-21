@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>GT Visual Analytics Lab</title>
+    <!-- Bootstrap core CSS -->
+    <base href="../">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .columnProjectPeople {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          /* height: 300px; Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .rowProjectPeople:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+    </style> -->
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div w3-include-html="sections/navigation.html"></div>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row" style="margin-top:5%; ">
+            <div class="col-md-12">
+                <h1 class="projectTitle">Visual Analytics by Demonstration for Interactive Data Analysis</h1>
+                <br/>
+                <br/>
+                <p style="text-align:center;"><img src="../images/vbd-diagram.png" width="70%"></p>
+                <h5>SUMMARY</h5>
+                <p style="text-align: justify;">
+                    In today's data-driven era, more people analyze data as part of their daily lives. Visual analytic technologies help people in a variety of these domains including business, health, education, national security, and many more. These visual analytic techniques are effective since they combine powerful machine learning with interactive data visualization. Currently, the way that people use such systems is through user interfaces with control panels to adjust parameters of the analytic models and visualization properties directly. For example, controls may ask users to select which analytic model to use, which parameter to adjust, and by how much. However, when people do not have the necessary expertise or training in data science or information visualization, they may not be able to properly use these tools and miss out on important insights. Instead, this project will explore, design, develop, and evaluate techniques that allow people to demonstrate their analytic goals, tasks, and operations. Developing this "visual analytics by demonstration" method of user interaction has the potential to impact numerous data-driven domains, and society more broadly. This project will also provide educational experience and research training for graduate and undergraduate students to guide them towards careers in computing.
+                    <br/>
+                    <br/> The proposed research will create Visual Analytics by Demonstration prototypes, generalizable toolkits, and demonstration primitives to foster exploration and discovery in visual analytics. Instead of control panels that require users to directly parameterize analytic models and visualizations, people provide demonstrations, from which the system selects the appropriate visual representation, analytic model, and parameters. To realize the benefits of such technology, many research challenges exist and must be addressed. For instance, what are the basic demonstration primitives that people use to communicate their intent to a system? How can systems interpret these demonstrations and perform the correct analytic and visualization operations? Finally, how can these systems guard against potential user bias in exploring data using by-demonstration? Project objectives include the design, implementation, and evaluation of by-demonstration visual analytic prototypes. The research will perform formative studies to develop demonstration primitives categorized by user tasks. The project will design and develop applications for specific data domains as well as general, open-sourced toolkits for other researchers to use and extend. User studies will identify if and how specific tasks and operations can be performed by demonstrations, and how these compare in performance to current control panel interfaces. The proposed work will also create instructional material to integrate visual analytics by demonstration into courses that teach visual analytics, or data science more generally.
+                </p>
+                <br/>
+
+                <div class="row" style="margin-top:5%;">
+                    <div class="col-lg-7">
+                        <h5>PEOPLE</h5> 
+                            <ul>
+                                <li><a href="http://endert.org">Alex Endert</a>, PI</li>
+                                <!-- <li><a href="https://gracegsy.github.io/">Grace Guo</a>, Graduate Research Assistant</li> -->
+                                <li><a href="http://bahadorsaket.com/">Bahador Saket</a>, Graduate Research Assistant</li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <h5>NEWS</h5>
+                            <ul>
+                                <li>
+                                    <a href="http://bahadorsaket.com/" target="_blank">Bahador Saket</a> gave an invited talk titled <i>Visualization by Demonstration</i> at the <a href="https://sites.google.com/math.arizona.edu/tripodssummerconference2019/home">2019 TRIPODS Southwest Conference </a>
+                                </li>
+                                <li>
+                                    <a href="../files/ASUWorkshop2018.pdf" target="_blank">Endert gave an invited talk at the 2018 Data Literacy for a STEAM Curriculum Workshop</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.ic.gatech.edu/news/602797/ic-assistant-professor-alex-endert-earns-nsf-career-award" target="_blank">Endert's NSF CAREER Award supporting this project has been funded!</a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+
+
+                
+                <h5>PUBLICATIONS</h5>
+                <ul>
+                    <li>
+                         <div class="publicationContainer row">
+                            <div class="col-lg-3" style="background-image: url('../images/VbDTheory.png'); background-size:cover; background-repeat:no-repeat;">
+                            </div>
+                            <div class="col-lg-9">
+                                <span class="publicationTitle">Demonstrational Interaction for Data Visualization</span>
+                                <br>
+                                <span class="publicationAuthors">Bahador Saket and Alex Endert</span>
+                                <br>
+                                <span class="publicationVenue">IEEE Computer Graphics and Applications, 2019</span>
+                                <br>
+                                <span class="publicationSupplementary"><a href="https://bahadorsaket.com/publication/Saket2019CGADemonstration.pdf" target="_blank">PDF</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                           <div class="publicationContainer row">
+                            <div class="col-lg-3" style="background-image: url('../images/DM.png'); background-size:cover; background-repeat:no-repeat;">
+                            </div>
+                            <div class="col-lg-9">
+                                <span class="publicationTitle">Investigating Direct Manipulation of Graphical Encodings as a Method for User Interaction</span>
+                                <br>
+                                <span class="publicationAuthors">Bahador Saket, Samuel Huron, Charles Perin, and Alex Endert</span>
+                                <br>
+                                <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (InfoVis), 2019</span>
+                                <br>
+                                <span class="publicationSupplementary"><a href="https://bahadorsaket.com/publication/infovis2019.pdf" target="_blank">PDF</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                         <div class="publicationContainer row">
+                            <div class="col-lg-3" style="background-image: url('../images/VBDMVS.png'); background-size:cover; background-repeat:no-repeat;">
+                            </div>
+                            <div class="col-lg-9">
+                                <span class="publicationTitle">Investigating the Manual View Specification and Visualization by Demonstration Paradigms for Visualization Construction</span>
+                                <br>
+                                <span class="publicationAuthors">Bahador Saket and Alex Endert</span>
+                                <br>
+                                <span class="publicationVenue">Computer Graphics Forum (EuroVis), 2019</span>
+                                <br>
+                                <span class="publicationSupplementary"><a href="https://bahadorsaket.com/publication/VbDEuroVis2019.pdf" target="_blank">PDF</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="publicationContainer row">
+                            <div class="col-lg-3" style="background-image: url('../images/vis-by-demo.png');background-size: cover;"></div>
+                            <div class="col-lg-9">
+                                <span class="publicationTitle">Visualization by Demonstration: An Interaction Paradigm for Visual Data Exploration</span>
+                                <span class="publicationAuthors">Bahador Saket, Hannah Kim, Eli T. Brown, and Alex Endert</span>
+                                <br/>
+                                <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'16), 2017</span>
+                                <br/>
+                                <span class="publicationSupplementary"><a href="http://bahadorsaket.com/publication/VbD-Paper.pdf" target="_blank">PDF</a> | <a href="https://github.com/BahadorSaket/VbD" target="_blank">VisExemplar</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="publicationContainer row">
+                            <div class="col-lg-3" style="background-image: url('../images/graphiti.png');background-size: cover;">
+                            </div>
+                            <div class="col-lg-9">
+                                <span class="publicationTitle">Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization</span>
+                                <br/>
+                                <span class="publicationAuthors">Arjun Srinivasan, Hyunwoo Park, Alex Endert, and Rahul C. Basole</span>
+                                <br/>
+                                <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics (Proc. VAST’17), 2018</span>
+                                <br/>
+                                <span class="publicationSupplementary"><a href="http://arjun010.github.io/static/papers/graphiti-vast17.pdf" target="_blank">PDF</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="publicationContainer row">
+                            <div class="col-lg-3" style="background-image: url('../images/textonic.png');background-size: cover;">
+                            </div>
+                            <div class="col-lg-9">
+                                <span class="publicationTitle">TexTonic: Interactive Visualization for Exploration and Discovery of Very Large Text Collections</span>
+                                <br/>
+                                <span class="publicationAuthors">Celeste L. Paul, Jessica Chang, Alex Endert, Nick Cramer, David Gillen, Shawn Hampton, Russ Burtner, Ralph Perko, Kristin A. Cook</span>
+                                <br/>
+                                <span class="publicationVenue">Information Visualization, 2018</span>
+                                <br/>
+                                <span class="publicationSupplementary"><a href="http://www.cc.gatech.edu/~aendert3//resources/Paul2018TexTonic.pdf" target="_blank">PDF</a> | <a href="https://youtu.be/4z_n3J7bjGQ" target="_blank">Video</a></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="publicationContainer row">
+                            <div class="col-lg-3" style="background-image: url('../images/encodings.png');background-size: cover;">
+                            </div>
+                            <div class="col-lg-9">
+                                <span class="publicationTitle">Evaluating Interactive Graphical Encodings for Data Visualization</span>
+                                <br/>
+                                <span class="publicationAuthors">Bahador Saket, Arjun Srinivasan, Eric Ragan, and Alex Endert</span>
+                                <br/>
+                                <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics, 2017</span>
+                                <br/>
+                                <span class="publicationSupplementary"><a href="http://arjun010.github.io/static/papers/interactive-encodings.pdf" target="_blank">PDF</a> | <a href="" target="_blank">Slides (InfoVis 17)</a> | <a href="https://github.com/gtvalab/interactive-graphical-encodings" target="_blank">Experimental Software and Material</a></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <h5>DOWNLOADS</h5>
+                <ul>
+                    <li>
+                        <a href="https://github.com/BahadorSaket/VbD" target="_blank">[GitHub] VisExemplar</a>
+                    </li>
+                </ul>
+                <h5>PROJECT SUPPORT</h5>
+                <div class="projectContainer row">
+                    <div class="col-lg-1" style="background-image: url('../images/nsf.png');background-size: contain; background-repeat: no-repeat;">
+                    </div>
+                    <div class="col-lg-9">
+                        Award Number: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1750474&HistoricalAwards=false">IIS-1750474</a>
+                        <br/> Title: CAREER: Visual Analytics by Demonstration for Interactive Data Analysis
+                        <br/> Duration: 5/2018 - 5/2023
+                        <br/> PI: <a href="http://endert.org">Alex Endert</a>
+                        <br/> Students: <a href="http://bahadorsaket.com/">Bahador Saket</a>
+                        <br/>
+                    </div>
+                </div>
+                <!-- <div class="projectContainer row"> -->
+                <!-- here is some test text. -->
+                <!-- <div class="col-lg-1" style="background-image: url('../images/nsf.png');background-size: contain; background-repeat: no-repeat;">
+                  </div>
+                  <div class="col-lg-9">
+                    Award Number: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1750474&HistoricalAwards=false">IIS-1750474</a><br/>
+                    Title: CAREER: Visual Analytics by Demonstration for Interactive Data Analysis<br/>
+                    Duration: 5/2018 - 5/2023<br/>
+                    PI: <a href="http://endert.org">Alex Endert</a><br/>
+                    Students: <a href="http://bahadorsaket.com/">Bahador Saket</a><br/>
+                  </div> -->
+                <!-- </div> -->
+                <p>
+                    This material is based upon work supported by the National Science Foundation under Grant No. IIS-1750474. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+                </p>
+                <i>Last updated:</i> March 6, 2020
+                <!-- 
+            <h6>VIDEOS</h6>
+            <ul>
+                <li>
+            </ul>
+            <h6>DEMOS</h6>
+            <ul>
+                <li>
+            </ul>
+            -->
+            </div>
+        </div>
+    </div>
+    <hr>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>
