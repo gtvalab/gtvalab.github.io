@@ -4,11 +4,7 @@ Website for the Georgia Tech Visual Analytics Lab, deployed at <https://gtvalab.
 
 ## Setup and run
 
-- Install [Jekyll and dependencies](https://jekyllrb.com/docs/).
-- Install [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (tested on node v11, npm v6.4.1).
-- Install npm-based packages using `npm install`.
-- Compile and serve the app using `bundle exec jekyll serve --livereload`.
-- Open browser to <http://localhost:4000>.
+- Open browser to <http://localhost:8000>.
 
 ## Updating your information
 

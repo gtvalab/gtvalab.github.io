@@ -5,16 +5,13 @@
 
 // data
 var carouselIndex = 0;
+var carouselInterval = null;
 
 // initialize materialize component instances
 var sidenavInstance = M.Sidenav.init(document.querySelectorAll(".sidenav"), {})[0];
 var carouselInstance = M.Carousel.init(document.querySelectorAll(".carousel.carousel-slider"), {
   indicators: true,
-  onCycleTo: function () {
-    if (carouselInstance) {
-      carouselIndex = carouselInstance.center;
-    }
-  },
+  onCycleTo: onCycleTo,
 })[0];
 
 // set listener for window resize event
@@ -27,11 +24,7 @@ window.addEventListener(
     carouselInstance.destroy();
     carouselInstance = M.Carousel.init(document.querySelectorAll(".carousel.carousel-slider"), {
       indicators: true,
-      onCycleTo: function () {
-        if (carouselInstance) {
-          carouselIndex = carouselInstance.center;
-        }
-      },
+      onCycleTo: onCycleTo,
     })[0];
     carouselInstance.set(carouselIndex);
   }, 100),
@@ -39,10 +32,26 @@ window.addEventListener(
 );
 
 // advance the carousel on a timer every 10 seconds
-setInterval(function () {
+carouselInterval = setInterval(function () {
   carouselInstance.next();
   carouselIndex = carouselInstance.center;
 }, 10000);
+
+/**
+ * Updater for carousel `onCycleTo` method.
+ */
+function onCycleTo() {
+  if (carouselInstance) {
+    carouselIndex = carouselInstance.center;
+    if (carouselInterval) {
+      clearInterval(carouselInterval);
+      carouselInterval = setInterval(function () {
+        carouselInstance.next();
+        carouselIndex = carouselInstance.center;
+      }, 10000);
+    }
+  }
+}
 
 /**
  * Simple throttle function.

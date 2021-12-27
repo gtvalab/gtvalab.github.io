@@ -44,8 +44,8 @@
   color: #eaaa00;
 }
 
-/* NAVIGATION BAR */
-#nav-bar a {
+/* NAVIGATION */
+#nav a {
   color: #54585a;
 }
 .brand-logo {
@@ -90,7 +90,6 @@
   justify-content: center;
 }
 .carousel-img {
-  width: fit-content !important;
   max-width: 70vw;
   max-height: 300px;
   border-radius: 6px;
@@ -104,8 +103,9 @@
   color: #54585a;
 }
 .carousel .indicators {
+  width: fit-content !important;
+  width: -moz-fit-content !important;
   height: 32px;
-  width: fit-content;
   margin: auto;
   padding: 0px 6px;
   border-radius: 6px;
@@ -113,6 +113,102 @@
 }
 .carousel .indicators .indicator-item {
   margin: 12px 6px 0px 6px;
+}
+
+/* DESCRIPTION */
+.section-description p {
+  margin: 0;
+}
+.section-description ul {
+  margin: 0.5rem 0 0.5rem 2rem;
+}
+.section-description li {
+  list-style-type: disc !important;
+}
+
+/* NEWS */
+.news-item {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.news-item-date {
+  flex-shrink: 0;
+}
+.news-item-text {
+  margin-left: 12px;
+}
+
+/* PEOPLE */
+.people-card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+@media only screen and (max-width: 601px) {
+  .people-card-container {
+    justify-content: center;
+  }
+}
+.people-card {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 160px;
+  margin: 12px 4px;
+}
+@media only screen and (max-width: 601px) {
+  .people-card {
+    max-width: 112px;
+    margin: 12px 4px;
+  }
+}
+.people-card-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  overflow: hidden;
+}
+@media only screen and (max-width: 601px) {
+  .people-card-img {
+    width: 112px;
+    height: 112px;
+  }
+}
+.people-card .card-image .card-title {
+  font-size: 11pt;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px #000000;
+  padding: 0.5rem;
+}
+.people-card .card-content {
+  padding: 12px;
+  flex-grow: 1;
+}
+.people-card .card-action {
+  padding: 12px;
+}
+.people-card-name {
+  color: #54585a;
+  font-weight: 700;
+  font-size: 11pt;
+  margin-bottom: 4px;
+}
+.people-card-title {
+  color: #54585a;
+  font-weight: 500;
+  font-size: 10pt;
+}
+.people-card-keywords {
+  font-size: 9pt;
+}
+.people-card .card-action a {
+  margin-right: 4px !important;
+  color: #eaaa00 !important;
+}
+.people-card .card-action i {
+  font-size: 16px;
+}
+.people-alumni-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 192px));
 }
 
 /* OTHER */
