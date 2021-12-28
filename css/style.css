@@ -115,6 +115,18 @@
   margin: 12px 6px 0px 6px;
 }
 
+/* HEADER */
+@media only screen and (max-width: 601px) {
+  .header-text {
+    text-align: center;
+  }
+}
+.header-logo {
+  display: inline-block;
+  height: 64px;
+  vertical-align: middle;
+}
+
 /* DESCRIPTION */
 .section-description p {
   margin: 0;
@@ -129,13 +141,14 @@
 /* NEWS */
 .news-item {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
 }
 .news-item-date {
+  font-weight: 600;
+  font-style: italic;
   flex-shrink: 0;
 }
 .news-item-text {
-  margin-left: 12px;
 }
 
 /* PEOPLE */
@@ -156,7 +169,7 @@
 }
 @media only screen and (max-width: 601px) {
   .people-card {
-    max-width: 112px;
+    max-width: 116px;
     margin: 12px 4px;
   }
 }
@@ -168,8 +181,8 @@
 }
 @media only screen and (max-width: 601px) {
   .people-card-img {
-    width: 112px;
-    height: 112px;
+    width: 116px;
+    height: 116px;
   }
 }
 .people-card .card-image .card-title {
@@ -205,6 +218,10 @@
 }
 .people-card .card-action i {
   font-size: 16px;
+}
+.people-card .card-action img {
+  display: inline;
+  width: 16px;
 }
 .people-alumni-container {
   display: grid;

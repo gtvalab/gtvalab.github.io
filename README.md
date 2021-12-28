@@ -4,7 +4,8 @@ Website for the Georgia Tech Visual Analytics Lab, deployed at <https://gtvalab.
 
 ## Setup and run
 
-- Open browser to <http://localhost:8000>.
+- Start a local server, e.g., using Python (`python -m http.server`)
+- Open browser to <http://localhost:8000>
 
 ## Updating your information
 
