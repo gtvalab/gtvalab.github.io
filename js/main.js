@@ -6,36 +6,49 @@
 // data
 var carouselIndex = 0;
 var carouselInterval = null;
+var sidenavInstance = null;
+var carouselInstance = null;
 
-// initialize materialize component instances
-var sidenavInstance = M.Sidenav.init(document.querySelectorAll(".sidenav"), {})[0];
-var carouselInstance = M.Carousel.init(document.querySelectorAll(".carousel.carousel-slider"), {
-  indicators: true,
-  onCycleTo: onCycleTo,
-})[0];
+// load html from `/includes`
+$("#gallery-container").load("/includes/gallery.html", function () {
+  // initialize materialize component instances
+  sidenavInstance = M.Sidenav.init(document.querySelectorAll(".sidenav"), {})[0];
+  carouselInstance = M.Carousel.init(document.querySelectorAll(".carousel.carousel-slider"), {
+    indicators: true,
+    onCycleTo: onCycleTo,
+  })[0];
 
-// set listener for window resize event
-window.addEventListener(
-  "resize",
-  debounce(function (event) {
-    // re-initialize materialize components
-    sidenavInstance.destroy();
-    sidenavInstance = M.Sidenav.init(document.querySelectorAll(".sidenav"), {})[0];
-    carouselInstance.destroy();
-    carouselInstance = M.Carousel.init(document.querySelectorAll(".carousel.carousel-slider"), {
-      indicators: true,
-      onCycleTo: onCycleTo,
-    })[0];
-    carouselInstance.set(carouselIndex);
-  }, 100),
-  true
-);
+  // then set listener for window resize event
+  window.addEventListener(
+    "resize",
+    debounce(function (event) {
+      // re-initialize materialize components
+      sidenavInstance.destroy();
+      sidenavInstance = M.Sidenav.init(document.querySelectorAll(".sidenav"), {})[0];
+      carouselInstance.destroy();
+      carouselInstance = M.Carousel.init(document.querySelectorAll(".carousel.carousel-slider"), {
+        indicators: true,
+        onCycleTo: onCycleTo,
+      })[0];
+      carouselInstance.set(carouselIndex);
+    }, 100),
+    true
+  );
 
-// advance the carousel on a timer every 10 seconds
-carouselInterval = setInterval(function () {
-  carouselInstance.next();
-  carouselIndex = carouselInstance.center;
-}, 10000);
+  // finally advance the carousel on a timer every 10 seconds
+  carouselInterval = setInterval(function () {
+    carouselInstance.next();
+    carouselIndex = carouselInstance.center;
+  }, 10000);
+});
+
+// load the rest of the requested html
+$("#about-container").load("/includes/about.html");
+$("#people-container").load("/includes/people.html");
+$("#news-container").load("/includes/news.html");
+$("#projects-container").load("/includes/projects.html");
+$("#publications-container").load("/includes/publications.html");
+$("#footer-container").load("/includes/footer.html");
 
 /**
  * Updater for carousel `onCycleTo` method.

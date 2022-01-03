@@ -9,14 +9,18 @@ Website for the Georgia Tech Visual Analytics Lab, deployed at <https://gtvalab.
 
 ## Updating your information
 
-To add/modify/remove content, follow the READMEs in the corresponding directories
+To add/modify/remove content:
 
-- [Group](_groups)
-- [Faculty](_faculty)
-- [Student](_students)
-- [Course](_courses)
-- [Publication](_publications)
-- [News, Gallery, Sponsor, or Showcase item](_data)
+1. Navigate to the [/includes](includes) folder.
+2. Open the [README](includes/README.md) file.
+
+- For **news**, see [news.html](includes/news.html)
+
+- For **people**, see [people.html](includes/people.html)
+
+- For **projects**, see [projects.html](includes/projects.html)
+
+- For **publications**, see [publications.html](includes/publications.html)
 
 ## Steps to make edits
 

@@ -44,13 +44,21 @@
   color: #eaaa00;
 }
 
+/* BODY */
+body {
+  background: center / cover no-repeat fixed url("../assets/images/techsquare.png");
+}
+
 /* NAVIGATION */
+#nav {
+  background-color: #b3a369;
+  position: relative;
+}
 #nav a {
-  color: #54585a;
+  color: white;
 }
 .brand-logo {
   display: flex !important;
-  color: #54585a;
   white-space: nowrap;
 }
 .nav-bar-logo {
@@ -58,7 +66,7 @@
   height: 48px;
 }
 .nav-bar-logo-title {
-  color: #54585a;
+  color: white;
 }
 @media only screen and (min-width: 0) {
   .brand-logo {
@@ -74,6 +82,19 @@
   }
   .nav-bar-logo {
     margin: 8px;
+  }
+}
+
+/* PAGE CONTENT */
+#page-content {
+  padding: 0 36px;
+  min-height: calc(100vh - 64px);
+  background: rgba(255 255 255 / 90%);
+  box-shadow: 0 0 4px 4px rgb(255 255 255 / 90%);
+}
+@media only screen and (max-width: 601px) {
+  #page-content {
+    padding: 0 12px;
   }
 }
 
@@ -127,14 +148,14 @@
   vertical-align: middle;
 }
 
-/* DESCRIPTION */
-.section-description p {
+/* ABOUT */
+.about-text p {
   margin: 0;
 }
-.section-description ul {
+.about-text ul {
   margin: 0.5rem 0 0.5rem 2rem;
 }
-.section-description li {
+.about-text li {
   list-style-type: disc !important;
 }
 
@@ -149,6 +170,8 @@
   flex-shrink: 0;
 }
 .news-item-text {
+  font-weight: 300;
+  font-size: 11pt;
 }
 
 /* PEOPLE */
@@ -169,7 +192,7 @@
 }
 @media only screen and (max-width: 601px) {
   .people-card {
-    max-width: 116px;
+    max-width: 112px;
     margin: 12px 4px;
   }
 }
@@ -181,8 +204,8 @@
 }
 @media only screen and (max-width: 601px) {
   .people-card-img {
-    width: 116px;
-    height: 116px;
+    width: 112px;
+    height: 112px;
   }
 }
 .people-card .card-image .card-title {
@@ -196,6 +219,7 @@
   flex-grow: 1;
 }
 .people-card .card-action {
+  text-align: center;
   padding: 12px;
 }
 .people-card-name {
@@ -217,15 +241,45 @@
   color: #eaaa00 !important;
 }
 .people-card .card-action i {
-  font-size: 16px;
+  font-size: 18px;
 }
 .people-card .card-action img {
   display: inline;
-  width: 16px;
+  width: 18px;
+}
+@media only screen and (max-width: 601px) {
+  .people-card .card-action i {
+    font-size: 14px;
+  }
+  .people-card .card-action img {
+    width: 14px;
+  }
 }
 .people-alumni-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min-content, 192px));
+}
+
+/* FOOTER */
+#footer {
+  background-color: #262626;
+}
+.footer-copyright {
+  padding: 24px !important;
+  background-color: #b3a369 !important;
+}
+.footer-copyright .container {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+@media only screen and (max-width: 601px) {
+  .footer-pipe-divider {
+    display: none;
+  }
+  .footer-copyright .container {
+    flex-flow: column wrap;
+  }
 }
 
 /* OTHER */
@@ -234,4 +288,24 @@
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+  width: auto;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #eee;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  border: 2px #eee solid;
+  background-color: #bbb;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+body::-webkit-scrollbar-thumb:active {
+  background-color: #888;
 }
