@@ -232,6 +232,40 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(min-content, 192px));
 }
 
+/* PROJECTS */
+#projects-card-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.project-card {
+  margin: 12px 4px;
+}
+.project-card-img {
+  padding: 12px;
+}
+.project-card-title {
+  font-weight: 700;
+  font-size: 12pt;
+  line-height: 1.3rem;
+  margin-bottom: 12px !important;
+}
+.project-card-text {
+  font-weight: 300;
+  font-size: 11pt;
+  line-height: 1.3rem;
+  margin-bottom: 12px !important;
+}
+.project-card-publications {
+  padding-left: 24px;
+  margin: 0;
+  font-size: 10pt;
+  line-height: 1.2rem;
+}
+.project-card-publications li {
+  padding-left: 12px;
+  margin-bottom: 12px;
+}
+
 /* FOOTER */
 #footer {
   background-color: #262626;

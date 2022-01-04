@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Visual Analytics by Demonstration for Interactive Data Analysis",
+    "link": "/projects/vabydemo.html",
+    "image": "change-cluster.png",
+    "text": "User interaction for visualization that lets people demonstrate intended visual mappings, data transformations, visual representations, and analytic methods to explore data. Visual Analytics by Demonstration translates higher-level domain and data questions of people into appropriate visualization and analytic operations.",
+    "publications": []
+  }
+]
