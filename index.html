@@ -28,42 +28,15 @@
 
   <body>
     <!-- NAVIGATION -->
-    <nav id="nav" role="navigation">
-      <div class="nav-wrapper container">
-        <!-- LOGO -->
-        <a href="/" class="brand-logo">
-          <img class="nav-bar-logo" src="/assets/favicon/android-chrome-512x512.png" />
-          <span class="nav-bar-logo-title">VA Lab</span>
-        </a>
-
-        <!-- LINKS -->
-        <ul class="right hide-on-med-and-down">
-          <li id="home-nav-link"><a href="/">Home</a></li>
-          <li id="team-nav-link"><a href="/team">Team</a></li>
-          <li id="projects-nav-link"><a href="/projects">Projects</a></li>
-          <li id="publications-nav-link"><a href="/publications">Publications</a></li>
-          <li><a href="https://github.com/gtvalab" target="_blank">Code</a></li>
-        </ul>
-
-        <!-- MENU ICON (MOBILE) -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-
-    <!--SIDENAV (MOBILE) -->
-    <ul id="nav-mobile" class="sidenav">
-      <li id="home-nav-link"><a href="/">Home</a></li>
-      <li id="team-nav-link"><a href="/team">Team</a></li>
-      <li id="projects-nav-link"><a href="/projects">Projects</a></li>
-      <li id="publications-nav-link"><a href="/publications">Publications</a></li>
-      <li><a href="https://github.com/gtvalab" target="_blank">Code</a></li>
-    </ul>
+    <div id="navigation-container"></div>
 
     <!-- PAGE CONTENT -->
     <div id="page-content" class="container">
       <div class="section">
         <!-- GALLERY -->
-        <div id="gallery-container"></div>
+        <div id="gallery-container">
+          <div class="carousel carousel-slider center"></div>
+        </div>
 
         <!-- HEADER -->
         <h4 class="header-text">
@@ -76,11 +49,34 @@
           <!-- LEFT COLUMN -->
           <div class="col s12 m8 l9">
             <!-- ABOUT -->
-            <div id="about-container"></div>
-            
+            <div id="about-container">
+              <div class="row">
+                <div class="col s12 about-text">
+                  <!-- HEADER -->
+                  <h5>Our Mission</h5>
+
+                  <!-- CONTENT -->
+                  <div class="description-container">
+                    <p>
+                      The goal of our research is to develop interactive visual analytic applications that
+                      <b>help people make sense of data.</b>
+                      We approach this challenge through combining scientific techniques from:
+                    </p>
+                    <ul>
+                      <li>information visualization,</li>
+                      <li>machine learning,</li>
+                      <li>data mining,</li>
+                      <li>and human-computer interaction</li>
+                    </ul>
+                    <p>to produce usable, yet powerful <b>visual analytic applications.</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- DIVIDER -->
             <div class="divider"></div>
-            
+
             <!-- PEOPLE -->
             <div id="people-container"></div>
           </div>
@@ -88,7 +84,14 @@
           <!-- RIGHT COLUMN -->
           <div class="col s12 m4 l3">
             <!-- NEWS -->
-            <div id="news-container"></div>
+            <div id="news-container">
+              <div class="row">
+                <div class="col s12">
+                  <h5>Recent News</h5>
+                  <div class="news-item-container"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -118,9 +121,11 @@
     <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
-    <script type="text/javascript" defer>
-      $("#home-nav-link, #team-nav-link, #projects-nav-link, #publications-nav-link").removeClass("active");
-      $("#home-nav-link").addClass("active");
+    <script type="text/javascript">
+      setTimeout(function () {
+        $("#home-nav-link, #team-nav-link, #projects-nav-link, #publications-nav-link").removeClass("active");
+        $("#home-nav-link").addClass("active");
+      }, 50);
     </script>
   </body>
 </html>

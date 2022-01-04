@@ -1,52 +1,6 @@
-/* PRIMARY COLORS */
-.color-techgold {
-  background-color: #b3a369;
-}
-.color-navyblue {
-  background-color: #003057;
-}
-.color-white {
-  background-color: #ffffff;
-}
-.text-techgold {
-  color: #b3a369;
-}
-.text-navyblue {
-  color: #003057;
-}
-.text-white {
-  color: #ffffff;
-}
-
-/* SECONDARY COLORS */
-.color-graymatter {
-  background-color: #54585a;
-}
-.color-pimile {
-  background-color: #d6dbd4;
-}
-.color-diploma {
-  background-color: #f9f6e5;
-}
-.color-buzzgold {
-  background-color: #eaaa00;
-}
-.text-graymatter {
-  color: #54585a;
-}
-.text-pimile {
-  color: #d6dbd4;
-}
-.text-diploma {
-  color: #f9f6e5;
-}
-.text-buzzgold {
-  color: #eaaa00;
-}
-
 /* BODY */
 body {
-  background: center / cover no-repeat fixed url("../assets/images/techsquare.png");
+  background: center / cover no-repeat fixed url("/assets/images/techsquare.png");
 }
 
 /* NAVIGATION */
@@ -83,6 +37,24 @@ body {
   .nav-bar-logo {
     margin: 8px;
   }
+}
+.sidenav-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sidenav-logo-container {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255 255 255 / 90%);
+}
+.sidenav-logo {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 8px;
+  left: 8px;
 }
 
 /* PAGE CONTENT */
@@ -130,7 +102,7 @@ body {
   margin: auto;
   padding: 0px 6px;
   border-radius: 6px;
-  background-color: #54585a;
+  background-color: #003057;
 }
 .carousel .indicators .indicator-item {
   margin: 12px 6px 0px 6px;
@@ -265,6 +237,7 @@ body {
   background-color: #262626;
 }
 .footer-copyright {
+  font-weight: 600;
   padding: 24px !important;
   background-color: #b3a369 !important;
 }
@@ -308,4 +281,50 @@ body::-webkit-scrollbar-thumb:hover {
 }
 body::-webkit-scrollbar-thumb:active {
   background-color: #888;
+}
+
+/* PRIMARY COLORS */
+.color-techgold {
+  background-color: #b3a369;
+}
+.color-navyblue {
+  background-color: #003057;
+}
+.color-white {
+  background-color: #ffffff;
+}
+.text-techgold {
+  color: #b3a369;
+}
+.text-navyblue {
+  color: #003057;
+}
+.text-white {
+  color: #ffffff;
+}
+
+/* SECONDARY COLORS */
+.color-graymatter {
+  background-color: #54585a;
+}
+.color-pimile {
+  background-color: #d6dbd4;
+}
+.color-diploma {
+  background-color: #f9f6e5;
+}
+.color-buzzgold {
+  background-color: #eaaa00;
+}
+.text-graymatter {
+  color: #54585a;
+}
+.text-pimile {
+  color: #d6dbd4;
+}
+.text-diploma {
+  color: #f9f6e5;
+}
+.text-buzzgold {
+  color: #eaaa00;
 }
