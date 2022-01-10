@@ -5,11 +5,28 @@ body {
 
 /* NAVIGATION */
 #nav {
-  background-color: #b3a369;
+  background-color: #a4925a;
   position: relative;
 }
-#nav a {
+#nav ul li.active {
+  background-color: rgba(0 0 0 / 0%);
+}
+#nav ul li a {
+  display: inline-block;
+  padding: 0;
+  margin: 0 12px;
+  line-height: 2em;
+  font-weight: 600;
   color: white;
+  transition: border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+#nav ul li.active a {
+  border-bottom-color: #f0b310;
+}
+#nav ul li a:hover {
+  background-color: unset;
+  border-bottom-color: #f0b310;
 }
 .brand-logo {
   display: flex !important;
@@ -20,6 +37,7 @@ body {
   height: 48px;
 }
 .nav-bar-logo-title {
+  font-weight: 600;
   color: white;
 }
 @media only screen and (min-width: 0) {
@@ -58,15 +76,15 @@ body {
 }
 
 /* PAGE CONTENT */
-#page-content {
-  padding: 0 36px;
+.page-content-container {
+  padding: 12px 36px;
   min-height: calc(100vh - 64px);
   background: rgba(255 255 255 / 90%);
   box-shadow: 0 0 4px 4px rgb(255 255 255 / 90%);
 }
 @media only screen and (max-width: 601px) {
-  #page-content {
-    padding: 0 12px;
+  .page-content-container {
+    padding: 12px;
   }
 }
 
@@ -92,6 +110,7 @@ body {
 .carousel-caption {
   margin-top: 6px;
   font-size: 10pt;
+  font-weight: 600;
   max-width: 70vw;
   color: #54585a;
 }
@@ -102,7 +121,7 @@ body {
   margin: auto;
   padding: 0px 6px;
   border-radius: 6px;
-  background-color: #003057;
+  background-color: #857437;
 }
 .carousel .indicators .indicator-item {
   margin: 12px 6px 0px 6px;
@@ -120,7 +139,17 @@ body {
   vertical-align: middle;
 }
 
+/* OVERVIEW */
+@media only screen and (min-width: 601px) {
+  .overview-divider {
+    display: none;
+  }
+}
+
 /* ABOUT */
+.about-container {
+  padding-bottom: 4px;
+}
 .about-text p {
   margin: 0;
 }
@@ -145,11 +174,18 @@ body {
   font-weight: 300;
   font-size: 11pt;
 }
+.news-item-container .row:last-of-type {
+  margin-bottom: 0px;
+}
 
 /* PEOPLE */
+.people-container {
+  padding-bottom: 12px;
+}
 .people-card-container {
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 12px;
 }
 @media only screen and (max-width: 601px) {
   .people-card-container {
@@ -159,18 +195,17 @@ body {
 .people-card {
   display: flex;
   flex-flow: column nowrap;
-  max-width: 160px;
-  margin: 12px 4px;
+  max-width: 144px;
+  margin: 8px 4px;
 }
 @media only screen and (max-width: 601px) {
   .people-card {
     max-width: 112px;
-    margin: 12px 4px;
   }
 }
 .people-card-img {
-  width: 160px;
-  height: 160px;
+  width: 144px;
+  height: 144px;
   object-fit: cover;
   overflow: hidden;
 }
@@ -231,29 +266,64 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min-content, 192px));
 }
+.people-alumni-header-container {
+  margin-bottom: 12px;
+}
+.people-alumni-header {
+  font-size: 16pt;
+  font-weight: 600;
+  line-height: 2rem;
+  border-bottom: 2px solid #f0b310;
+}
 
 /* PROJECTS */
-#projects-card-container {
+.projects-card-container {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
+}
+@media only screen and (max-width: 601px) {
+  .projects-card-container {
+    justify-content: center;
+  }
 }
 .project-card {
-  margin: 12px 4px;
+  max-width: 256px;
+  margin: 12px 8px;
+}
+@media only screen and (max-width: 601px) {
+  .project-card {
+    max-width: 192px;
+  }
 }
 .project-card-img {
-  padding: 12px;
+  padding: 0 12px;
+  margin-bottom: 12px;
+  object-fit: contain;
+  width: 256px !important;
+  height: 192px !important;
+}
+@media only screen and (max-width: 601px) {
+  .project-card-img {
+    width: 192px !important;
+    height: 144px !important;
+  }
+}
+.project-card .card-content {
+  padding: 0 12px;
+  margin-bottom: 24px;
+}
+.project-card .card-content :not(p:last-of-type) {
+  margin-bottom: 4px !important;
 }
 .project-card-title {
   font-weight: 700;
   font-size: 12pt;
   line-height: 1.3rem;
-  margin-bottom: 12px !important;
 }
 .project-card-text {
   font-weight: 300;
   font-size: 11pt;
   line-height: 1.3rem;
-  margin-bottom: 12px !important;
 }
 .project-card-publications {
   padding-left: 24px;
@@ -266,14 +336,59 @@ body {
   margin-bottom: 12px;
 }
 
+/* PUBLICATIONS */
+.publications-section-header {
+  font-size: 16pt;
+  font-weight: 600;
+  line-height: 2rem;
+  border-bottom: 2px solid #f0b310;
+}
+.publications-section-subtitle {
+  font-size: 14pt;
+  font-weight: 300;
+  line-height: 2rem;
+  vertical-align: top;
+}
+.publication-img-container {
+  padding-right: 0 !important;
+}
+.publication-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media only screen and (min-width: 601px) {
+  .publication-img {
+    max-height: 100px;
+  }
+}
+.publication-content {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.publication-title {
+  font-size: 12pt;
+  font-weight: 600;
+}
+.publication-authors {
+  font-size: 11pt;
+}
+.publication-venue {
+  font-size: 11pt;
+  font-weight: 300;
+}
+.publication-actions {
+  margin: 0;
+}
+
 /* FOOTER */
-#footer {
+.footer-container {
   background-color: #262626;
 }
 .footer-copyright {
   font-weight: 600;
   padding: 24px !important;
-  background-color: #b3a369 !important;
+  background-color: #161614 !important;
 }
 .footer-copyright .container {
   display: flex;
@@ -289,12 +404,12 @@ body {
   }
 }
 
-/* OTHER */
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
+/* DIVIDER */
+.divider {
+  width: 64px;
+  height: 8px;
+  margin: 24px auto;
+  background-color: #eaaa00;
 }
 
 /* SCROLLBAR */
@@ -317,48 +432,10 @@ body::-webkit-scrollbar-thumb:active {
   background-color: #888;
 }
 
-/* PRIMARY COLORS */
-.color-techgold {
-  background-color: #b3a369;
+/* OTHER */
+.icon-block {
+  padding: 0 15px;
 }
-.color-navyblue {
-  background-color: #003057;
-}
-.color-white {
-  background-color: #ffffff;
-}
-.text-techgold {
-  color: #b3a369;
-}
-.text-navyblue {
-  color: #003057;
-}
-.text-white {
-  color: #ffffff;
-}
-
-/* SECONDARY COLORS */
-.color-graymatter {
-  background-color: #54585a;
-}
-.color-pimile {
-  background-color: #d6dbd4;
-}
-.color-diploma {
-  background-color: #f9f6e5;
-}
-.color-buzzgold {
-  background-color: #eaaa00;
-}
-.text-graymatter {
-  color: #54585a;
-}
-.text-pimile {
-  color: #d6dbd4;
-}
-.text-diploma {
-  color: #f9f6e5;
-}
-.text-buzzgold {
-  color: #eaaa00;
+.icon-block .material-icons {
+  font-size: inherit;
 }

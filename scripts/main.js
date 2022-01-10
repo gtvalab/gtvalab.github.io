@@ -10,7 +10,7 @@ var sidenavInstance = null;
 var carouselInstance = null;
 
 // load navigation and sidenav
-$("#navigation-container").load("/includes/navigation.html", function () {
+$(".navigation-container").load("/includes/navigation.html", function () {
   // initialize materialize sidenav component instance
   sidenavInstance = M.Sidenav.init($(".sidenav"), {})[0];
 });
@@ -58,23 +58,31 @@ if ($(".news-item-container").length) {
 }
 
 // load current people and alumni
-$("#people-container").load("/includes/people.html", function () {
+if ($(".people-container").length) {
   $.getJSON("/data/currentPeople.json", function (data) {
     createCurrentPeopleElements(data);
   });
   $.getJSON("/data/alumni.json", function (data) {
     createAlumniElements(data);
   });
-});
+}
 
 // load projects
-$("#projects-container").load("/includes/projects.html");
+if ($(".projects-container").length) {
+  $.getJSON("/data/projects.json", function (data) {
+    createProjectsElements(data);
+  });
+}
 
 // load publications
-$("#publications-container").load("/includes/publications.html");
+if ($(".publications-container").length) {
+  $.getJSON("/data/publications.json", function (data) {
+    createPublicationsElements(data);
+  });
+}
 
 // load the footer
-$("#footer-container").load("/includes/footer.html");
+$(".footer-container").load("/includes/footer.html");
 
 /* ============================ HELPERS ==================================== */
 
@@ -163,12 +171,12 @@ function createGalleryElements(data) {
   for (let i = 0; i < data.length; i++) {
     const g = data[i];
     elem = `
-    <div class="carousel-item">
-      <div class="carousel-item-container">
-        <img src="./assets/images/${g.image}" class="carousel-img" />
-        <span class="carousel-caption">${g.caption}</span>
+      <div class="carousel-item">
+        <div class="carousel-item-container">
+          <img src="./assets/images/${g.image}" class="carousel-img" />
+          <span class="carousel-caption">${g.caption}</span>
+        </div>
       </div>
-    </div>
     `;
     items.push(elem);
   }
@@ -199,12 +207,12 @@ function createNewsElements(data) {
   for (let i = 0; i < data.length; i++) {
     const n = data[i];
     elem = `
-    <div class="row">
-      <div class="col news-item">
-        <div class="news-item-date">${n.date}</div>
-        <div class="news-item-text">${n.text}</div>
+      <div class="row">
+        <div class="col news-item">
+          <div class="news-item-date">${n.date}</div>
+          <div class="news-item-text">${n.text}</div>
+        </div>
       </div>
-    </div>
     `;
     items.push(elem);
   }
@@ -261,93 +269,93 @@ function createCurrentPeopleElements(data) {
     // card image
     if (p.websiteURL) {
       cardImage = `
-      <div class="card-image">
-        <a href="${p.websiteURL}" target="_blank">
-          <img src="/assets/images/${p.image}" class="people-card-img" />
-          <span class="card-title">${p.firstName}</span>
-        </a>
-      </div>
+        <div class="card-image">
+          <a href="${p.websiteURL}" target="_blank">
+            <img src="/assets/images/${p.image}" class="people-card-img" />
+            <span class="card-title">${p.firstName}</span>
+          </a>
+        </div>
       `;
     } else {
       cardImage = `
-      <div class="card-image">
-        <img src="/assets/images/${p.image}" class="people-card-img" />
-        <span class="card-title">${p.firstName}</span>
-      </div>
+        <div class="card-image">
+          <img src="/assets/images/${p.image}" class="people-card-img" />
+          <span class="card-title">${p.firstName}</span>
+        </div>
       `;
     }
 
     // card content
     if (p.websiteURL) {
       cardContent = `
-      <div class="card-content">
-        <p class="people-card-name"><a href="${p.websiteURL}" target="_blank">${p.fullName}</a></p>
-        <p class="people-card-title">${p.title}</p>
-        <p class="people-card-keywords">${p.keywords}</p>
-      </div>
+        <div class="card-content">
+          <p class="people-card-name"><a href="${p.websiteURL}" target="_blank">${p.fullName}</a></p>
+          <p class="people-card-title">${p.title}</p>
+          <p class="people-card-keywords">${p.keywords}</p>
+        </div>
       `;
     } else {
       cardContent = `
-      <div class="card-content">
-        <p class="people-card-name">${p.fullName}</p>
-        <p class="people-card-title">${p.title}</p>
-        <p class="people-card-keywords">${p.keywords}</p>
-      </div>
+        <div class="card-content">
+          <p class="people-card-name">${p.fullName}</p>
+          <p class="people-card-title">${p.title}</p>
+          <p class="people-card-keywords">${p.keywords}</p>
+        </div>
       `;
     }
 
     // card actions
     if (p.email) {
       emailAction = `
-      <a href="mailto:${p.email}" target="_blank">
-        <i class="material-icons">email</i>
-      </a>
+        <a href="mailto:${p.email}" target="_blank">
+          <i class="material-icons">email</i>
+        </a>
       `;
     } else {
       emailAction = "";
     }
     if (p.linkedinURL) {
       linkedinAction = `
-      <a href="${p.linkedinURL}" target="_blank">
-        <img src="/assets/icons/linkedin.png" alt="LinkedIn Logo" />
-      </a>
+        <a href="${p.linkedinURL}" target="_blank">
+          <img src="/assets/icons/linkedin.png" alt="LinkedIn Logo" />
+        </a>
       `;
     } else {
       linkedinAction = "";
     }
     if (p.twitterURL) {
       twitterAction = `
-      <a href="${p.twitterURL}" target="_blank">
-        <img src="/assets/icons/twitter.svg" alt="Twitter Logo" />
-      </a>
+        <a href="${p.twitterURL}" target="_blank">
+          <img src="/assets/icons/twitter.svg" alt="Twitter Logo" />
+        </a>
       `;
     } else {
       twitterAction = "";
     }
     if (p.googlescholarURL) {
       googlescholarAction = `
-      <a href="${p.googlescholarURL}" target="_blank">
-        <img src="/assets/icons/Google_Scholar_logo.svg" alt="Google Scholar Logo" />
-      </a>
+        <a href="${p.googlescholarURL}" target="_blank">
+          <img src="/assets/icons/Google_Scholar_logo.svg" alt="Google Scholar Logo" />
+        </a>
       `;
     } else {
       googlescholarAction = "";
     }
     cardAction = `
-    <div class="card-action">
-      ${emailAction}
-      ${linkedinAction}
-      ${twitterAction}
-      ${googlescholarAction}
-    </div>
+      <div class="card-action">
+        ${emailAction}
+        ${linkedinAction}
+        ${twitterAction}
+        ${googlescholarAction}
+      </div>
     `;
 
     items.push(`
-    <div class="card people-card">
-      ${cardImage}
-      ${cardContent}
-      ${cardAction}
-    </div>
+      <div class="card people-card">
+        ${cardImage}
+        ${cardContent}
+        ${cardAction}
+      </div>
     `);
   }
   $(".people-card-container").get(0).innerHTML = items.join("");
@@ -379,4 +387,188 @@ function createAlumniElements(data) {
     items.push(elem);
   }
   $(".people-alumni-container").get(0).innerHTML = items.join("");
+}
+
+/**
+ * Creates html elements from `projects.json`
+ *
+ * All fields except `pageLink` are REQUIRED.
+ *
+ * Missing `pageLink` field will be OMITTED.
+ *
+ * Example of full element created:
+ * ```
+ * <div class="card project-card">
+ *   <div class="card-image">
+ *     <a href="<pageLink>"><img src="/assets/images/<image>" class="project-card-img" /></a>
+ *   </div>
+ *   <div class="card-content">
+ *     <p class="project-card-title"><a href="<pageLink>">title</a></p>
+ *     <p class="project-card-text">An awesome description.</p>
+ *   </div>
+ * </div>
+ * ```
+ * @param {*} data
+ */
+function createProjectsElements(data) {
+  let items = [];
+  let cardImage, cardContent;
+
+  for (let i = 0; i < data.length; i++) {
+    const p = data[i];
+
+    // card image
+    if (p.pageLink) {
+      cardImage = `
+        <div class="card-image">
+          <a href="${p.pageLink}"><img src="/assets/images/${p.image}" class="project-card-img" /></a>
+        </div>
+      `;
+    } else {
+      cardImage = `
+        <div class="card-image">
+          <img src="/assets/images/${p.image}" class="project-card-img" />
+        </div>
+      `;
+    }
+
+    // card content
+    if (p.pageLink) {
+      cardContent = `
+        <div class="card-content">
+          <p class="project-card-title"><a href="${p.pageLink}">${p.title}</a></p>
+          <p class="project-card-text">${p.text}</p>
+        </div>
+      `;
+    } else {
+      cardContent = `
+        <div class="card-content">
+          <p class="project-card-title">${p.title}</p>
+          <p class="project-card-text">${p.text}</p>
+        </div>
+      `;
+    }
+
+    items.push(`
+      <div class="card project-card">
+        ${cardImage}
+        ${cardContent}
+      </div>
+    `);
+  }
+  $(".projects-card-container").get(0).innerHTML = items.join("");
+}
+
+/**
+ * Creates html elements from `publications.json`
+ *
+ * { "title", "authors", "venue" } fields are REQUIRED.
+ *
+ * Missing { "image", "actions" } fields will be OMITTED.
+ *
+ * Example of full element created:
+ * ```
+ * <div class="row">
+ *   <div class="col s12 m4 l3 publication-img-container">
+ *     <img src="/assets/images/<image>" class="publication-img" />
+ *   </div>
+ *   <div class="col 12 m8 l9">
+ *     <p class="publication-content">
+ *       <span class="publication-title">title</span>
+ *       <br />
+ *       <span class="publication-authors">authors</span>
+ *       <br />
+ *       <span class="publication-venue">venue</span>
+ *     </p>
+ *     <p class="publication-actions">
+ *       <span class="publication-action"><a href="<link>" target="_blank">text</a></span>
+ *       <span>&nbsp;|&nbsp;</span>
+ *       <span class="publication-action"><a href="<link>" target="_blank">text</a></span>
+ *       ...
+ *     </p>
+ *   </div>
+ * </div>
+ * ```
+ * @param {*} data
+ */
+function createPublicationsElements(data) {
+  let items = [];
+  let elemImage, elemContent, elemAction;
+
+  // for each year
+  for (let i = 0; i < data.length; i++) {
+    const y = Object.entries(data[i])[0];
+    const year = y[0];
+    const pubs = y[1];
+
+    // create year header
+    items.push(`
+      <div id="${year}-header" class="row center-align">
+        <div class="col s12">
+          <span class="publications-section-header">${year}</span>
+          <span class="publications-section-subtitle">(${pubs.length})</span>
+        </div>
+      </div>
+    `);
+
+    // for each publication that year
+    for (let j = 0; j < pubs.length; j++) {
+      const p = pubs[j];
+
+      // publication image
+      if (p.image) {
+        elemImage = `
+          <img src="/assets/images/${p.image}" class="publication-img" />
+        `;
+      } else {
+        elemImage = `
+          <img src="/assets/favicon/android-chrome-512x512.png" class="publication-img" />
+        `;
+      }
+
+      // publication content
+      elemContent = `
+        <p class="publication-content">
+          <span class="publication-title">${p.title}</span>
+          <br />
+          <span class="publication-authors">${p.authors}</span>
+          <br />
+          <span class="publication-venue">${p.venue}</span>
+        </p>
+      `;
+
+      // publication actions
+      let actions = [];
+      for (let k = 0; k < p.actions.length; k++) {
+        const a = p.actions[k];
+        actions.push(`
+          <span class="publication-action"><a href="${a.link}" target="_blank">${a.text}</a></span>
+        `);
+        if (k < p.actions.length - 1) {
+          actions.push(`
+            <span>&nbsp;|&nbsp;</span>
+          `);
+        }
+      }
+      elemAction = `
+        <p class="publication-actions">
+          ${actions.join("")}
+        </p>
+      `;
+
+      items.push(`
+        <div class="row">
+          <div class="col s12 m4 l3 publication-img-container">
+            ${elemImage}
+          </div>
+          <div class="col 12 m8 l9">
+            ${elemContent}
+            ${elemAction}
+          </div>
+        </div>
+      `);
+    }
+  }
+
+  $(".publications-elem-container").get(0).innerHTML = items.join("");
 }

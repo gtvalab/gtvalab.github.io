@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- META -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <meta name="author" content="" />
@@ -13,82 +12,84 @@
       name="keywords"
       content="visual analytics,georgia tech,interactive computing,sensemaking,research lab,information visualization,infovis,infoviz,data science,machine learning,va lab,gt va lab,semantic interaction,visualiztaion by demonstration,visual analytics by demonstration,by demonstration"
     />
-    <!-- TITLE -->
     <title>Georgia Tech Visual Analytics Lab</title>
-    <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-32x32.png" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-    <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="/vendors/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/styles/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   </head>
 
   <body>
-    <!-- NAVIGATION -->
-    <div id="navigation-container"></div>
+    <div class="page-container">
+      <!-- NAVIGATION -->
+      <div id="page-navigation" class="navigation-container"></div>
 
-    <!-- PAGE CONTENT -->
-    <div id="page-content" class="container">
-      <div class="section">
-        <!-- GALLERY -->
-        <div id="gallery-container">
+      <!-- CONTENT -->
+      <div id="page-content" class="container page-content-container">
+        <div class="gallery-container">
           <div class="carousel carousel-slider center"></div>
         </div>
 
-        <!-- HEADER -->
         <h4 class="header-text">
           <b>We are the Georgia Tech Visual Analytics Lab.</b>
-          <img class="header-logo" src="assets/favicon/android-chrome-512x512.png" />
+          <img class="header-logo" src="/assets/favicon/android-chrome-512x512.png" />
         </h4>
 
-        <!-- OVERVIEW -->
-        <div class="row">
-          <!-- LEFT COLUMN -->
-          <div class="col s12 m8 l9">
-            <!-- ABOUT -->
-            <div id="about-container">
-              <div class="row">
-                <div class="col s12 about-text">
-                  <!-- HEADER -->
-                  <h5>Our Mission</h5>
+        <div class="overview-container">
+          <div class="row">
+            <div class="col s12 m8 l9">
+              <div class="about-container">
+                <div class="row">
+                  <div class="col s12 about-text">
+                    <h5>Our Mission</h5>
+                    <div class="description-container">
+                      <p>
+                        The goal of our research is to develop interactive visual analytic applications that
+                        <b>help people make sense of data.</b>
+                        We approach this challenge through combining scientific techniques from:
+                      </p>
+                      <ul>
+                        <li>information visualization,</li>
+                        <li>machine learning,</li>
+                        <li>data mining,</li>
+                        <li>and human-computer interaction</li>
+                      </ul>
+                      <p>to produce usable, yet powerful <b>visual analytic applications.</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                  <!-- CONTENT -->
-                  <div class="description-container">
-                    <p>
-                      The goal of our research is to develop interactive visual analytic applications that
-                      <b>help people make sense of data.</b>
-                      We approach this challenge through combining scientific techniques from:
-                    </p>
-                    <ul>
-                      <li>information visualization,</li>
-                      <li>machine learning,</li>
-                      <li>data mining,</li>
-                      <li>and human-computer interaction</li>
-                    </ul>
-                    <p>to produce usable, yet powerful <b>visual analytic applications.</b></p>
+              <div class="divider"></div>
+
+              <div class="people-container">
+                <div class="row">
+                  <div class="col s12">
+                    <div class="people-card-header-container">
+                      <h5>Our Team | <a href="/team/">See all</a></h5>
+                    </div>
+                    <div class="people-card-container"></div>
+                    <div class="people-alumni-header-container">
+                      <span class="people-alumni-header">Alumni</span>
+                    </div>
+                    <div class="people-alumni-container"></div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <!-- DIVIDER -->
-            <div class="divider"></div>
+            <div class="divider overview-divider"></div>
 
-            <!-- PEOPLE -->
-            <div id="people-container"></div>
-          </div>
-
-          <!-- RIGHT COLUMN -->
-          <div class="col s12 m4 l3">
-            <!-- NEWS -->
-            <div id="news-container">
-              <div class="row">
-                <div class="col s12">
-                  <h5>Recent News</h5>
-                  <div class="news-item-container"></div>
+            <div class="col s12 m4 l3">
+              <div class="news-container">
+                <div class="row">
+                  <div class="col s12">
+                    <h5>Recent News</h5>
+                    <div class="news-item-container"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -97,35 +98,79 @@
 
         <div class="divider"></div>
 
-        <!-- RESEARCH -->
-        <div class="row">
-          <!-- PROJECTS -->
-          <div class="col s12 m6">
-            <div id="projects-container"></div>
+        <div class="research-container">
+          <div class="projects-container">
+            <div class="row">
+              <div class="col s12">
+                <h5>Projects | <a href="/projects/">See all</a></h5>
+                <div class="projects-card-container"></div>
+              </div>
+            </div>
           </div>
-
-          <!-- PUBLICATIONS -->
-          <div class="col s12 m6">
-            <div id="publications-container"></div>
+          <div class="publications-container">
+            <div class="row">
+              <div class="col s12">
+                <h5>Publications | <a href="/publications/">See all</a></h5>
+                <div class="publications-elem-container"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- FOOTER -->
+      <div id="page-footer" class="footer-container"></div>
+
+      <!-- SCRIPTS -->
+      <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
+      <script type="text/javascript" src="/scripts/main.js"></script>
+      <script type="text/javascript">
+        setTimeout(function () {
+          $(".home-nav-link, .team-nav-link, .projects-nav-link, .publications-nav-link").removeClass("active");
+          $(".home-nav-link").addClass("active");
+        }, 50);
+      </script>
     </div>
 
-    <!-- FOOTER -->
-    <footer id="footer" class="page-footer">
-      <div id="footer-container"></div>
-    </footer>
+    <noscript>
+      <style type="text/css">
+        .page-container {
+          display: none;
+        }
 
-    <!--  Scripts-->
-    <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
-    <script type="text/javascript">
-      setTimeout(function () {
-        $("#home-nav-link, #team-nav-link, #projects-nav-link, #publications-nav-link").removeClass("active");
-        $("#home-nav-link").addClass("active");
-      }, 50);
-    </script>
+        .no-script-container {
+          margin: 0;
+          padding: 2rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%, -50%);
+          border-radius: 4px;
+          background-color: rgba(255 255 255 / 90%);
+        }
+
+        .no-script-msg {
+          margin: 0;
+          margin-bottom: 2rem;
+        }
+
+        .no-script-footer {
+          margin: 0;
+        }
+      </style>
+      <div class="no-script-container">
+        <h3 class="no-script-msg">The Georgia Tech Visual Analytics Lab site requires Javascript to be enabled!</h3>
+        <h6>Copyright &copy; 2022</h6>
+        <a href="https://vis.gatech.edu/" target="_blank">Georgia Tech Visualization Lab</a>
+        <br />
+        <a href="https://www.ic.gatech.edu/" target="_blank">School of Interactive Computing</a>
+        <br />
+        <a href="https://www.cc.gatech.edu/" target="_blank">College of Computing</a>
+        <br />
+        <a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
+      </div>
+    </noscript>
   </body>
 </html>

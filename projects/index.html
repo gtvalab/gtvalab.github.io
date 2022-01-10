@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- META -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <meta name="author" content="" />
@@ -13,44 +12,86 @@
       name="keywords"
       content="visual analytics,georgia tech,interactive computing,sensemaking,research lab,information visualization,infovis,infoviz,data science,machine learning,va lab,gt va lab,semantic interaction,visualiztaion by demonstration,visual analytics by demonstration,by demonstration"
     />
-    <!-- TITLE -->
     <title>Georgia Tech Visual Analytics Lab</title>
-    <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-32x32.png" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-    <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="/vendors/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/styles/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   </head>
 
   <body>
-    <!-- NAVIGATION -->
-    <div id="navigation-container"></div>
+    <div class="page-container">
+      <!-- NAVIGATION -->
+      <div id="page-navigation" class="navigation-container"></div>
 
-    <!-- PAGE CONTENT -->
-    <div id="page-content" class="container">
-      <div class="section">
-        <div id="projects-container"></div>
+      <!-- CONTENT -->
+      <div id="page-content" class="container page-content-container">
+        <div class="projects-container">
+          <div class="row">
+            <div class="col s12">
+              <h5>Projects</h5>
+              <div class="projects-card-container"></div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- FOOTER -->
+      <div id="page-footer" class="footer-container"></div>
+
+      <!-- SCRIPTS -->
+      <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
+      <script type="text/javascript" src="/scripts/main.js"></script>
+      <script type="text/javascript">
+        setTimeout(function () {
+          $(".home-nav-link, .team-nav-link, .projects-nav-link, .publications-nav-link").removeClass("active");
+          $(".projects-nav-link").addClass("active");
+        }, 50);
+      </script>
     </div>
 
-    <!-- FOOTER -->
-    <footer id="footer" class="page-footer">
-      <div id="footer-container"></div>
-    </footer>
+    <noscript>
+      <style type="text/css">
+        .page-container {
+          display: none;
+        }
 
-    <!--  Scripts-->
-    <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
-    <script type="text/javascript">
-      setTimeout(function () {
-        $("#home-nav-link, #team-nav-link, #projects-nav-link, #publications-nav-link").removeClass("active");
-        $("#projects-nav-link").addClass("active");
-      }, 50);
-    </script>
+        .no-script-container {
+          margin: 0;
+          padding: 2rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%, -50%);
+          border-radius: 4px;
+          background-color: rgba(255 255 255 / 90%);
+        }
+
+        .no-script-msg {
+          margin: 0;
+          margin-bottom: 2rem;
+        }
+
+        .no-script-footer {
+          margin: 0;
+        }
+      </style>
+      <div class="no-script-container">
+        <h3 class="no-script-msg">The Georgia Tech Visual Analytics Lab site requires Javascript to be enabled!</h3>
+        <h6>Copyright &copy; 2022</h6>
+        <a href="https://vis.gatech.edu/" target="_blank">Georgia Tech Visualization Lab</a>
+        <br />
+        <a href="https://www.ic.gatech.edu/" target="_blank">School of Interactive Computing</a>
+        <br />
+        <a href="https://www.cc.gatech.edu/" target="_blank">College of Computing</a>
+        <br />
+        <a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
+      </div>
+    </noscript>
   </body>
 </html>
