@@ -8,6 +8,9 @@ body {
   background-color: #a4925a;
   position: relative;
 }
+#nav a:hover {
+  text-decoration: none;
+}
 #nav ul li.active {
   background-color: rgba(0 0 0 / 0%);
 }
@@ -349,7 +352,20 @@ body {
   line-height: 2rem;
   vertical-align: top;
 }
+.publication-container {
+  background: white;
+  border: 12px solid white;
+  border-radius: 12px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+@media only screen and (min-width: 601px) {
+  .publication-container {
+    display: flex;
+  }
+}
 .publication-img-container {
+  display: flex;
+  align-items: center;
   padding-right: 0 !important;
 }
 .publication-img {
@@ -433,6 +449,9 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 /* OTHER */
+a:hover {
+  text-decoration: underline;
+}
 .icon-block {
   padding: 0 15px;
 }

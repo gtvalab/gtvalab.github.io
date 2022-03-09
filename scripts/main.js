@@ -557,7 +557,7 @@ function createPublicationsElements(data) {
       `;
 
       items.push(`
-        <div class="row">
+        <div class="row publication-container">
           <div class="col s12 m4 l3 publication-img-container">
             ${elemImage}
           </div>
