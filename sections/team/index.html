@@ -29,90 +29,17 @@
 
       <!-- CONTENT -->
       <div id="page-content" class="container page-content-container">
-        <div id="gallery" class="gallery-container">
-          <div class="carousel carousel-slider center"></div>
-        </div>
-
-        <h4 id="header" class="header-text">
-          <b>We are the Georgia Tech Visual Analytics Lab.</b>
-          <img class="header-logo" src="/assets/favicon/android-chrome-512x512.png" />
-        </h4>
-
-        <div id="overview" class="overview-container">
+        <div id="team" class="people-container">
           <div class="row">
-            <div class="col s12 m8 l9">
-              <div id="about" class="about-container">
-                <div class="row">
-                  <div class="col s12 about-text">
-                    <h5>Our Mission</h5>
-                    <div class="description-container">
-                      <p>
-                        The goal of our research is to develop interactive visual analytic applications that
-                        <b>help people make sense of data.</b>
-                        We approach this challenge through combining scientific techniques from:
-                      </p>
-                      <ul>
-                        <li>information visualization,</li>
-                        <li>machine learning,</li>
-                        <li>data mining,</li>
-                        <li>and human-computer interaction</li>
-                      </ul>
-                      <p>to produce usable and powerful <b>visual analytics applications.</b></p>
-                    </div>
-                  </div>
-                </div>
+            <div class="col s12">
+              <div class="people-card-header-container">
+                <h5>Our Team</h5>
               </div>
-
-              <div class="divider"></div>
-
-              <div id="team" class="people-container">
-                <div class="row">
-                  <div class="col s12">
-                    <div class="people-card-header-container">
-                      <h5>Our Team | <a href="/sections/team/">See all</a></h5>
-                    </div>
-                    <div class="people-card-container"></div>
-                    <div class="people-alumni-header-container">
-                      <span class="people-alumni-header">Alumni</span>
-                    </div>
-                    <div class="people-alumni-container"></div>
-                  </div>
-                </div>
+              <div class="people-card-container"></div>
+              <div class="people-alumni-header-container">
+                <span class="people-alumni-header">Alumni</span>
               </div>
-            </div>
-
-            <div class="divider overview-divider"></div>
-
-            <div class="col s12 m4 l3">
-              <div id="news" class="news-container">
-                <div class="row">
-                  <div class="col s12">
-                    <h5>Recent News</h5>
-                    <div class="news-item-container"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="divider"></div>
-
-        <div id="research" class="research-container">
-          <div id="projects" class="projects-container">
-            <div class="row">
-              <div class="col s12">
-                <h5>Projects | <a href="/sections/projects/">See all</a></h5>
-                <div class="projects-card-container"></div>
-              </div>
-            </div>
-          </div>
-          <div id="publications" class="publications-container">
-            <div class="row">
-              <div class="col s12">
-                <h5>Publications | <a href="/sections/publications/">See all</a></h5>
-                <div class="publications-elem-container"></div>
-              </div>
+              <div class="people-alumni-container"></div>
             </div>
           </div>
         </div>
@@ -128,7 +55,7 @@
       <script type="text/javascript">
         setTimeout(function () {
           $(".home-nav-link, .team-nav-link, .projects-nav-link, .publications-nav-link").removeClass("active");
-          $(".home-nav-link").addClass("active");
+          $(".team-nav-link").addClass("active");
         }, 50);
       </script>
     </div>

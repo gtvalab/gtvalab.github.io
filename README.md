@@ -2,6 +2,8 @@
 
 Website for the Georgia Tech Visual Analytics Lab, deployed at <https://gtvalab.github.io/>
 
+Last updated: April 2022
+
 ## Setup and run
 
 - Start a local server, e.g., using Python (`python -m http.server`)
@@ -11,16 +13,20 @@ Website for the Georgia Tech Visual Analytics Lab, deployed at <https://gtvalab.
 
 To add/modify/remove content:
 
-1. Navigate to the [/includes](includes) folder.
-2. Open the [README](includes/README.md) file.
+1. Navigate to the [/data](data) folder.
+2. Open the [README](data/README.md) file.
 
-- For **news**, see [news.html](includes/news.html)
+- To add/modify/remove **gallery** images, see [gallery.json](data/gallery.json)
 
-- For **people**, see [people.html](includes/people.html)
+- To add/modify/remove **news**, see [news.json](data/news.json)
 
-- For **projects**, see [projects.html](includes/projects.html)
+- To add/modify/remove **projects**, see [projects.json](data/projects.json) and [/projects](sections/projects/README.md)
 
-- For **publications**, see [publications.html](includes/publications.html)
+- To add/modify/remove **publications**, see [publications.json](data/publications.json)
+
+- To add/modify/remove **current people**, see [currentPeople.json](data/currentPeople.json)
+
+- To add/modify/remove **alumni**, see [alumni.json](data/alumni.json)
 
 ## Steps to make edits
 

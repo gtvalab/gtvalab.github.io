@@ -84,7 +84,55 @@ if ($(".publications-container").length) {
 // load the footer
 $(".footer-container").load("/includes/footer.html");
 
+// set smooth scroll on all <a> elements after 1 second
+setTimeout(() => {
+  // URL updates and the element focus is maintained
+  // originally found via in Update 3 on http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+  var locationPath = filterPath(location.pathname);
+  $('a[href*="#"]').each(function () {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    var hash = this.hash;
+    if (hash.replace(/#/, "").length && $("#" + hash.replace(/#/, "")).length) {
+      if (
+        locationPath == thisPath &&
+        (location.hostname == this.hostname || !this.hostname) &&
+        this.hash.replace(/#/, "")
+      ) {
+        var $target = $(hash),
+          target = this.hash;
+        if (target) {
+          $(this).click(function (event) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: $target.offset().top - 64 }, 1000, function () {
+              location.hash = target;
+              $target.focus();
+              if ($target.is(":focus")) {
+                //checking if the target was focused
+                return false;
+              } else {
+                $target.attr("tabindex", "-1"); //Adding tabindex for elements not focusable
+                $target.focus(); //Setting focus
+              }
+            });
+          });
+        }
+      }
+    }
+  });
+}, 1000);
+
 /* ============================ HELPERS ==================================== */
+
+/**
+ * filter handling for a /dir/ OR /indexordefault.page
+ * See: https://css-tricks.com/smooth-scrolling-accessibility/
+ */
+function filterPath(string) {
+  return string
+    .replace(/^\//, "")
+    .replace(/(index|default).[a-zA-Z]{3,4}$/, "")
+    .replace(/\/$/, "");
+}
 
 /**
  * Callback when carousel cycles to the next item.
@@ -309,6 +357,7 @@ function createCurrentPeopleElements(data) {
       emailAction = `
         <a href="mailto:${p.email}" target="_blank">
           <i class="material-icons">email</i>
+          <span>Email</span>
         </a>
       `;
     } else {
@@ -318,6 +367,7 @@ function createCurrentPeopleElements(data) {
       linkedinAction = `
         <a href="${p.linkedinURL}" target="_blank">
           <img src="/assets/icons/linkedin.png" alt="LinkedIn Logo" />
+          <span>LinkedIn</span>
         </a>
       `;
     } else {
@@ -327,6 +377,7 @@ function createCurrentPeopleElements(data) {
       twitterAction = `
         <a href="${p.twitterURL}" target="_blank">
           <img src="/assets/icons/twitter.svg" alt="Twitter Logo" />
+          <span>Twitter</span>
         </a>
       `;
     } else {
@@ -336,6 +387,7 @@ function createCurrentPeopleElements(data) {
       googlescholarAction = `
         <a href="${p.googlescholarURL}" target="_blank">
           <img src="/assets/icons/Google_Scholar_logo.svg" alt="Google Scholar Logo" />
+          <span>Scholar</span>
         </a>
       `;
     } else {

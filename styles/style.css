@@ -1,11 +1,14 @@
-/* BODY */
+/* GENERAL */
 body {
   background: center / cover no-repeat fixed url("/assets/images/techsquare.png");
+}
+a:hover {
+  text-decoration: underline;
 }
 
 /* NAVIGATION */
 #nav {
-  background-color: #a4925a;
+  background: linear-gradient(to right, #a4925a 0%, #b3a369 100%) !important;
   position: relative;
 }
 #nav a:hover {
@@ -30,6 +33,10 @@ body {
 #nav ul li a:hover {
   background-color: unset;
   border-bottom-color: #f0b310;
+}
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
 }
 .brand-logo {
   display: flex !important;
@@ -77,17 +84,25 @@ body {
   top: 8px;
   left: 8px;
 }
+.sidenav .user-view .name {
+  padding-bottom: 16px;
+  font-size: 24px;
+  text-shadow: 1px 1px 3px #000000;
+}
 
 /* PAGE CONTENT */
+.page-container {
+  scroll-behavior: smooth;
+}
 .page-content-container {
-  padding: 12px 36px;
+  padding: 76px 12px 12px 12px;
   min-height: calc(100vh - 64px);
   background: rgba(255 255 255 / 90%);
   box-shadow: 0 0 4px 4px rgb(255 255 255 / 90%);
 }
 @media only screen and (max-width: 601px) {
   .page-content-container {
-    padding: 12px;
+    padding: 64px 12px 12px 12px;
   }
 }
 
@@ -131,6 +146,9 @@ body {
 }
 
 /* HEADER */
+.header-text {
+  padding: 0 0.75rem;
+}
 @media only screen and (max-width: 601px) {
   .header-text {
     text-align: center;
@@ -229,7 +247,6 @@ body {
   flex-grow: 1;
 }
 .people-card .card-action {
-  text-align: center;
   padding: 12px;
 }
 .people-card-name {
@@ -247,8 +264,14 @@ body {
   font-size: 9pt;
 }
 .people-card .card-action a {
-  margin-right: 4px !important;
+  display: inline-block;
   color: #eaaa00 !important;
+}
+.people-card .card-action span {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: underline transparent;
 }
 .people-card .card-action i {
   font-size: 18px;
@@ -258,6 +281,12 @@ body {
   width: 18px;
 }
 @media only screen and (max-width: 601px) {
+  .people-card .card-action {
+    padding: 10px;
+  }
+  .people-card .card-action span {
+    font-size: 13px;
+  }
   .people-card .card-action i {
     font-size: 14px;
   }
@@ -292,6 +321,10 @@ body {
 .project-card {
   max-width: 256px;
   margin: 12px 8px;
+  border: solid 1px transparent;
+}
+.project-card:hover {
+  border: solid 1px #000;
 }
 @media only screen and (max-width: 601px) {
   .project-card {
@@ -304,6 +337,7 @@ body {
   object-fit: contain;
   width: 256px !important;
   height: 192px !important;
+  border-bottom: solid 1px #ccc;
 }
 @media only screen and (max-width: 601px) {
   .project-card-img {
@@ -352,11 +386,18 @@ body {
   line-height: 2rem;
   vertical-align: top;
 }
+.publications-elem-container {
+  padding: 0 12px;
+}
 .publication-container {
   background: white;
-  border: 12px solid white;
+  padding: 12px;
+  border: solid 1px transparent;
   border-radius: 12px;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.publication-container:hover {
+  border: solid 1px #000;
 }
 @media only screen and (min-width: 601px) {
   .publication-container {
@@ -372,6 +413,13 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+@media only screen and (max-width: 601px) {
+  .publication-img-container {
+    padding-bottom: 12px !important;
+    margin-bottom: 12px !important;
+    border-bottom: solid 1px #ccc;
+  }
 }
 @media only screen and (min-width: 601px) {
   .publication-img {
@@ -429,29 +477,24 @@ body {
 }
 
 /* SCROLLBAR */
-body::-webkit-scrollbar {
-  width: auto;
+*::-webkit-scrollbar {
+  width: 16px;
 }
-body::-webkit-scrollbar-track {
-  border-radius: 2px;
-  background-color: #eee;
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
 }
-body::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  border: 2px #eee solid;
-  background-color: #bbb;
+*::-webkit-scrollbar-thumb {
+  height: 56px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: #6a6a6a;
 }
-body::-webkit-scrollbar-thumb:hover {
-  background-color: #aaa;
-}
-body::-webkit-scrollbar-thumb:active {
-  background-color: #888;
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #a6a6a6;
 }
 
 /* OTHER */
-a:hover {
-  text-decoration: underline;
-}
 .icon-block {
   padding: 0 15px;
 }

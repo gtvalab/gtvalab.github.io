@@ -41,7 +41,7 @@
           },
           {
             "text": "Website",
-            "link": "/projects/legion.html"
+            "link": "/sections/projects/legion.html"
           }
         ]
       },
@@ -57,7 +57,7 @@
           },
           {
             "text": "Website",
-            "link": "/projects/cava.html"
+            "link": "/sections/projects/cava.html"
           }
         ]
       },
@@ -77,7 +77,7 @@
           },
           {
             "text": "Website",
-            "link": "/projects/geonocluster.html"
+            "link": "/sections/projects/geonocluster.html"
           }
         ]
       },
@@ -97,7 +97,7 @@
           },
           {
             "text": "Website",
-            "link": "/projects/gaggle.html"
+            "link": "/sections/projects/gaggle.html"
           }
         ]
       },
@@ -117,7 +117,7 @@
           },
           {
             "text": "Website",
-            "link": "/projects/questo.html"
+            "link": "/sections/projects/questo.html"
           }
         ]
       }
@@ -262,6 +262,18 @@
           {
             "text": "PDF",
             "link": "/assets/files/Beames_final_version.pdf"
+          }
+        ]
+      },
+      {
+        "title": "A User-based Visual Analytics Workflow for Exploratory Model Analysis",
+        "authors": "Dylan Cashman, Shah Rukh Humayoun, Florian Heimer, Kendall Park, Subhajit Das, John Thompson, Bahador Saket, Abigail Mosca, John Stasko, Alex Endert, Michael Gleicher, and Remco Chang",
+        "venue": "Eurographics Conference on Visualization (EuroVis) 2019",
+        "image": "darpa_main.PNG",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "http://www.cs.tufts.edu/~remco/publications/2019/EuroVis2019-Snowcat.pdf"
           }
         ]
       }
