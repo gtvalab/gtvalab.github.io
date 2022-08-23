@@ -29,7 +29,7 @@
         "title": "LEGION: Visually compare modeling techniques for regression",
         "authors": "Subhajit Das, and Alex Endert",
         "venue": "IEEEVIS, Visualization in Data Science (VDS) 2020",
-        "image": "legion_1.PNG",
+        "image": "legion_1.png",
         "actions": [
           {
             "text": "PDF",
@@ -49,7 +49,7 @@
         "title": "CAVA: A Visual Analytics System for Exploratory Columnar Data Augmentation Using Knowledge Graphs",
         "authors": "Dylan Cashman, Shenyu Xu, Subhajit Das, Florian Heimerl, Cong Liu, Shah Rukh Humayoun, Michael Gleicher, Alex Endert, and Remco Chang",
         "venue": "IEEE TVCG 2021, In IEEE VAST 2020",
-        "image": "cava_1.PNG",
+        "image": "cava_1.png",
         "actions": [
           {
             "text": "PDF",
@@ -65,7 +65,7 @@
         "title": "Geono-Cluster: Interactive Visual Cluster Analysis for Biologists",
         "authors": "Subhajit Das*, Bahador Saket*, Bum Chul Kwon, and Alex Endert",
         "venue": "IEEE TVCG 2021",
-        "image": "geono_2.PNG",
+        "image": "geono_2.png",
         "actions": [
           {
             "text": "PDF",
@@ -257,7 +257,7 @@
         "title": "BEAMES: Interactive Multi-Model Steering, Selection, and Inspection for Regression Tasks",
         "authors": "Subhajit Das, Dylan Cashman, Remco Chang, and Alex Endert",
         "venue": "IEEE Computer Graphics and Applications (CGA), 2019",
-        "image": "beames_main.PNG",
+        "image": "beames_main.png",
         "actions": [
           {
             "text": "PDF",
@@ -269,7 +269,7 @@
         "title": "A User-based Visual Analytics Workflow for Exploratory Model Analysis",
         "authors": "Dylan Cashman, Shah Rukh Humayoun, Florian Heimer, Kendall Park, Subhajit Das, John Thompson, Bahador Saket, Abigail Mosca, John Stasko, Alex Endert, Michael Gleicher, and Remco Chang",
         "venue": "Eurographics Conference on Visualization (EuroVis) 2019",
-        "image": "darpa_main.PNG",
+        "image": "darpa_main.png",
         "actions": [
           {
             "text": "PDF",
