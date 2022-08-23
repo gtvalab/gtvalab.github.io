@@ -141,7 +141,7 @@
   },
   {
     "title": "Data Driven Discovery of Models (d3m)",
-    "image": "darpa_cover.PNG",
+    "image": "darpa_cover.png",
     "pageLink": "/projects/darpa_d3m.html",
     "text": "This project addresses the task of automating the data analysis pipeline by aiding users in selecting complex model pipelines through data-driven automated processes. With our proposed system, a subject matter expert (SME) with little or no background in data science will still be able to perform complex data analysis without understanding the mathematics behind the analysis.",
     "related": [
