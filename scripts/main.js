@@ -10,7 +10,7 @@ var sidenavInstance = null;
 var carouselInstance = null;
 
 // load navigation and sidenav
-$(".navigation-container").load("/_includes/navigation.html", function () {
+$(".navigation-container").load("/includes/navigation.html", function () {
   // initialize materialize sidenav component instance
   sidenavInstance = M.Sidenav.init($(".sidenav"), {})[0];
 });
@@ -82,7 +82,7 @@ if ($(".publications-container").length) {
 }
 
 // load the footer
-$(".footer-container").load("/_includes/footer.html");
+$(".footer-container").load("/includes/footer.html");
 
 // set smooth scroll on all <a> elements after 1 second
 setTimeout(() => {
