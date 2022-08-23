@@ -32,30 +32,37 @@
         <div class="row">
           <div class="col s12">
             <!-- Project Title -->
-            <h2>Geono-Cluster: Interactive Visual Cluster Analysis for Biologists</h2>
+            <h2>QUESTO: Interactive Construction of Objective Functions for Classification Tasks</h2>
 
             <!-- Teaser -->
             <div>
-              <img src="/assets/images/geono_1.PNG" width="100%" />
+              <img src="/assets/images/questo_2.PNG" width="100%" />
             </div>
 
             <!-- Summary -->
             <h5>SUMMARY</h5>
             <p>
-              Biologists often perform clustering analysis to derive meaningful patterns, relationships, and structures
-              from data instances and attributes. Though clustering plays a pivotal role in biologists' data
-              exploration, it takes non-trivial efforts for biologists to find the best grouping in their data using
-              existing tools. Visual cluster analysis is currently performed either programmatically or through menus
-              and dialogues in many tools, which require parameter adjustments over several steps of trial-and-error. In
-              this paper, we introduce Geono-Cluster, a novel visual analysis tool designed to support cluster analysis
-              for biologists who do not have formal data science training. Geono-Cluster enables biologists to apply
-              their domain expertise into clustering results by visually demonstrating how their expected clustering
-              outputs should look like with a small sample of data instances. The system then predicts users' intentions
-              and generates potential clustering results. Our study follows the design study protocol to derive
-              biologists' tasks and requirements, design the system, and evaluate the system with experts on their own
-              dataset. Results of our study with six biologists provide initial evidence that Geono-Cluster enables
-              biologists to create, refine, and evaluate clustering results to effectively analyze their data and gain
-              data-driven insights. At the end, we discuss lessons learned and implications of our study.
+              Building effective classifiers requires providing the modeling algorithms with information about the
+              training data and modeling goals in order to create a model that makes proper tradeoffs. Machine learning
+              algorithms allow for flexible specification of such meta-information through the design of the objective
+              functions that they solve. However, such objective functions are hard for users to specify as they are a
+              specific mathematical formulation of their intents. We present an approach that allows users to generate
+              objective functions for classification problems through an interactive visual interface. Our approach
+              adopts a semantic interaction design in that user interactions over data elements in the visualization are
+              translated into objective function terms. The generated objective functions are solved by a machine
+              learning solver that provides candidate models, which can be inspected by the user, and used to suggest
+              refinements to the specifications.
+            </p>
+            <p>
+              Our visual analytic (VA) system called QUESTO translates user interactions with data into objective
+              functions for classification. QUESTO facilitates interactive construction of a classifier by allowing
+              users to formulate their preferences as an objective function while they explore and interact with a
+              tabular dataset. QUESTO visualizes the underlying objective function to help users understand their
+              specified goals and constraints. Furthermore, through iterative interactions with the data, the user can
+              refine the specified constraints and the objective function to find a model that correctly characterises
+              the data. The resulting user-defined multi-objective objective function can be used with Auto-ML
+              optimizers (such as Hyperopt) to guide and facilitate the construction of classification models, with the
+              advantage of users being able to specify domain-specific constraints and objectives.
             </p>
 
             <!-- Publications -->
@@ -63,31 +70,31 @@
             <div class="publications-elem-container">
               <div class="row publication-container">
                 <div class="col s12 m4 l3 publication-img-container">
-                  <img src="/assets/images/geono_2.PNG" class="publication-img" />
+                  <img src="/assets/images/questo_1.png" class="publication-img" />
                 </div>
                 <div class="col 12 m8 l9">
                   <p class="publication-content">
                     <span class="publication-title">
-                      Geono-Cluster: Interactive Visual Cluster Analysis for Biologists
+                      QUESTO: Interactive Construction of Objective Functions for Classification Tasks
                     </span>
                     <br />
                     <span class="publication-authors">
-                      Subhajit Das*, Bahador Saket*, Bum Chul Kwon, and Alex Endert
+                      Subhajit Das, Shenyu Xu, Michael Gleicher, Remco Chang, and Alex Endert
                     </span>
                     <br />
-                    <span class="publication-venue">IEEE TVCG 2021</span>
+                    <span class="publication-venue">Eurographics Conference on Visualization (EuroVis) 2020</span>
                   </p>
                   <p class="publication-actions">
                     <span class="publication-action">
-                      <a href="/assets/files/geonocluster.pdf" target="_blank">PDF</a>
+                      <a href="/assets/files/Questo_cr.pdf" target="_blank">PDF</a>
                     </span>
                     <span>&nbsp;|&nbsp;</span>
                     <span class="publication-action">
-                      <a href="https://youtu.be/BNDMXFtmrqY" target="_blank">Video</a>
+                      <a href="https://streamable.com/hm2fl1" target="_blank">Video</a>
                     </span>
                     <span>&nbsp;|&nbsp;</span>
                     <span class="publication-action">
-                      <a href="/sections/projects/geonocluster.html" target="_blank">Website</a>
+                      <a href="/projects/questo.html" target="_blank">Website</a>
                     </span>
                   </p>
                 </div>

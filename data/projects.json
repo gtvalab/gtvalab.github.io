@@ -3,54 +3,152 @@
     "title": "Visual Analytics for Automobile Systems Engineering",
     "image": "pathping.png",
     "pageLink": "",
-    "text": "Automotive Safety Engineering data comprises several heterogenous datasets - Requirements, Failure Mode Effect Analysis, Functional Safety, Tests, etc. Using these datasets, this project builds interactive visual analytics systems to help answer specific questions as well as allow exploratory data analysis with an aim to enable better decision making and eventually safer cars!"
+    "text": "Automotive Safety Engineering data comprises several heterogenous datasets - Requirements, Failure Mode Effect Analysis, Functional Safety, Tests, etc. Using these datasets, this project builds interactive visual analytics systems to help answer specific questions as well as allow exploratory data analysis with an aim to enable better decision making and eventually safer cars!",
+    "related": [
+      {
+        "text": "SafetyLens: Visual Data Analysis of Functional Safety of Vehicles",
+        "link": "https://www.cc.gatech.edu/~anarechania3/docs/publications/safetylens_vis_2020.pdf"
+      }
+    ]
   },
   {
-    "title": "Geono-Cluster: Interactive Visual Cluster Analysis for Biologists",
+    "title": "Interactive Visual Cluster Analysis for Biologists",
     "image": "geono_1.png",
-    "pageLink": "/sections/projects/geonocluster.html",
-    "text": "In this paper, we introduce Geono-Cluster, a novel visual analysis tool designed to support cluster analysis for biologists who do not have formal data science training."
+    "pageLink": "/projects/geonocluster.html",
+    "text": "In this paper, we introduce Geono-Cluster, a novel visual analysis tool designed to support cluster analysis for biologists who do not have formal data science training.",
+    "related": [
+      {
+        "text": "Geono-Cluster: Interactive Visual Cluster Analysis for Biologists",
+        "link": "/assets/files/20-tvcg-geonocluster.pdf"
+      }
+    ]
   },
   {
-    "title": "CAVA: A Visual Analytics System for Exploratory Columnar Data Augmentation Using Knowledge Graphs",
+    "title": "Visual Analytics for Data Augmentation using Knowledge Graphs",
     "image": "cava_2.png",
-    "pageLink": "/sections/projects/cava.html",
-    "text": "In this paper, we present CAVA, a system that integrates data curation and data augmentation with the traditional data exploration and analysis tasks, enabling information foraging in-situ during analysis."
+    "pageLink": "/projects/cava.html",
+    "text": "In this paper, we present CAVA, a system that integrates data curation and data augmentation with the traditional data exploration and analysis tasks, enabling information foraging in-situ during analysis.",
+    "related": [
+      {
+        "text": "CAVA: A Visual Analytics System for Exploratory Columnar Data Augmentation Using Knowledge Graphs",
+        "link": "/assets/files/20-vis-cava.pdf"
+      }
+    ]
   },
   {
-    "title": "LEGION: Visually compare modeling techniques for regression",
+    "title": "Visually Comparing Modeling Techniques for Regression",
     "image": "legion_2.png",
-    "pageLink": "/sections/projects/legion.html",
-    "text": "This paper aims to solve the problem of how to construct models and how to select a preferred modeling strategy by allowing users to compare the differences and similarities between multiple regression models, and then learn not only about the model but also about their data."
+    "pageLink": "/projects/legion.html",
+    "text": "This paper aims to solve the problem of how to construct models and how to select a preferred modeling strategy by allowing users to compare the differences and similarities between multiple regression models, and then learn not only about the model but also about their data.",
+    "related": [
+      {
+        "text": "LEGION: Visually compare modeling techniques for regression",
+        "link": "/assets/files/20-vds-legion.pdf"
+      }
+    ]
   },
   {
-    "title": "QUESTO: Interactive Construction of Objective Functions for Classification Tasks",
+    "title": "Interactive Construction of Objective Functions for Classification Tasks",
     "image": "questo_1.png",
-    "pageLink": "/sections/projects/questo.html",
-    "text": "QUESTO presents an approach that allows users to generate objective functions for classification problems through an interactive visual interface. Our approach adopts a semantic interaction design in that user interactions over data elements in the visualization are translated into objective function terms. The generated objective functions are solved by a machine learning solver that provides candidate models, which can be inspected by the user, and used to suggest refinements to the specifications."
+    "pageLink": "/projects/questo.html",
+    "text": "QUESTO presents an approach that allows users to generate objective functions for classification problems through an interactive visual interface. Our approach adopts a semantic interaction design in that user interactions over data elements in the visualization are translated into objective function terms. The generated objective functions are solved by a machine learning solver that provides candidate models, which can be inspected by the user, and used to suggest refinements to the specifications.",
+    "related": [
+      {
+        "text": "QUESTO: Interactive Construction of Objective Functions for Classification Tasks",
+        "link": "/assets/files/Questo_cr.pdf"
+      }
+    ]
   },
   {
-    "title": "Gaggle: Visual Analytics for Model Space Navigation",
+    "title": "Visual Analytics for Model Space Navigation",
     "image": "model_steer_rank_chain.png",
-    "pageLink": "/sections/projects/gaggle.html",
-    "text": "Gaggle is a multi-model visual analytic system that enables users to interactively navigate the vast space of classification and ranking models. It translates user interactions into inferences, then simplifies work- ing with multiple machine learning models by automatically finding the best model from this high-dimensional model space to support various user tasks."
+    "pageLink": "/projects/gaggle.html",
+    "text": "Gaggle is a multi-model visual analytic system that enables users to interactively navigate the vast space of classification and ranking models. It translates user interactions into inferences, then simplifies work- ing with multiple machine learning models by automatically finding the best model from this high-dimensional model space to support various user tasks.",
+    "related": [
+      {
+        "text": "Gaggle: Visual Analytics for Model Space Navigation",
+        "link": "https://openreview.net/pdf?id=KyMw0p9rWL"
+      }
+    ]
   },
   {
     "title": "Visual Analytics by Demonstration for Interactive Data Analysis",
     "image": "change-cluster.png",
-    "pageLink": "/sections/projects/vabydemo.html",
-    "text": "User interaction for visualization that lets people demonstrate intended visual mappings, data transformations, visual representations, and analytic methods to explore data. Visual Analytics by Demonstration translates higher-level domain and data questions of people into appropriate visualization and analytic operations."
+    "pageLink": "/projects/vabydemo.html",
+    "text": "User interaction for visualization that lets people demonstrate intended visual mappings, data transformations, visual representations, and analytic methods to explore data. Visual Analytics by Demonstration translates higher-level domain and data questions of people into appropriate visualization and analytic operations.",
+    "related": [
+      {
+        "text": "Demonstrational Interaction for Data Visualization",
+        "link": "https://faculty.cc.gatech.edu/~aendert3/resources/Saket2019CGADemonstration.pdf"
+      },
+      {
+        "text": "Investigating Direct Manipulation of Graphical Encodings as a Method for User Interaction",
+        "link": "https://www.researchgate.net/profile/Samuel-Huron/publication/335353438_Investigating_Direct_Manipulation_of_Graphical_Encodings_as_a_Method_for_User_Interaction/links/5e2862c392851c3aadd20a3c/Investigating-Direct-Manipulation-of-Graphical-Encodings-as-a-Method-for-User-Interaction.pdf"
+      },
+      {
+        "text": "Investigating the Manual View Specification and Visualization by Demonstration Paradigms for Visualization Construction",
+        "link": "https://faculty.cc.gatech.edu/~aendert3/resources/Saket2019Demonstration.pdf"
+      },
+      {
+        "text": "TexTonic: Interactive Visualization for Exploration and Discovery of Very Large Text Collections",
+        "link": "https://faculty.cc.gatech.edu/~aendert3/resources/Paul2018TexTonic.pdf"
+      },
+      {
+        "text": "Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization",
+        "link": "http://arjun010.github.io/static/papers/graphiti-vast17.pdf"
+      },
+      {
+        "text": "Evaluating Interactive Graphical Encodings for Data Visualization",
+        "link": "http://arjun010.github.io/static/papers/interactive-encodings.pdf"
+      },
+      {
+        "text": "Visualization by Demonstration: An Interaction Paradigm for Visual Data Exploration",
+        "link": "https://ieeexplore.ieee.org/abstract/document/7539327"
+      }
+    ]
   },
   {
     "title": "Detecting and Mitigating Biased Visual Analysis Strategies",
     "image": "bias-loop.png",
-    "pageLink": "/sections/projects/bias.html",
-    "text": "People are critical to human-in-the-loop visual analytics. Systems learn important domain expertise from people, and combined with the visualization and computational strengths of VA, lead to impactful insights. However, we learn from the cognitive sciences that people can be biased. This projects explore how to build systems that detect and mitigate potentially biased strategies."
+    "pageLink": "/projects/bias.html",
+    "text": "People are critical to human-in-the-loop visual analytics. Systems learn important domain expertise from people, and combined with the visualization and computational strengths of VA, lead to impactful insights. However, we learn from the cognitive sciences that people can be biased. This projects explore how to build systems that detect and mitigate potentially biased strategies.",
+    "related": [
+      {
+        "text": "Toward a Design Space for Mitigating Cognitive Bias in Vis",
+        "link": "https://emilywall.github.io/media/papers/DesignSpaceVISSHORT2019.pdf"
+      },
+      {
+        "text": "A Markov Model of Users' Interactive Behavior in Scatterplots",
+        "link": "https://emilywall.github.io/media/papers/MarkovVISSHORT2019.pdf"
+      },
+      {
+        "text": "A Formative Study of Interactive Bias Metrics in Visual Analytics Using Anchoring Bias",
+        "link": "https://emilywall.github.io/media/papers/BiasINTERACT19.pdf"
+      },
+      {
+        "text": "Four Perspectives on Human Bias in Visual Analytics (book chapter)",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-319-95831-6_3"
+      },
+      {
+        "text": "Warning, Bias May Occur: A Proposed Approach to Detecting Cognitive Bias in Interactive Visual Analytics",
+        "link": "https://emilywall.github.io/media/papers/BiasVAST17.pdf"
+      },
+      {
+        "text": "Four Perspectives on Human Bias in Visual Analytics (workshop paper)",
+        "link": "https://emilywall.github.io/media/papers/BiasDECISIVe17.pdf"
+      }
+    ]
   },
   {
     "title": "Data Driven Discovery of Models (d3m)",
     "image": "darpa_cover.PNG",
-    "pageLink": "/sections/projects/darpa_d3m.html",
-    "text": "This project addresses the task of automating the data analysis pipeline by aiding users in selecting complex model pipelines through data-driven automated processes. With our proposed system, a subject matter expert (SME) with little or no background in data science will still be able to perform complex data analysis without understanding the mathematics behind the analysis."
+    "pageLink": "/projects/darpa_d3m.html",
+    "text": "This project addresses the task of automating the data analysis pipeline by aiding users in selecting complex model pipelines through data-driven automated processes. With our proposed system, a subject matter expert (SME) with little or no background in data science will still be able to perform complex data analysis without understanding the mathematics behind the analysis.",
+    "related": [
+      {
+        "text": "A User-based Visual Analytics Workflow for Exploratory Model Analysis",
+        "link": "http://www.cs.tufts.edu/~remco/publications/2019/EuroVis2019-Snowcat.pdf"
+      }
+    ]
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
-    "image": "adam.jpg",
-    "caption": "This is the first caption. Look how great it is! This caption is going to look so AWESOME!!"
+    "image": "techsquare.png",
+    "caption": "Our office is located in the Technology Square Research Building (TSRB), Atlanta GA."
   },
   {
-    "image": "alex-jpl.png",
-    "caption": "This is the second caption. Still pretty great, I must say."
+    "image": "2208-aloedonlonvisit-gracepresenting.jpg",
+    "caption": "Grace Guo presenting visual analytics work at a meeting of the NSF AI Institute for Adult Learning and Online Education (ALOE), August 2022."
   },
   {
-    "image": "axisketcher.png",
-    "caption": "This is the third caption. Bleh. Third. Gross."
+    "image": "2208-aloedonlonvisit-adampresenting.jpg",
+    "caption": "Adam Coscia presenting visual analytics work at a meeting of the NSF AI Institute for Adult Learning and Online Education (ALOE), August 2022."
   }
 ]

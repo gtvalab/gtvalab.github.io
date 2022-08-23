@@ -10,7 +10,7 @@ var sidenavInstance = null;
 var carouselInstance = null;
 
 // load navigation and sidenav
-$(".navigation-container").load("/includes/navigation.html", function () {
+$(".navigation-container").load("/_includes/navigation.html", function () {
   // initialize materialize sidenav component instance
   sidenavInstance = M.Sidenav.init($(".sidenav"), {})[0];
 });
@@ -82,7 +82,7 @@ if ($(".publications-container").length) {
 }
 
 // load the footer
-$(".footer-container").load("/includes/footer.html");
+$(".footer-container").load("/_includes/footer.html");
 
 // set smooth scroll on all <a> elements after 1 second
 setTimeout(() => {
@@ -206,7 +206,7 @@ function debounce(func, wait, immediate) {
  * ```
  * <div class="carousel-item">
  *   <div class="carousel-item-container">
- *     <img src="./assets/images/image.jpg" class="carousel-img" />
+ *     <img src="./assets/images/gallery/image.jpg" class="carousel-img" />
  *     <span class="carousel-caption">This is an awesome caption!</span>
  *   </div>
  * </div>
@@ -221,7 +221,7 @@ function createGalleryElements(data) {
     elem = `
       <div class="carousel-item">
         <div class="carousel-item-container">
-          <img src="./assets/images/${g.image}" class="carousel-img" />
+          <img src="./assets/images/gallery/${g.image}" class="carousel-img" />
           <span class="carousel-caption">${g.caption}</span>
         </div>
       </div>
@@ -279,7 +279,7 @@ function createNewsElements(data) {
  * <div class="card people-card">
  *   <div class="card-image">
  *     <a href="https://example.com" target="_blank">
- *       <img src="/assets/images/profile.jpeg" class="people-card-img" />
+ *       <img src="/assets/images/team/profile.jpeg" class="people-card-img" />
  *       <span class="card-title">firstName</span>
  *     </a>
  *   </div>
@@ -293,13 +293,13 @@ function createNewsElements(data) {
  *       <i class="material-icons">email</i>
  *     </a>
  *     <a href="https://www.linkedin.com/in/userName" target="_blank">
- *       <img src="/assets/icons/linkedin.png" alt="LinkedIn Logo" />
+ *       <img src="/assets/images/icons/linkedin.png" alt="LinkedIn Logo" />
  *     </a>
  *     <a href="https://twitter.com/userName" target="_blank">
- *       <img src="/assets/icons/twitter.svg" alt="Twitter Logo" />
+ *       <img src="/assets/images/icons/twitter.svg" alt="Twitter Logo" />
  *     </a>
  *     <a href="https://scholar.google.com/citations?user=abcdefg123456" target="_blank">
- *       <img src="/assets/icons/Google_Scholar_logo.svg" alt="Google Scholar Logo" />
+ *       <img src="/assets/images/icons/Google_Scholar_logo.svg" alt="Google Scholar Logo" />
  *     </a>
  *   </div>
  * </div>
@@ -319,7 +319,7 @@ function createCurrentPeopleElements(data) {
       cardImage = `
         <div class="card-image">
           <a href="${p.websiteURL}" target="_blank">
-            <img src="/assets/images/${p.image}" class="people-card-img" />
+            <img src="/assets/images/team/${p.image}" class="people-card-img" />
             <span class="card-title">${p.firstName}</span>
           </a>
         </div>
@@ -327,7 +327,7 @@ function createCurrentPeopleElements(data) {
     } else {
       cardImage = `
         <div class="card-image">
-          <img src="/assets/images/${p.image}" class="people-card-img" />
+          <img src="/assets/images/team/${p.image}" class="people-card-img" />
           <span class="card-title">${p.firstName}</span>
         </div>
       `;
@@ -366,7 +366,7 @@ function createCurrentPeopleElements(data) {
     if (p.linkedinURL) {
       linkedinAction = `
         <a href="${p.linkedinURL}" target="_blank">
-          <img src="/assets/icons/linkedin.png" alt="LinkedIn Logo" />
+          <img src="/assets/images/icons/linkedin.png" alt="LinkedIn Logo" />
           <span>LinkedIn</span>
         </a>
       `;
@@ -376,7 +376,7 @@ function createCurrentPeopleElements(data) {
     if (p.twitterURL) {
       twitterAction = `
         <a href="${p.twitterURL}" target="_blank">
-          <img src="/assets/icons/twitter.svg" alt="Twitter Logo" />
+          <img src="/assets/images/icons/twitter.svg" alt="Twitter Logo" />
           <span>Twitter</span>
         </a>
       `;
@@ -386,7 +386,7 @@ function createCurrentPeopleElements(data) {
     if (p.googlescholarURL) {
       googlescholarAction = `
         <a href="${p.googlescholarURL}" target="_blank">
-          <img src="/assets/icons/Google_Scholar_logo.svg" alt="Google Scholar Logo" />
+          <img src="/assets/images/icons/Google_Scholar_logo.svg" alt="Google Scholar Logo" />
           <span>Scholar</span>
         </a>
       `;
@@ -438,25 +438,34 @@ function createAlumniElements(data) {
     }
     items.push(elem);
   }
-  $(".people-alumni-container").get(0).innerHTML = items.join("");
+  $(".people-alumni-grid").get(0).innerHTML = items.join("");
 }
 
 /**
  * Creates html elements from `projects.json`
  *
- * All fields except `pageLink` are REQUIRED.
+ * { "title", "text" } fields are REQUIRED.
  *
- * Missing `pageLink` field will be OMITTED.
+ * Missing { "image", "pageLink" } field will be OMITTED.
  *
  * Example of full element created:
  * ```
- * <div class="card project-card">
- *   <div class="card-image">
- *     <a href="<pageLink>"><img src="/assets/images/<image>" class="project-card-img" /></a>
+ * <div class="row">
+ *   <div class="col s12 m4 l3 project-img-container">
+ *     <img src="/assets/images/projects/<image>" class="project-img" />
  *   </div>
- *   <div class="card-content">
- *     <p class="project-card-title"><a href="<pageLink>">title</a></p>
- *     <p class="project-card-text">An awesome description.</p>
+ *   <div class="col 12 m8 l9">
+ *     <p class="project-content">
+ *       <span class="project-title">title</span>
+ *       <br />
+ *       <span class="project-text">text</span>
+ *     </p>
+ *     <p class="project-actions">
+ *       <span class="project-action"><a href="<link>" target="_blank">text</a></span>
+ *       <span>&nbsp;|&nbsp;</span>
+ *       <span class="project-action"><a href="<link>" target="_blank">text</a></span>
+ *       ...
+ *     </p>
  *   </div>
  * </div>
  * ```
@@ -464,51 +473,76 @@ function createAlumniElements(data) {
  */
 function createProjectsElements(data) {
   let items = [];
-  let cardImage, cardContent;
+  let projImage, projContent, projRelated;
 
   for (let i = 0; i < data.length; i++) {
     const p = data[i];
 
-    // card image
-    if (p.pageLink) {
-      cardImage = `
-        <div class="card-image">
-          <a href="${p.pageLink}"><img src="/assets/images/${p.image}" class="project-card-img" /></a>
-        </div>
-      `;
+    // project image
+    if (p.image) {
+      projImage = `
+          <img src="/assets/images/projects/${p.image}" class="project-img" />
+        `;
     } else {
-      cardImage = `
-        <div class="card-image">
-          <img src="/assets/images/${p.image}" class="project-card-img" />
-        </div>
-      `;
+      projImage = `
+          <img src="/assets/favicon/android-chrome-512x512.png" class="project-img" />
+        `;
     }
 
-    // card content
+    // project content
     if (p.pageLink) {
-      cardContent = `
-        <div class="card-content">
-          <p class="project-card-title"><a href="${p.pageLink}">${p.title}</a></p>
-          <p class="project-card-text">${p.text}</p>
+      projContent = `
+          <p class="project-content">
+            <span class="project-title"><a href="${p.pageLink}">${p.title}</a></span>
+            <br />
+            <span class="project-text">${p.text}</span>
+          </p>
+        `;
+    } else {
+      projContent = `
+          <p class="project-content">
+            <span class="project-title">${p.title}</span>
+            <br />
+            <span class="project-text">${p.text}</span>
+          </p>
+        `;
+    }
+
+    // project related
+    if (p.related) {
+      let related = [];
+      for (let k = 0; k < p.related.length; k++) {
+        const r = p.related[k];
+        related.push(`
+          <span class="project-related-arrow">&#187;</span>
+          <a href="${r.link}" target="_blank">${r.text}</a></span>
+        `);
+      }
+      projRelated = `
+        <div class="project-related">
+          <p class="project-related-title">Related Work</p>
+          <div class="project-related-grid">
+            ${related.join("")}
+          </div>
         </div>
       `;
     } else {
-      cardContent = `
-        <div class="card-content">
-          <p class="project-card-title">${p.title}</p>
-          <p class="project-card-text">${p.text}</p>
-        </div>
-      `;
+      projRelated = "";
     }
 
     items.push(`
-      <div class="card project-card">
-        ${cardImage}
-        ${cardContent}
-      </div>
-    `);
+        <div class="row project-container">
+          <div class="col s12 m4 l3 project-img-container">
+            ${projImage}
+          </div>
+          <div class="col 12 m8 l9">
+            ${projContent}
+            ${projRelated}
+          </div>
+        </div>
+      `);
   }
-  $(".projects-card-container").get(0).innerHTML = items.join("");
+  $(".projects-elem-container").get(0).innerHTML = items.join("");
 }
 
 /**
@@ -522,7 +556,7 @@ function createProjectsElements(data) {
  * ```
  * <div class="row">
  *   <div class="col s12 m4 l3 publication-img-container">
- *     <img src="/assets/images/<image>" class="publication-img" />
+ *     <img src="/assets/images/publications/<image>" class="publication-img" />
  *   </div>
  *   <div class="col 12 m8 l9">
  *     <p class="publication-content">
@@ -555,7 +589,7 @@ function createPublicationsElements(data) {
 
     // create year header
     items.push(`
-      <div id="${year}-header" class="row center-align">
+      <div id="${year}-header" class="row">
         <div class="col s12">
           <span class="publications-section-header">${year}</span>
           <span class="publications-section-subtitle">(${pubs.length})</span>
@@ -570,7 +604,7 @@ function createPublicationsElements(data) {
       // publication image
       if (p.image) {
         elemImage = `
-          <img src="/assets/images/${p.image}" class="publication-img" />
+          <img src="/assets/images/publications/${p.image}" class="publication-img" />
         `;
       } else {
         elemImage = `

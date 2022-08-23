@@ -1,8 +1,12 @@
 # How to update a project page
 
 When adding a new project, you must manually add any publications to the page
-that you want. The project specific pages will not auto-update to reflect the
-data that is in `/data/publications.json`
+that you want.
+
+**The project specific pages will not auto-update to reflect the
+data that is in `/data/publications.json`.**
+
+- If you want to program this functionality, reach out!
 
 Simply copy and paste an existing publication format and edit the contents to
 match the new publication. Here is an example:
