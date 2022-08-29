@@ -3,7 +3,7 @@
     <nav id="nav" role="navigation" class="nav-extended">
       <div class="nav-wrapper container">
         <a href="/" class="brand-logo">
-          <img class="nav-bar-logo" src="/assets/favicon/android-chrome-512x512.png" />
+          <img class="nav-bar-logo" src="/assets/images/logo/logo.svg" />
           <span class="nav-bar-logo-title">VA Lab</span>
         </a>
         <ul class="right hide-on-med-and-down">
@@ -12,6 +12,8 @@
           <li class="projects-nav-link"><a href="/projects/">Projects</a></li>
           <li class="publications-nav-link"><a href="/publications/">Publications</a></li>
           <li><a href="https://github.com/gtvalab/" target="_blank">Code</a></li>
+          <li class="nav-divider">|</li>
+          <li><a class="dark-theme-button" onclick="toggleDarkTheme()">Dark theme: ...</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
@@ -19,16 +21,19 @@
   </div>
 
   <ul id="nav-mobile" class="sidenav">
-    <li>
+    <li class="sidenav-banner-wrapper">
       <div class="user-view">
         <div class="background">
           <img class="sidenav-banner" src="/assets/images/bg/techsquare.png" />
         </div>
-        <div class="sidenav-logo-container">
-          <img class="sidenav-logo" src="/assets/favicon/android-chrome-512x512.png" />
+        <div class="sidenav-logo-wrapper">
+          <img class="sidenav-logo" src="/assets/images/logo/logo.svg" />
         </div>
         <span class="white-text name">Georgia Tech Visual Analytics Lab</span>
       </div>
+    </li>
+    <li class="sidenav-dark-theme-toggle">
+      <a class="dark-theme-button" onclick="toggleDarkTheme()">Dark theme: ...</a>
     </li>
     <li class="home-nav-link">
       <a href="/"><i class="material-icons">home</i>Home</a>
@@ -43,7 +48,7 @@
       <a href="/publications/"><i class="material-icons">grade</i>Publications</a>
     </li>
     <li>
-      <a href="https://github.com/gtvalab/" target="_blank"><i class="material-icons">code</i>Code</a>
+      <a href="https://github.com/gtvalab/" target="_blank"><i class="material-icons">open_in_new</i>Code</a>
     </li>
   </ul>
 </div>

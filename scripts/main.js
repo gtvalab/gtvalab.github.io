@@ -8,81 +8,24 @@ var carouselIndex = 0;
 var carouselInterval = null;
 var sidenavInstance = null;
 var carouselInstance = null;
+var darkThemeEnabled = null;
 
-// load navigation and sidenav
-$(".navigation-container").load("/includes/navigation.html", function () {
+// load navigation
+$("#page-navigation").load("/includes/navigation.html", () => {
   // initialize materialize sidenav component instance
   sidenavInstance = M.Sidenav.init($(".sidenav"), {})[0];
+  // load footer
+  $("#page-footer").load("/includes/footer.html", () => {
+    // load page content
+    loadGallery().then(loadNews).then(loadTeam).then(loadProjects).then(loadPublications).then(loadTheme);
+  });
 });
 
-// load gallery images and set up carousel
-if ($(".carousel.carousel-slider").length) {
-  $.getJSON("/data/gallery.json", function (data) {
-    // create gallery elements from file
-    createGalleryElements(data);
-
-    // initialize materialize carousel component instance
-    carouselInstance = M.Carousel.init($(".carousel.carousel-slider"), {
-      indicators: true,
-      onCycleTo: onCycleTo,
-    })[0];
-
-    // set listener for window resize event
-    window.addEventListener(
-      "resize",
-      debounce(function () {
-        // re-initialize materialize components
-        carouselInstance.destroy();
-        carouselInstance = M.Carousel.init($(".carousel.carousel-slider"), {
-          indicators: true,
-          onCycleTo: onCycleTo,
-        })[0];
-        carouselInstance.set(carouselIndex);
-      }, 100),
-      true
-    );
-
-    // advance the carousel on a timer every 10 seconds
-    carouselInterval = setInterval(function () {
-      carouselInstance.next();
-      carouselIndex = carouselInstance.center;
-    }, 10000);
-  });
-}
-
-// load news items
-if ($(".news-item-container").length) {
-  $.getJSON("/data/news.json", function (data) {
-    createNewsElements(data);
-  });
-}
-
-// load current people and alumni
-if ($(".people-container").length) {
-  $.getJSON("/data/currentPeople.json", function (data) {
-    createCurrentPeopleElements(data);
-  });
-  $.getJSON("/data/alumni.json", function (data) {
-    createAlumniElements(data);
-  });
-}
-
-// load projects
-if ($(".projects-container").length) {
-  $.getJSON("/data/projects.json", function (data) {
-    createProjectsElements(data);
-  });
-}
-
-// load publications
-if ($(".publications-container").length) {
-  $.getJSON("/data/publications.json", function (data) {
-    createPublicationsElements(data);
-  });
-}
-
-// load the footer
-$(".footer-container").load("/includes/footer.html");
+// watch for dark/light mode operating system or user agent setting changes
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (event) => {
+  darkThemeEnabled = event.matches ? true : false;
+  saveTheme();
+});
 
 // set smooth scroll on all <a> elements after 1 second
 setTimeout(() => {
@@ -103,17 +46,22 @@ setTimeout(() => {
         if (target) {
           $(this).click(function (event) {
             event.preventDefault();
-            $("html, body").animate({ scrollTop: $target.offset().top - 64 }, 1000, function () {
-              location.hash = target;
-              $target.focus();
-              if ($target.is(":focus")) {
-                //checking if the target was focused
-                return false;
-              } else {
-                $target.attr("tabindex", "-1"); //Adding tabindex for elements not focusable
-                $target.focus(); //Setting focus
+            $("html, body").animate(
+              {
+                scrollTop: $target.offset().top - 64,
+              },
+              1000,
+              function () {
+                location.hash = target;
+                $target.focus();
+                if ($target.is(":focus")) {
+                  return false; // checking if the target was focused
+                } else {
+                  $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+                  $target.focus(); // Setting focus
+                }
               }
-            });
+            );
           });
         }
       }
@@ -121,81 +69,146 @@ setTimeout(() => {
   });
 }, 1000);
 
-/* ============================ HELPERS ==================================== */
+/* ============================ FUNCTIONS ================================== */
 
 /**
- * filter handling for a /dir/ OR /indexordefault.page
- * See: https://css-tricks.com/smooth-scrolling-accessibility/
+ * Load theme from (1) localStorage value; then (2) prefers-color-scheme value.
  */
-function filterPath(string) {
-  return string
-    .replace(/^\//, "")
-    .replace(/(index|default).[a-zA-Z]{3,4}$/, "")
-    .replace(/\/$/, "");
+function loadTheme() {
+  const x = JSON.parse(localStorage.getItem("darkThemeEnabled"));
+  if (x === null) {
+    // set dark theme based on operating system or user agent setting
+    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      darkThemeEnabled = true;
+    } else {
+      darkThemeEnabled = false;
+    }
+    saveTheme();
+  } else {
+    // set dark theme based on localStorage value
+    darkThemeEnabled = x;
+    setTheme();
+  }
 }
 
+//
+
 /**
- * Callback when carousel cycles to the next item.
+ * Load gallery images from file and set up carousel.
  */
-function onCycleTo() {
-  if (carouselInstance) {
-    carouselIndex = carouselInstance.center;
-    if (carouselInterval) {
-      clearInterval(carouselInterval);
+function loadGallery() {
+  let p;
+  if ($("#gallery").length) {
+    p = $.getJSON("/data/gallery.json", function (data) {
+      // create gallery elements from file
+      createGalleryElements(data);
+
+      // initialize materialize carousel component instance
+      carouselInstance = M.Carousel.init($(".carousel.carousel-slider"), {
+        indicators: true,
+        onCycleTo: onCycleTo,
+      })[0];
+
+      // set listener for window resize event
+      window.addEventListener(
+        "resize",
+        debounce(function () {
+          // re-initialize materialize components
+          carouselInstance.destroy();
+          carouselInstance = M.Carousel.init($(".carousel.carousel-slider"), {
+            indicators: true,
+            onCycleTo: onCycleTo,
+          })[0];
+          carouselInstance.set(carouselIndex);
+        }, 100),
+        true
+      );
+
+      // advance the carousel on a timer every 10 seconds
       carouselInterval = setInterval(function () {
         carouselInstance.next();
         carouselIndex = carouselInstance.center;
       }, 10000);
-    }
+    });
+  } else {
+    p = new Promise((resolve, reject) => {
+      resolve("Success!");
+    });
   }
+  return p;
 }
 
 /**
- * Simple throttle function.
- * See: https://stackoverflow.com/a/27078401
- * @param {*} callback
- * @param {*} limit
- * @returns
+ * load news items from file.
  */
-function throttle(callback, limit) {
-  var waiting = false;
-  return function () {
-    if (!waiting) {
-      callback.apply(this, arguments);
-      waiting = true;
-      setTimeout(function () {
-        waiting = false;
-      }, limit);
-    }
-  };
+function loadNews() {
+  let p;
+  if ($("#news").length) {
+    p = $.getJSON("/data/news.json", function (data) {
+      createNewsElements(data);
+    });
+  } else {
+    p = new Promise((resolve, reject) => {
+      resolve("Success!");
+    });
+  }
+  return p;
 }
 
 /**
- * Simple debounce function.
- * See: https://stackoverflow.com/a/24004942
- * @param {*} func
- * @param {*} wait
- * @param {*} immediate
- * @returns
+ * Load current people and alumni from file.
  */
-function debounce(func, wait, immediate) {
-  var timeout;
-  return function () {
-    var context = this;
-    var args = arguments;
-    var callNow = immediate && !timeout;
-    clearTimeout(timeout);
-    timeout = setTimeout(function () {
-      timeout = null;
-      if (!immediate) {
-        func.apply(context, args);
-      }
-    }, wait);
-    if (callNow) func.apply(context, args);
-  };
+function loadTeam() {
+  let p;
+  if ($("#team").length) {
+    p = $.getJSON("/data/currentPeople.json", function (data) {
+      createCurrentPeopleElements(data);
+    }).then(
+      $.getJSON("/data/alumni.json", function (data) {
+        createAlumniElements(data);
+      })
+    );
+  } else {
+    p = new Promise((resolve, reject) => {
+      resolve("Success!");
+    });
+  }
+  return p;
 }
 
-/* ============================ FUNCTIONS ================================== */
+/**
+ * Load projects from file.
+ */
+function loadProjects() {
+  let p;
+  if ($("#projects").length) {
+    p = $.getJSON("/data/projects.json", function (data) {
+      createProjectsElements(data);
+    });
+  } else {
+    p = new Promise((resolve, reject) => {
+      resolve("Success!");
+    });
+  }
+  return p;
+}
+
+/**
+ * Load publications from file.
+ */
+function loadPublications() {
+  let p;
+  if ($("#publications").length) {
+    p = $.getJSON("/data/publications.json", function (data) {
+      createPublicationsElements(data);
+    });
+  } else {
+    p = new Promise((resolve, reject) => {
+      resolve("Success!");
+    });
+  }
+  return p;
+}
 
 /**
  * Creates html elements from `gallery.json`
@@ -211,7 +224,6 @@ function debounce(func, wait, immediate) {
  *   </div>
  * </div>
  * ```
- * @param {*} data
  */
 function createGalleryElements(data) {
   let items = [];
@@ -247,7 +259,6 @@ function createGalleryElements(data) {
  *   </div>
  * </div>
  * ```
- * @param {*} data
  */
 function createNewsElements(data) {
   let items = [];
@@ -264,7 +275,7 @@ function createNewsElements(data) {
     `;
     items.push(elem);
   }
-  $(".news-item-container").get(0).innerHTML = items.join("");
+  $(".news-container").get(0).innerHTML = items.join("");
 }
 
 /**
@@ -303,8 +314,7 @@ function createNewsElements(data) {
  *     </a>
  *   </div>
  * </div>
- *```
- * @param {*} data
+ * ```
  */
 function createCurrentPeopleElements(data) {
   let items = [];
@@ -410,7 +420,7 @@ function createCurrentPeopleElements(data) {
       </div>
     `);
   }
-  $(".people-card-container").get(0).innerHTML = items.join("");
+  $(".team-current-container").get(0).innerHTML = items.join("");
 }
 
 /**
@@ -438,37 +448,44 @@ function createAlumniElements(data) {
     }
     items.push(elem);
   }
-  $(".people-alumni-grid").get(0).innerHTML = items.join("");
+  $(".team-alumni-container").get(0).innerHTML = items.join("");
 }
 
 /**
  * Creates html elements from `projects.json`
  *
- * { "title", "text" } fields are REQUIRED.
+ * { "title", "text", "related" } fields are REQUIRED.
  *
  * Missing { "image", "pageLink" } field will be OMITTED.
  *
+ * If "related" list is populated, { "link", "text" } fields are REQUIRED.
+ *
+ * If "related" list is empty, { "related" } field will be OMITTED.
+ *
  * Example of full element created:
+ *
  * ```
- * <div class="row">
- *   <div class="col s12 m4 l3 project-img-container">
- *     <img src="/assets/images/projects/<image>" class="project-img" />
+ * <div class="row project-wrapper">
+ *   <div class="col s12 m4 l3 project-img-wrapper">
+ *     <img src="/assets/images/projects/file.ext" class="project-img">
  *   </div>
  *   <div class="col 12 m8 l9">
  *     <p class="project-content">
- *       <span class="project-title">title</span>
- *       <br />
- *       <span class="project-text">text</span>
+ *       <span class="project-title"><a href="/projects/project_name.html">title</a></span>
+ *       <br>
+ *       <span class="project-text">Sample project text.</span>
  *     </p>
- *     <p class="project-actions">
- *       <span class="project-action"><a href="<link>" target="_blank">text</a></span>
- *       <span>&nbsp;|&nbsp;</span>
- *       <span class="project-action"><a href="<link>" target="_blank">text</a></span>
- *       ...
- *     </p>
+ *     <div class="project-related">
+ *       <p class="project-related-title">Related Work</p>
+ *       <div class="project-related-grid">
+ *         <span class="project-related-arrow">»</span>
+ *         <a href="https://www.website.com/file.ext" target="_blank">text</a>
+ *       </div>
+ *     </div>
  *   </div>
  * </div>
  * ```
+ *
  * @param {*} data
  */
 function createProjectsElements(data) {
@@ -509,7 +526,7 @@ function createProjectsElements(data) {
     }
 
     // project related
-    if (p.related) {
+    if (p.related.length) {
       let related = [];
       for (let k = 0; k < p.related.length; k++) {
         const r = p.related[k];
@@ -531,8 +548,8 @@ function createProjectsElements(data) {
     }
 
     items.push(`
-        <div class="row project-container">
-          <div class="col s12 m4 l3 project-img-container">
+        <div class="row project-wrapper">
+          <div class="col s12 m4 l3 project-img-wrapper">
             ${projImage}
           </div>
           <div class="col 12 m8 l9">
@@ -542,15 +559,19 @@ function createProjectsElements(data) {
         </div>
       `);
   }
-  $(".projects-elem-container").get(0).innerHTML = items.join("");
+  $(".projects-container").get(0).innerHTML = items.join("");
 }
 
 /**
  * Creates html elements from `publications.json`
  *
- * { "title", "authors", "venue" } fields are REQUIRED.
+ * { "title", "authors", "venue", "actions" } fields are REQUIRED.
  *
- * Missing { "image", "actions" } fields will be OMITTED.
+ * Missing { "image" } field will be OMITTED.
+ *
+ * If "actions" list is populated, { "link", "text" } fields are REQUIRED.
+ *
+ * If "actions" list is empty, { "actions" } field will be OMITTED.
  *
  * Example of full element created:
  * ```
@@ -624,27 +645,31 @@ function createPublicationsElements(data) {
       `;
 
       // publication actions
-      let actions = [];
-      for (let k = 0; k < p.actions.length; k++) {
-        const a = p.actions[k];
-        actions.push(`
-          <span class="publication-action"><a href="${a.link}" target="_blank">${a.text}</a></span>
-        `);
-        if (k < p.actions.length - 1) {
+      if (p.actions.length) {
+        let actions = [];
+        for (let k = 0; k < p.actions.length; k++) {
+          const a = p.actions[k];
           actions.push(`
-            <span>&nbsp;|&nbsp;</span>
+            <span class="publication-action"><a href="${a.link}" target="_blank">${a.text}</a></span>
           `);
+          if (k < p.actions.length - 1) {
+            actions.push(`
+              <span>&nbsp;|&nbsp;</span>
+            `);
+          }
         }
+        elemAction = `
+          <p class="publication-actions">
+            ${actions.join("")}
+          </p>
+        `;
+      } else {
+        elemAction = "";
       }
-      elemAction = `
-        <p class="publication-actions">
-          ${actions.join("")}
-        </p>
-      `;
 
       items.push(`
-        <div class="row publication-container">
-          <div class="col s12 m4 l3 publication-img-container">
+        <div class="row publication-wrapper">
+          <div class="col s12 m4 l3 publication-img-wrapper">
             ${elemImage}
           </div>
           <div class="col 12 m8 l9">
@@ -656,5 +681,112 @@ function createPublicationsElements(data) {
     }
   }
 
-  $(".publications-elem-container").get(0).innerHTML = items.join("");
+  $(".publications-container").get(0).innerHTML = items.join("");
+}
+
+/* ============================ HELPERS ==================================== */
+
+/**
+ * filter handling for a /dir/ OR /indexordefault.page
+ * See: https://css-tricks.com/smooth-scrolling-accessibility/
+ */
+function filterPath(string) {
+  return string
+    .replace(/^\//, "")
+    .replace(/(index|default).[a-zA-Z]{3,4}$/, "")
+    .replace(/\/$/, "");
+}
+
+/**
+ * Simple throttle function.
+ * See: https://stackoverflow.com/a/27078401
+ * @param {*} callback
+ * @param {*} limit
+ * @returns
+ */
+function throttle(callback, limit) {
+  var waiting = false;
+  return function () {
+    if (!waiting) {
+      callback.apply(this, arguments);
+      waiting = true;
+      setTimeout(function () {
+        waiting = false;
+      }, limit);
+    }
+  };
+}
+
+/**
+ * Simple debounce function.
+ * See: https://stackoverflow.com/a/24004942
+ * @param {*} func
+ * @param {*} wait
+ * @param {*} immediate
+ * @returns
+ */
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function () {
+    var context = this;
+    var args = arguments;
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(function () {
+      timeout = null;
+      if (!immediate) {
+        func.apply(context, args);
+      }
+    }, wait);
+    if (callNow) func.apply(context, args);
+  };
+}
+
+/**
+ * Callback when carousel cycles to the next item.
+ *
+ * Resets if the user interacts with the carousel.
+ */
+function onCycleTo() {
+  if (carouselInstance) {
+    carouselIndex = carouselInstance.center;
+    if (carouselInterval) {
+      clearInterval(carouselInterval);
+      carouselInterval = setInterval(function () {
+        carouselInstance.next();
+        carouselIndex = carouselInstance.center;
+      }, 10000);
+    }
+  }
+}
+
+/**
+ * Toggles dark theme enabled preference.
+ */
+function toggleDarkTheme() {
+  darkThemeEnabled = !darkThemeEnabled;
+  saveTheme();
+}
+
+/**
+ * Save dark theme enabled preference to localStorage.
+ */
+function saveTheme() {
+  localStorage.setItem("darkThemeEnabled", JSON.stringify(darkThemeEnabled));
+  setTheme();
+}
+
+/**
+ * Set dark/light theme based on dark theme enabled preference.
+ */
+function setTheme() {
+  document.documentElement.setAttribute("data-theme", darkThemeEnabled ? "dark" : "light");
+  $("#about-logo").attr(
+    "src",
+    darkThemeEnabled ? "/assets/images/logo/logo-white.svg" : "/assets/images/logo/logo.svg"
+  );
+  const btns = $(".dark-theme-button").get();
+  for (let i = 0; i < btns.length; i++) {
+    btns[i].innerHTML = darkThemeEnabled ? "Dark theme: On" : "Dark theme: Off";
+  }
 }

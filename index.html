@@ -26,29 +26,30 @@
   </head>
 
   <body>
-    <div class="page-container">
+    <div id="page-wrapper">
       <!-- NAVIGATION -->
-      <div id="page-navigation" class="navigation-container"></div>
+      <div id="page-navigation"></div>
 
       <!-- CONTENT -->
-      <div id="page-content" class="container page-content-container">
-        <h4 id="header">
-          <span>We are the Georgia Tech Visual Analytics Lab.</span>
-          <img src="/assets/favicon/android-chrome-512x512.png" />
-        </h4>
+      <div id="page-content" class="container">
+        <div id="header">
+          <h4>
+            <span>We are the Georgia Tech Visual Analytics Lab</span>
+          </h4>
+        </div>
 
-        <div id="gallery" class="gallery-container">
+        <div id="gallery">
           <div class="carousel carousel-slider center"></div>
         </div>
 
-        <div id="overview" class="overview-container">
+        <div id="overview">
           <div class="row">
             <div class="col s12 m8 l9">
-              <div id="about" class="about-container">
-                <div class="row">
-                  <div class="col s12 about-text">
-                    <h5>Our Mission</h5>
-                    <div class="description-container">
+              <div id="about">
+                <h5>Our Mission</h5>
+                <div class="row about-wrapper">
+                  <div class="col s12 m8 l9 about-text-wrapper">
+                    <div>
                       <p>
                         The goal of our research is to develop interactive visual analytic applications that
                         <b>help people make sense of data.</b>
@@ -63,24 +64,25 @@
                       <p>to produce usable and powerful <b>visual analytics applications.</b></p>
                     </div>
                   </div>
+                  <div class="col s12 m4 l3 about-logo-wrapper">
+                    <img id="about-logo" src="/assets/images/logo/logo.svg" />
+                  </div>
                 </div>
               </div>
 
               <div class="divider"></div>
 
-              <div id="team" class="people-container">
+              <div id="team">
                 <div class="row">
                   <div class="col s12">
-                    <div class="people-card-header-container">
+                    <div class="team-current-header-wrapper">
                       <h5>Our Team</h5>
                     </div>
-                    <div class="people-card-container"></div>
-                    <div class="people-alumni-header-container">
-                      <span class="people-alumni-header">Alumni</span>
+                    <div class="team-current-container"></div>
+                    <div class="team-alumni-header-wrapper">
+                      <span class="team-alumni-header">Alumni</span>
                     </div>
-                    <div class="people-alumni-container">
-                      <div class="people-alumni-grid"></div>
-                    </div>
+                    <div class="team-alumni-container"></div>
                   </div>
                 </div>
               </div>
@@ -89,11 +91,11 @@
             <div class="divider overview-divider"></div>
 
             <div class="col s12 m4 l3">
-              <div id="news" class="news-container">
+              <div id="news">
                 <div class="row">
                   <div class="col s12">
                     <h5>Recent News</h5>
-                    <div class="news-item-container"></div>
+                    <div class="news-container"></div>
                   </div>
                 </div>
               </div>
@@ -103,20 +105,20 @@
 
         <div class="divider"></div>
 
-        <div id="research" class="research-container">
-          <div id="projects" class="projects-container">
+        <div id="research">
+          <div id="projects">
             <div class="row">
               <div class="col s12">
                 <h5>Projects | <a href="/projects/">See all</a></h5>
-                <div class="projects-elem-container"></div>
+                <div class="projects-container"></div>
               </div>
             </div>
           </div>
-          <div id="publications" class="publications-container">
+          <div id="publications">
             <div class="row">
               <div class="col s12">
                 <h5>Publications | <a href="/publications/">See all</a></h5>
-                <div class="publications-elem-container"></div>
+                <div class="publications-container"></div>
               </div>
             </div>
           </div>
@@ -124,7 +126,7 @@
       </div>
 
       <!-- FOOTER -->
-      <div id="page-footer" class="footer-container"></div>
+      <div id="page-footer"></div>
 
       <!-- SCRIPTS -->
       <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
