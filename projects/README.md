@@ -1,7 +1,11 @@
 # How to update a project page
 
-When adding a new project, you must manually add any publications to the page
-that you want.
+Start by copying `template.html` and filling in the section between the
+"START CUSTOM CONTENT" and "END CUSTOM CONTENT" comments.
+
+Use other project pages as a reference for what they put on their page!
+
+You must manually add any publication elements to the page that you want.
 
 **The project specific pages will not auto-update to reflect the
 data that is in `/data/publications.json`.**

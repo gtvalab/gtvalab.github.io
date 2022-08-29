@@ -17,18 +17,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-32x32.png" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="/vendors/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="/styles/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   </head>
 
   <body>
-    <div class="page-container">
+    <div id="page-wrapper">
       <!-- NAVIGATION -->
-      <div id="page-navigation" class="navigation-container"></div>
+      <div id="page-navigation"></div>
 
-      <!-- CONTENT -->
-      <div id="page-content" class="container page-content-container">
+      <!-- ******************** -->
+      <!-- START CUSTOM CONTENT -->
+      <!-- ******************** -->
+      <div id="page-content" class="container">
         <div class="row">
           <div class="col s12">
             <!-- Project Title -->
@@ -72,9 +77,9 @@
 
             <!-- Publications -->
             <h5>PUBLICATIONS</h5>
-            <div class="publications-elem-container">
-              <div class="row publication-container">
-                <div class="col s12 m4 l3 publication-img-container">
+            <div class="publications-container">
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
                   <img src="/assets/images/publications/darpa_main.png" class="publication-img" />
                 </div>
                 <div class="col 12 m8 l9">
@@ -106,9 +111,12 @@
           </div>
         </div>
       </div>
+      <!-- ****************** -->
+      <!-- END CUSTOM CONTENT -->
+      <!-- ****************** -->
 
       <!-- FOOTER -->
-      <div id="page-footer" class="footer-container"></div>
+      <div id="page-footer"></div>
 
       <!-- SCRIPTS -->
       <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
