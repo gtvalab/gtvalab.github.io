@@ -1,0 +1,93 @@
+[
+  {
+    "fullName": "Alex Endert",
+    "firstName": "Alex",
+    "lastName": "Endert",
+    "title": "Assistant Professor",
+    "keywords": "Information visualization; HCI; Coffee",
+    "image": "endert-portrait.jpg",
+    "email": "endert@gatech.edu",
+    "websiteURL": "https://va.gatech.edu/endert/",
+    "linkedinURL": "",
+    "twitterURL": "https://twitter.com/endertalex",
+    "googlescholarURL": "https://scholar.google.com/citations?user=_ZIAy3cAAAAJ&hl=en"
+  },
+  {
+    "fullName": "Arpit Narechania",
+    "firstName": "Arpit",
+    "lastName": "Narechania",
+    "title": "PhD Student, CS",
+    "keywords": "Bias; NLP; Automobiles; Chessmaster",
+    "image": "arpit.jpeg",
+    "email": "arpitnarechania@gatech.edu",
+    "websiteURL": "https://www.cc.gatech.edu/~anarechania3/",
+    "linkedinURL": "https://www.linkedin.com/in/narechania",
+    "twitterURL": "https://twitter.com/arpitnarechania",
+    "googlescholarURL": "https://scholar.google.com/citations?user=k1S8Sc4AAAAJ"
+  },
+  {
+    "fullName": "Grace Guo",
+    "firstName": "Grace",
+    "lastName": "Guo",
+    "title": "PhD Student, HCC",
+    "keywords": "HCI; Musical theatre enthusiast",
+    "image": "grace.jpeg",
+    "email": "gguo31@gatech.edu",
+    "websiteURL": "https://gracegsy.github.io/",
+    "linkedinURL": "https://www.linkedin.com/in/grace-guo-005b81b7",
+    "twitterURL": "https://twitter.com/graceguo43",
+    "googlescholarURL": ""
+  },
+  {
+    "fullName": "Shenyu Xu",
+    "firstName": "Shenyu",
+    "lastName": "Xu",
+    "title": "PhD Student, CS",
+    "keywords": "HCI; Opera",
+    "image": "shenyu.jpeg",
+    "email": "shenyuxu@gatech.edu",
+    "websiteURL": "https://thomasxu2009.github.io/",
+    "linkedinURL": "https://www.linkedin.com/in/shenyuxu/",
+    "twitterURL": "https://twitter.com/XuShenyu",
+    "googlescholarURL": "https://scholar.google.com/citations?user=5ZWZcmcAAAAJ&hl=en"
+  },
+  {
+    "fullName": "Adam Coscia",
+    "firstName": "Adam",
+    "lastName": "Coscia",
+    "title": "PhD Student, HCC",
+    "keywords": "AI; Knowledge Graphs; Sensemaking; Snowboarding",
+    "image": "adam.jpg",
+    "email": "acoscia6@gatech.edu",
+    "websiteURL": "https://adamcoscia.github.io/",
+    "linkedinURL": "https://www.linkedin.com/in/adam-coscia/",
+    "twitterURL": "https://twitter.com/AdamCoscia",
+    "googlescholarURL": "https://scholar.google.com/citations?user=diVuti8AAAAJ&hl=en"
+  },
+  {
+    "fullName": "Sichen Jin",
+    "firstName": "Sichen",
+    "lastName": "Jin",
+    "title": "PhD Student, CS",
+    "keywords": "Information visualization; Machine Learning",
+    "image": "sichen.png",
+    "email": "sjin86@gatech.edu",
+    "websiteURL": "https://sichenj.in/",
+    "linkedinURL": "https://www.linkedin.com/in/sichen-jin-521286205/",
+    "twitterURL": "https://twitter.com/jin_sichen",
+    "googlescholarURL": ""
+  },
+  {
+    "fullName": "Jamal Paden",
+    "firstName": "Jamal",
+    "lastName": "Paden",
+    "title": "BS Student, CS",
+    "keywords": "HCI; Data science; Burritos",
+    "image": "jamal.jpg",
+    "email": "jpaden@gatech.edu",
+    "websiteURL": "",
+    "linkedinURL": "https://www.linkedin.com/in/jamal-paden",
+    "twitterURL": "",
+    "googlescholarURL": ""
+  }
+]

@@ -1,104 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="author" content="" />
+    <meta
+      name="description"
+      content="We research and develop interactive visual analytic applications that help people make sense of data."
+    />
+    <meta
+      name="keywords"
+      content="visual analytics,georgia tech,interactive computing,sensemaking,research lab,information visualization,infovis,infoviz,data science,machine learning,va lab,gt va lab,semantic interaction,visualiztaion by demonstration,visual analytics by demonstration,by demonstration"
+    />
+    <title>Georgia Tech Visual Analytics Lab</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="/vendors/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/styles/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>GT Visual Analytics Lab</title>
-    <!-- Bootstrap core CSS -->
-    <base href="../">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</head>
+  <body>
+    <div id="page-wrapper">
+      <!-- NAVIGATION -->
+      <div id="page-navigation"></div>
 
-<body>
-    <!-- Navigation -->
-    <div w3-include-html="sections/navigation.html"></div>
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row" style="margin-top:5%; ">
-            <div class="col-md-12">
-                <h1 class="projectTitle">LEGION: Visually compare modeling techniques
-                    for regression</h1>
-                <br />
-                <br />
-                <p style="text-align:center;"><img src="../images/legion_2.PNG" width="98%"></p>
-                <h5>SUMMARY</h5>
-                <p style="text-align: justify;">
-                    People construct machine learning (ML) models for various use cases in varied domains such as in healthcare, finance,
-                    public-policy, etc. In doing so they aim to improve a models’ performance by adopting various strategies, such as changing input data
-                    (data augmentation), tuning model hyperparameters, performing feature engineering that includes feature extraction, feature
-                    augmentation or feature transformation. However, how would users know which of these model construction strategies to adopt for their
-                    problem? Following any or all of these approaches allows the construction of a gigantic set of models, from which users may select
-                    model(s) suited to their data analytic task. This problem of model selection is non-trivial because in real-world use cases many of the best
-                    performing models (in relation to a specified metric) may appear to serve users’ goal but often exhibits nuances and tradeoffs (e.g, may
-                    weight features differently, varying compute times to train, or may predict relevant data instances differently etc.). This paper aims to solve
-                    the problem of how to construct models and how to select a preferred modeling strategy by allowing users to compare the differences and
-                    similarities between multiple regression models, and then learn not only about the model but also about their data. This learning further
-                    empowers them to select model(s) that more precisely suit their analysis goals. We present LEGION, a visual analytic tool that helps
-                    users to compare and select regression models constructed either by tuning their hyperparameters or by feature engineering. We also
-                    present two use cases on real world datasets validating the utility and effectiveness of our tool.
-                    <br />
-                    <br />
-                </p>
-                <br />
+      <!-- ******************** -->
+      <!-- START CUSTOM CONTENT -->
+      <!-- ******************** -->
+      <div id="page-content" class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- Project Title -->
+            <h2>LEGION: Visually compare modeling techniques for regression</h2>
 
-                <h5>PUBLICATIONS</h5>
-                <ul>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3"
-                                style="background-image: url('../images/legion_1.PNG');background-size: cover;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">LEGION: Visually compare modeling techniques
-                                    for regression<</span>
-                                <span class="publicationAuthors">Subhajit Das, and Alex Endert</span>
-                                <br />
-                                <span class="publicationVenue">IEEEVIS, Visualization in Data Science (VDS) 2020</span>
-                                <br />
-                                <span class="publicationSupplementary"><a
-                                        href="../files/legion.pdf"
-                                        target="_blank">PDF</a></span> <span> | </span>
-                                
-                                <span class="publicationSupplementary"><a
-                                        href="https://youtu.be/2lJu1SEzO50"
-                                        target="_blank">Video</a></span> <span> | </span>
-                                
-                               
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-
-                <!-- <h5>PROJECT SUPPORT</h5>
-                <div class="projectContainer row">
-                    <div class="col-lg-1"
-                        style="background-image: url('../images/nsf.png');background-size: contain; background-repeat: no-repeat;">
-                    </div>
-                    <div class="col-lg-9">
-                        Award Number: <a
-                            href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1750474&HistoricalAwards=false">IIS-1750474</a>
-                        <br /> Title: CAREER: Visual Analytics by Demonstration for Interactive Data Analysis
-                        <br /> Duration: 5/2018 - 5/2023
-                        <br /> PI: <a href="http://endert.org">Alex Endert</a>
-                        <br /> Students: <a href="http://bahadorsaket.com/">Bahador Saket</a>
-                        <br />
-                    </div>
-                </div> -->
-
+            <!-- Teaser -->
+            <div>
+              <img src="/assets/images/projects/legion_2.png" width="100%" />
             </div>
-        </div>
-    </div>
-    <hr>
-</body>
-<script type="text/javascript" src="js/main.js"></script>
 
+            <!-- Summary -->
+            <h5>SUMMARY</h5>
+            <p>
+              People construct machine learning (ML) models for various use cases in varied domains such as in
+              healthcare, finance, public-policy, etc. In doing so they aim to improve a models' performance by adopting
+              various strategies, such as changing input data (data augmentation), tuning model hyperparameters,
+              performing feature engineering that includes feature extraction, feature augmentation or feature
+              transformation. However, how would users know which of these model construction strategies to adopt for
+              their problem? Following any or all of these approaches allows the construction of a gigantic set of
+              models, from which users may select model(s) suited to their data analytic task. This problem of model
+              selection is non-trivial because in real-world use cases many of the best performing models (in relation
+              to a specified metric) may appear to serve users' goal but often exhibits nuances and tradeoffs (e.g, may
+              weight features differently, varying compute times to train, or may predict relevant data instances
+              differently etc.). This paper aims to solve the problem of how to construct models and how to select a
+              preferred modeling strategy by allowing users to compare the differences and similarities between multiple
+              regression models, and then learn not only about the model but also about their data. This learning
+              further empowers them to select model(s) that more precisely suit their analysis goals. We present LEGION,
+              a visual analytic tool that helps users to compare and select regression models constructed either by
+              tuning their hyperparameters or by feature engineering. We also present two use cases on real world
+              datasets validating the utility and effectiveness of our tool.
+            </p>
+
+            <!-- Publications -->
+            <h5>PUBLICATIONS</h5>
+            <div class="publications-container">
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/legion_1.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">LEGION: Visually compare modeling techniques for regression</span>
+                    <br />
+                    <span class="publication-authors">Subhajit Das, and Alex Endert</span>
+                    <br />
+                    <span class="publication-venue">IEEEVIS, Visualization in Data Science (VDS) 2020</span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a href="/assets/files/20-vds-legion.pdf" target="_blank">PDF</a>
+                    </span>
+                    <span>&nbsp;|&nbsp;</span>
+                    <span class="publication-action">
+                      <a href="https://youtu.be/2lJu1SEzO50" target="_blank">Video</a>
+                    </span>
+                    <span>&nbsp;|&nbsp;</span>
+                    <span class="publication-action">
+                      <a href="/projects/legion.html" target="_blank">Website</a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ****************** -->
+      <!-- END CUSTOM CONTENT -->
+      <!-- ****************** -->
+
+      <!-- FOOTER -->
+      <div id="page-footer"></div>
+
+      <!-- SCRIPTS -->
+      <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
+      <script type="text/javascript" src="/scripts/main.js"></script>
+      <script type="text/javascript">
+        setTimeout(function () {
+          $(".home-nav-link, .team-nav-link, .projects-nav-link, .publications-nav-link").removeClass("active");
+          $(".projects-nav-link").addClass("active");
+        }, 50);
+      </script>
+    </div>
+
+    <noscript>
+      <style type="text/css">
+        .page-container {
+          display: none;
+        }
+
+        .no-script-container {
+          margin: 0;
+          padding: 2rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%, -50%);
+          border-radius: 4px;
+          background-color: rgba(255 255 255 / 90%);
+        }
+
+        .no-script-msg {
+          margin: 0;
+          margin-bottom: 2rem;
+        }
+
+        .no-script-footer {
+          margin: 0;
+        }
+      </style>
+      <div class="no-script-container">
+        <h3 class="no-script-msg">The Georgia Tech Visual Analytics Lab site requires Javascript to be enabled!</h3>
+        <h6>Copyright &copy; 2022</h6>
+        <a href="https://vis.gatech.edu/" target="_blank">Georgia Tech Visualization Lab</a>
+        <br />
+        <a href="https://www.ic.gatech.edu/" target="_blank">School of Interactive Computing</a>
+        <br />
+        <a href="https://www.cc.gatech.edu/" target="_blank">College of Computing</a>
+        <br />
+        <a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
+      </div>
+    </noscript>
+  </body>
 </html>

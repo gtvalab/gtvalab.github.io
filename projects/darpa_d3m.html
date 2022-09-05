@@ -1,109 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="author" content="" />
+    <meta
+      name="description"
+      content="We research and develop interactive visual analytic applications that help people make sense of data."
+    />
+    <meta
+      name="keywords"
+      content="visual analytics,georgia tech,interactive computing,sensemaking,research lab,information visualization,infovis,infoviz,data science,machine learning,va lab,gt va lab,semantic interaction,visualiztaion by demonstration,visual analytics by demonstration,by demonstration"
+    />
+    <title>Georgia Tech Visual Analytics Lab</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="/vendors/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/styles/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>GT Visual Analytics Lab</title>
-    <!-- Bootstrap core CSS -->
-    <base href="../">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</head>
+  <body>
+    <div id="page-wrapper">
+      <!-- NAVIGATION -->
+      <div id="page-navigation"></div>
 
-<body>
-    <!-- Navigation -->
-    <div w3-include-html="sections/navigation.html"></div>
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row" style="margin-top:5%; ">
-            <div class="col-md-12">
-                <h1 class="projectTitle">Data Driven Discovery of Models (d3m)</h1>
-                <br />
-                <br />
-                <p style="text-align:center;"><img src="../images/darpa_cover.PNG" width="70%"></p>
-                <h5>SUMMARY</h5>
-                <p style="text-align: justify;">
-                   This project addresses the task of automating the data analysis pipeline by aiding users in selecting
-                   complex model pipelines through data-driven automated processes. With our proposed system, a subject
-                   matter expert (SME) with little or no background in data science will still be able to perform
-                   complex data analysis without understanding the mathematics behind the analysis.
-                    <br />
-                    <br /> 
-                    Subject matter experts (SMEs) would benefit from using the sophisticated data analysis pipelines
-                    that are the purview of practicing data scientists. The overarching goal of this project is to
-                    provide data-driven automated assistance to SMEs so that they may produce models as performant as
-                    those produced by data scientists. Our role in this research is to provide an interface between the
-                    human user (a SME) and machine learning algorithms that generate data analysis pipelines. Within
-                    this task, we aim to help users define their data analysis problem without the need to describe the
-                    data analysis primitives being used. We will also design interactive visualizations to communicate
-                    the difference between models and to help the user choose the best model for their task. Lastly, we
-                    will provide methods of interaction that would allow the user to use their domain knowledge to
-                    update and improve the models produced.
-                     <br />
-                     <br />
-                     If successful, this research could have broad impact on the ability of all subject matter experts
-                     to learn from their data. Currently, SMEs are limited to the set of models they have access to and
-                     are comfortable with. Giving them access to cutting edge pipelines will give them models that are
-                     much more performant. Creating an effective interface between the human and the machine is integral
-                     to this broad impact. It is critical that users can effectively utilize and trust the automated
-                     methods, and communication of the produced models is necessary to prevent false negatives and false
-                     positives, overfitting the data, and other problems relating to the modeling process. We are in the
-                     big data age as the everyday user produces and has access to large amounts of data. This project
-                     would bring data analysis to the everyday user; it would render that data accessible.
-                </p>
-                <br />
-              
-                <h5>PUBLICATIONS</h5>
-                <ul>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3"
-                                style="background-image: url('../images/darpa_main.PNG');background-size: cover;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">A User-based Visual Analytics Workflow for Exploratory Model Analysis</span>
-                                <span class="publicationAuthors">Dylan Cashman, Shah Rukh Humayoun, Florian Heimer, Kendall Park, Subhajit Das, John Thompson3, Bahador Saket, Abigail Mosca, John Stasko, Alex Endert, Michael Gleicher, and Remco Chang</span>
-                                <br />
-                                <span class="publicationVenue">Eurographics Conference on Visualization (EuroVis) 2019</span>
-                                <br />
-                                <span class="publicationSupplementary"><a
-                                        href="http://www.cs.tufts.edu/~remco/publications/2019/EuroVis2019-Snowcat.pdf" target="_blank">PDF</a>
-                                    <!-- | <a href="https://github.com/BahadorSaket/VbD"
-                                        target="_blank">VisExemplar</a></span> -->
-                            </div>
-                        </div>
-                    </li>
- 
-                </ul>
-               
-                <!-- <h5>PROJECT SUPPORT</h5>
-                <div class="projectContainer row">
-                    <div class="col-lg-1"
-                        style="background-image: url('../images/nsf.png');background-size: contain; background-repeat: no-repeat;">
-                    </div>
-                    <div class="col-lg-9">
-                        Award Number: <a
-                            href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1750474&HistoricalAwards=false">IIS-1750474</a>
-                        <br /> Title: CAREER: Visual Analytics by Demonstration for Interactive Data Analysis
-                        <br /> Duration: 5/2018 - 5/2023
-                        <br /> PI: <a href="http://endert.org">Alex Endert</a>
-                        <br /> Students: <a href="http://bahadorsaket.com/">Bahador Saket</a>
-                        <br />
-                    </div>
-                </div> -->
-                
+      <!-- ******************** -->
+      <!-- START CUSTOM CONTENT -->
+      <!-- ******************** -->
+      <div id="page-content" class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- Project Title -->
+            <h2>Data Driven Discovery of Models (d3m)</h2>
+
+            <!-- Teaser -->
+            <div>
+              <img src="/assets/images/projects/darpa_cover.png" width="100%" />
             </div>
-        </div>
-    </div>
-    <hr>
-</body>
-<script type="text/javascript" src="js/main.js"></script>
 
+            <!-- Summary -->
+            <h5>SUMMARY</h5>
+            <p>
+              This project addresses the task of automating the data analysis pipeline by aiding users in selecting
+              complex model pipelines through data-driven automated processes. With our proposed system, a subject
+              matter expert (SME) with little or no background in data science will still be able to perform complex
+              data analysis without understanding the mathematics behind the analysis.
+            </p>
+            <p>
+              Subject matter experts (SMEs) would benefit from using the sophisticated data analysis pipelines that are
+              the purview of practicing data scientists. The overarching goal of this project is to provide data-driven
+              automated assistance to SMEs so that they may produce models as performant as those produced by data
+              scientists. Our role in this research is to provide an interface between the human user (a SME) and
+              machine learning algorithms that generate data analysis pipelines. Within this task, we aim to help users
+              define their data analysis problem without the need to describe the data analysis primitives being used.
+              We will also design interactive visualizations to communicate the difference between models and to help
+              the user choose the best model for their task. Lastly, we will provide methods of interaction that would
+              allow the user to use their domain knowledge to update and improve the models produced.
+            </p>
+            <p>
+              If successful, this research could have broad impact on the ability of all subject matter experts to learn
+              from their data. Currently, SMEs are limited to the set of models they have access to and are comfortable
+              with. Giving them access to cutting edge pipelines will give them models that are much more performant.
+              Creating an effective interface between the human and the machine is integral to this broad impact. It is
+              critical that users can effectively utilize and trust the automated methods, and communication of the
+              produced models is necessary to prevent false negatives and false positives, overfitting the data, and
+              other problems relating to the modeling process. We are in the big data age as the everyday user produces
+              and has access to large amounts of data. This project would bring data analysis to the everyday user; it
+              would render that data accessible.
+            </p>
+
+            <!-- Publications -->
+            <h5>PUBLICATIONS</h5>
+            <div class="publications-container">
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/darpa_main.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">
+                      A User-based Visual Analytics Workflow for Exploratory Model Analysis
+                    </span>
+                    <br />
+                    <span class="publication-authors">
+                      Dylan Cashman, Shah Rukh Humayoun, Florian Heimer, Kendall Park, Subhajit Das, John Thompson,
+                      Bahador Saket, Abigail Mosca, John Stasko, Alex Endert, Michael Gleicher, and Remco Chang
+                    </span>
+                    <br />
+                    <span class="publication-venue">Eurographics Conference on Visualization (EuroVis) 2019</span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a
+                        href="http://www.cs.tufts.edu/~remco/publications/2019/EuroVis2019-Snowcat.pdf"
+                        target="_blank"
+                      >
+                        PDF
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ****************** -->
+      <!-- END CUSTOM CONTENT -->
+      <!-- ****************** -->
+
+      <!-- FOOTER -->
+      <div id="page-footer"></div>
+
+      <!-- SCRIPTS -->
+      <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
+      <script type="text/javascript" src="/scripts/main.js"></script>
+      <script type="text/javascript">
+        setTimeout(function () {
+          $(".home-nav-link, .team-nav-link, .projects-nav-link, .publications-nav-link").removeClass("active");
+          $(".projects-nav-link").addClass("active");
+        }, 50);
+      </script>
+    </div>
+
+    <noscript>
+      <style type="text/css">
+        .page-container {
+          display: none;
+        }
+
+        .no-script-container {
+          margin: 0;
+          padding: 2rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%, -50%);
+          border-radius: 4px;
+          background-color: rgba(255 255 255 / 90%);
+        }
+
+        .no-script-msg {
+          margin: 0;
+          margin-bottom: 2rem;
+        }
+
+        .no-script-footer {
+          margin: 0;
+        }
+      </style>
+      <div class="no-script-container">
+        <h3 class="no-script-msg">The Georgia Tech Visual Analytics Lab site requires Javascript to be enabled!</h3>
+        <h6>Copyright &copy; 2022</h6>
+        <a href="https://vis.gatech.edu/" target="_blank">Georgia Tech Visualization Lab</a>
+        <br />
+        <a href="https://www.ic.gatech.edu/" target="_blank">School of Interactive Computing</a>
+        <br />
+        <a href="https://www.cc.gatech.edu/" target="_blank">College of Computing</a>
+        <br />
+        <a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
+      </div>
+    </noscript>
+  </body>
 </html>

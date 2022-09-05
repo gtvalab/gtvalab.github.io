@@ -1,192 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Our research lab specializes in helping people interactively analyze data by developing information visualization, visual analytics, and machine learning tools.">
-    <meta name="keywords" content="visual analytics,georgia tech,interactive computing,sensemaking,research lab,information visualization,infovis,infoviz,data science,machine learning,va lab,gt va lab,semantic interaction,visualiztaion by demonstration,visual analytics by demonstration,by demonstration">
-    <meta name="author" content="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="author" content="" />
+    <meta
+      name="description"
+      content="We research and develop interactive visual analytic applications that help people make sense of data."
+    />
+    <meta
+      name="keywords"
+      content="visual analytics,georgia tech,interactive computing,sensemaking,research lab,information visualization,infovis,infoviz,data science,machine learning,va lab,gt va lab,semantic interaction,visualiztaion by demonstration,visual analytics by demonstration,by demonstration"
+    />
     <title>Georgia Tech Visual Analytics Lab</title>
-    <base href="../">
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- App CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="/vendors/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/styles/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  </head>
 
-<body>
-    <!-- Navigation -->
-    <div w3-include-html="sections/navigation.html"></div>
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row" style="margin-top:5%; ">
-            <div class="col-md-12">
-                <h1 class="projectTitle">Detecting and Mitigating Biased Visual Analysis Strategies</h1>
-                <br/>
-                <br/>
-                <p><img class="img-fluid img-center" src="../images/bias-teaser.png" width="70%"></p>
-                <h5>SUMMARY</h5>
-                <p>
-                    People make important decisions based on data every day, from simple choices such as which restaurant to dine at when visiting a city, to important and complex decisions in healthcare about which course of treatment to pursue, and even decisions that impact national security and policy. Visual analytic systems play a critical role in these decision-making processes. They allow people to interact with their data and analytic models to view different perspectives of data and gain insights. This interactive data analysis process consists of people incrementally guiding analytic models to produce alternate views of the data in support of their tasks. In most cases, such human-in-the-loop processes have successful, insightful outcomes. However, the cognitive sciences tell us that people can exhibit innate biased behavior. As a result, their data analysis behaviors and strategies may suffer. Ultimately, this could lead to decisions made from incomplete information and limited perspectives on how the data can be interpreted. Biased analysis processes can lead to biased results and misinformation. This project will perform fundamental research to discover how to detect such potential bias and develop visual analytic systems that mitigate it. It will also produce educational impacts for graduate and undergraduate students from groups underrepresented in STEM fields, in part through outreach workshops with instructors from minority-serving institutions and historically black colleges and universities to help them integrate visual analytics and general data literacy learning objectives into course curricula.
-                </p>
-                <p>
-                    The proposed multi-disciplinary research will develop techniques that enhance mixed-initiative visual analytic analysis processes by intervening and providing guidance when necessary. To accomplish this goal, three primary lines of research are proposed. First, the team will develop and evaluate computational metrics to detect poor and potentially biased analysis strategies from user interaction patterns and system parameters. These metrics consist of probabilistic computational models that take into consideration metrics such as data coverage over the duration of the data exploration. Second, the team will develop and study different visual analytic system designs to guide and improve people's analysis processes. Each prototype will give people guidance using the metrics, but display information to users via different interface designs (e.g., dialog boxes, visual overlays of coverage, etc.) They will be developed, evaluated, and made available via publications and open-source code. Third, the studies proposed will generate empirical results and design guidelines for future mixed-initiative visual analytic systems.
-                </p>
-                <br/>
-                <h5>NEWS</h5>
-                <ul>
-                    <li>
-                        <a href="https://www.cc.gatech.edu/~ewall9/" target="_blank">Emily Wall</a> has been awarded the D.E. Shaw Exploration Fellowship
-                    </li>
-                    <li>
-                        <a href="https://www.cc.gatech.edu/~ewall9/" target="_blank">Emily Wall</a> has been awarded the Siemens FutureMaker Fellowship
-                    </li>
-                </ul>
-                <br/>
-                <h5>PUBLICATIONS</h5>
-                <ul>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3" style="background-image: url('../images/bias_design_space.png'); background-size:cover; background-repeat:no-repeat;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">Toward a Design Space for Mitigating Cognitive Bias in Vis</span>
-                                <br/>
-                                <span class="publicationAuthors">Emily Wall, John Stasko, and Alex Endert</span>
-                                <br/>
-                                <span class="publicationVenue">IEEE Information Visualization (VIS) Short Papers, 2019</span>
-                                <br/>
-                                <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/DesignSpaceVISSHORT2019.pdf" target="_blank">PDF</a></span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3" style="background-image: url('../images/bias_markov.png'); background-size:cover; background-repeat:no-repeat;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">A Markov Model of Users’ Interactive Behavior in Scatterplots</span>
-                                <br/>
-                                <span class="publicationAuthors">Emily Wall, Arup Arcalgud, Kuhu Gupta, and Andrew Jo</span>
-                                <br/>
-                                <span class="publicationVenue">IEEE Information Visualization (VIS) Short Papers, 2019</span>
-                                <br/>
-                                <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/MarkovVISSHORT2019.pdf" target="_blank">PDF</a></span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3" style="background-image: url('../images/bias_interact.png'); background-size:cover; background-repeat:no-repeat;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">A Formative Study of Interactive Bias Metrics in Visual Analytics Using Anchoring Bias</span>
-                                <br/>
-                                <span class="publicationAuthors">Emily Wall, Leslie Blaha, Celeste Paul, and Alex Endert</span>
-                                <br/>
-                                <span class="publicationVenue">Proceedings of the 17th IFIP TC 13 International Conference on Human-Computer Interaction (INTERACT'19), 2019</span>
-                                <br/>
-                                <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/BiasINTERACT19.pdf" target="_blank">PDF</a> | <a href="https://youtu.be/Qis1YzYnCj4" target="_blank">Video</a></span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3" style="background-image: url('../images/decisive_chapter.png');background-size: cover;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">Four Perspectives on Human Bias in Visual Analytics</span>
-                                <br/>
-                                <span class="publicationAuthors">Emily Wall, Leslie Blaha, Celeste Paul, Kristin Cook, and Alex Endert</span>
-                                <br/>
-                                <span class="publicationVenue">Cognitive Biases in Visualizations (Chapter 3, pp. 29-42). Springer, 2018</span>
-                                <br/>
-                                <span class="publicationSupplementary"><a href="https://link.springer.com/book/10.1007/978-3-319-95831-6" target="_blank">Book</a> | <a href="https://link.springer.com/chapter/10.1007/978-3-319-95831-6_3" target="_blank">Chapter</a></span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3" style="background-image: url('../images/bias1.png');background-size: cover;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">Warning, Bias May Occur: A Proposed Approach to Detecting Cognitive Bias in Interactive Visual Analytics</span>
-                                <br/>
-                                <span class="publicationAuthors">Emily Wall, Leslie M. Blaha, Lyndsey Franklin, and Alex Endert</span>
-                                <br/>
-                                <span class="publicationVenue">IEEE Visual Analytics Science and Technology (VAST), 2017</span>
-                                <br/>
-                                <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/BiasVAST17.pdf" target="_blank">PDF</a> | <a href="https://vimeo.com/238344585" target="_blank">Talk (VAST 17)</a></span>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="publicationContainer row">
-                            <div class="col-lg-3" style="background-image: url('../images/decisive.png');background-size: cover;">
-                            </div>
-                            <div class="col-lg-9">
-                                <span class="publicationTitle">Four Perspectives on Human Bias in Visual Analytics</span>
-                                <br/>
-                                <span class="publicationAuthors">Emily Wall, Leslie Blaha, Celeste Paul, Kristin Cook, and Alex Endert</span>
-                                <br/>
-                                <span class="publicationVenue">DECISIVe: Workshop on Dealing with Cognitive Biases in Visualizations (at IEEE VIS'17), 2017</span>
-                                <br/>
-                                <span class="publicationSupplementary"><a href="https://www.cc.gatech.edu/~ewall9/media/papers/BiasDECISIVe17.pdf" target="_blank">PDF</a></span>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- <li>
-                        <div class="publicationContainer row">
-                          <div class="col-lg-3" style="background-image: url('../images/encodings.png');background-size: cover;">
-                          </div>
-                          <div class="col-lg-9">
-                            <span class="publicationTitle">Evaluating Interactive Graphical Encodings for Data Visualization</span>
-                            <br/>
-                              <span class="publicationAuthors">Bahador Saket, Arjun Srinivasan, Eric Ragan, and Alex Endert</span>
-                              <br/>
-                              <span class="publicationVenue">IEEE Transactions on Visualization and Computer Graphics, 2017</span>
-                              <br/>
-                              <span class="publicationSupplementary"><a href="http://arjun010.github.io/static/papers/interactive-encodings.pdf" target="_blank">PDF</a> | <a href="" target="_blank">Slides (InfoVis 17)</a></span>
-                          </div>
-                        </div>
-                      </li> -->
-                </ul>
-                <br/>
-                <h5>PROJECT INFORMATION</h5>
-                <div class="publicationContainer row">
-                    <div class="col-lg-1" style="background-image: url('../images/nsf.png');background-size: contain; background-repeat: no-repeat;">
-                    </div>
-                    <div class="col-lg-9">
-                        Award Number: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1813281">IIS-1813281</a>
-                        <br/> Title: CHS: Small: Enhancing Data Analysis Strategies with Mixed-Initiative Visual Analytics
-                        <br/> Duration: 8/2018 - 8/2021
-                        <br/> PI: <a href="http://www.endert.org">Alex Endert</a>
-                        <br/> Students: <a href="https://www.cc.gatech.edu/~ewall9/">Emily Wall</a>
-                        <br/>
-                    </div>
-                </div>
-                <!-- <h6>VIDEOS</h6>
-                <ul>
-                  <li>
-                </ul>
-                <h6>DEMOS</h6>
-                <ul>
-                  <li>
-                </ul> -->
-                <p>
-                    This material is based upon work supported by the National Science Foundation under Grant No. IIS-1813281. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
-                </p>
-                <i>Last updated:</i> November 1, 2019
+  <body>
+    <div id="page-wrapper">
+      <!-- NAVIGATION -->
+      <div id="page-navigation"></div>
+
+      <!-- ******************** -->
+      <!-- START CUSTOM CONTENT -->
+      <!-- ******************** -->
+      <div id="page-content" class="container">
+        <div class="row">
+          <div class="col s12">
+            <!-- Project Title -->
+            <h2>Detecting and Mitigating Biased Visual Analysis Strategies</h2>
+
+            <!-- Teaser -->
+            <div>
+              <img src="/assets/images/projects/bias-teaser.png" width="100%" />
             </div>
-        </div>
-    </div>
-    <hr>
-</body>
-<script type="text/javascript" src="js/main.js"></script>
 
+            <!-- Summary -->
+            <h5>SUMMARY</h5>
+            <p>
+              People make important decisions based on data every day, from simple choices such as which restaurant to
+              dine at when visiting a city, to important and complex decisions in healthcare about which course of
+              treatment to pursue, and even decisions that impact national security and policy. Visual analytic systems
+              play a critical role in these decision-making processes. They allow people to interact with their data and
+              analytic models to view different perspectives of data and gain insights. This interactive data analysis
+              process consists of people incrementally guiding analytic models to produce alternate views of the data in
+              support of their tasks. In most cases, such human-in-the-loop processes have successful, insightful
+              outcomes. However, the cognitive sciences tell us that people can exhibit innate biased behavior. As a
+              result, their data analysis behaviors and strategies may suffer. Ultimately, this could lead to decisions
+              made from incomplete information and limited perspectives on how the data can be interpreted. Biased
+              analysis processes can lead to biased results and misinformation. This project will perform fundamental
+              research to discover how to detect such potential bias and develop visual analytic systems that mitigate
+              it. It will also produce educational impacts for graduate and undergraduate students from groups
+              underrepresented in STEM fields, in part through outreach workshops with instructors from minority-serving
+              institutions and historically black colleges and universities to help them integrate visual analytics and
+              general data literacy learning objectives into course curricula.
+            </p>
+            <p>
+              The proposed multi-disciplinary research will develop techniques that enhance mixed-initiative visual
+              analytic analysis processes by intervening and providing guidance when necessary. To accomplish this goal,
+              three primary lines of research are proposed. First, the team will develop and evaluate computational
+              metrics to detect poor and potentially biased analysis strategies from user interaction patterns and
+              system parameters. These metrics consist of probabilistic computational models that take into
+              consideration metrics such as data coverage over the duration of the data exploration. Second, the team
+              will develop and study different visual analytic system designs to guide and improve people's analysis
+              processes. Each prototype will give people guidance using the metrics, but display information to users
+              via different interface designs (e.g., dialog boxes, visual overlays of coverage, etc.) They will be
+              developed, evaluated, and made available via publications and open-source code. Third, the studies
+              proposed will generate empirical results and design guidelines for future mixed-initiative visual analytic
+              systems.
+            </p>
+
+            <!-- News -->
+            <h5>NEWS</h5>
+            <ul>
+              <li>
+                <a href="https://www.cc.gatech.edu/~ewall9/" target="_blank">Emily Wall</a>
+                has been awarded the D.E. Shaw Exploration Fellowship
+              </li>
+              <li>
+                <a href="https://www.cc.gatech.edu/~ewall9/" target="_blank">Emily Wall</a>
+                has been awarded the Siemens FutureMaker Fellowship
+              </li>
+            </ul>
+
+            <!-- Publications -->
+            <h5>PUBLICATIONS</h5>
+            <div class="publications-container">
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/bias_design_space.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">Toward a Design Space for Mitigating Cognitive Bias in Vis</span>
+                    <br />
+                    <span class="publication-authors">Emily Wall, John Stasko, and Alex Endert</span>
+                    <br />
+                    <span class="publication-venue">IEEE Information Visualization (VIS) Short Papers, 2019</span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a href="https://emilywall.github.io/media/papers/DesignSpaceVISSHORT2019.pdf" target="_blank">
+                        PDF
+                      </a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/bias_markov.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">A Markov Model of Users' Interactive Behavior in Scatterplots</span>
+                    <br />
+                    <span class="publication-authors">Emily Wall, Arup Arcalgud, Kuhu Gupta, and Andrew Jo</span>
+                    <br />
+                    <span class="publication-venue">IEEE Information Visualization (VIS) Short Papers, 2019</span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a href="https://emilywall.github.io/media/papers/MarkovVISSHORT2019.pdf" target="_blank">PDF</a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/bias_interact.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">
+                      A Formative Study of Interactive Bias Metrics in Visual Analytics Using Anchoring Bias
+                    </span>
+                    <br />
+                    <span class="publication-authors">Emily Wall, Leslie Blaha, Celeste Paul, and Alex Endert</span>
+                    <br />
+                    <span class="publication-venue">
+                      Proceedings of the 17th IFIP TC 13 International Conference on Human-Computer Interaction
+                      (INTERACT'19), 2019
+                    </span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a href="https://emilywall.github.io/media/papers/BiasINTERACT19.pdf" target="_blank">PDF</a>
+                    </span>
+                    <span>&nbsp;|&nbsp;</span>
+                    <span class="publication-action">
+                      <a href="https://youtu.be/Qis1YzYnCj4" target="_blank">Video</a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/decisive_chapter.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">Four Perspectives on Human Bias in Visual Analytics</span>
+                    <br />
+                    <span class="publication-authors">
+                      Emily Wall, Leslie Blaha, Celeste Paul, Kristin Cook, and Alex Endert
+                    </span>
+                    <br />
+                    <span class="publication-venue">
+                      Cognitive Biases in Visualizations (Chapter 3, pp. 29-42). Springer, 2018
+                    </span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a href="https://link.springer.com/chapter/10.1007/978-3-319-95831-6_3" target="_blank">
+                        Chapter
+                      </a>
+                    </span>
+                    <span>&nbsp;|&nbsp;</span>
+                    <span class="publication-action">
+                      <a href="https://link.springer.com/book/10.1007/978-3-319-95831-6" target="_blank">Book</a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/bias1.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">
+                      Warning, Bias May Occur: A Proposed Approach to Detecting Cognitive Bias in Interactive Visual
+                      Analytics
+                    </span>
+                    <br />
+                    <span class="publication-authors">
+                      Emily Wall, Leslie M. Blaha, Lyndsey Franklin, and Alex Endert
+                    </span>
+                    <br />
+                    <span class="publication-venue">IEEE Visual Analytics Science and Technology (VAST), 2017</span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a href="https://emilywall.github.io/media/papers/BiasVAST17.pdf" target="_blank">PDF</a>
+                    </span>
+                    <span>&nbsp;|&nbsp;</span>
+                    <span class="publication-action">
+                      <a href="https://vimeo.com/238344585" target="_blank">Video</a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="row publication-wrapper">
+                <div class="col s12 m4 l3 publication-img-wrapper">
+                  <img src="/assets/images/publications/decisive.png" class="publication-img" />
+                </div>
+                <div class="col 12 m8 l9">
+                  <p class="publication-content">
+                    <span class="publication-title">Four Perspectives on Human Bias in Visual Analytics</span>
+                    <br />
+                    <span class="publication-authors">
+                      Emily Wall, Leslie Blaha, Celeste Paul, Kristin Cook, and Alex Endert
+                    </span>
+                    <br />
+                    <span class="publication-venue">
+                      DECISIVe: Workshop on Dealing with Cognitive Biases in Visualizations (at IEEE VIS'17), 2017
+                    </span>
+                  </p>
+                  <p class="publication-actions">
+                    <span class="publication-action">
+                      <a href="https://emilywall.github.io/media/papers/BiasDECISIVe17.pdf" target="_blank">PDF</a>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Information -->
+            <h5>PROJECT INFORMATION</h5>
+            <div class="row">
+              <!-- Teaser -->
+              <div class="col m2 s12" style="text-align: center">
+                <img src="/assets/images/sponsors/nsf.png" style="width: 100%; min-width: 72px; max-width: 102px" />
+              </div>
+              <!-- Information -->
+              <div class="col m10 s12">
+                <span>
+                  Award Number:
+                  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1813281">IIS-1813281</a>
+                </span>
+                <br />
+                <span>
+                  Title: CHS: Small: Enhancing Data Analysis Strategies with Mixed-Initiative Visual Analytics
+                </span>
+                <br />
+                <span>Duration: 8/2018 - 8/2021</span>
+                <br />
+                <span>PI: <a href="http://www.endert.org">Alex Endert</a></span>
+                <br />
+                <span>Students: <a href="https://www.cc.gatech.edu/~ewall9/">Emily Wall</a></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                <span>
+                  This material is based upon work supported by the National Science Foundation under Grant No.
+                  IIS-1813281. Any opinions, findings, and conclusions or recommendations expressed in this material are
+                  those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+                </span>
+                <br />
+                <br />
+                <i>Last updated:</i> November 1, 2019
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ****************** -->
+      <!-- END CUSTOM CONTENT -->
+      <!-- ****************** -->
+
+      <!-- FOOTER -->
+      <div id="page-footer"></div>
+
+      <!-- SCRIPTS -->
+      <script type="text/javascript" src="/vendors/jquery/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="/vendors/materialize/js/materialize.js"></script>
+      <script type="text/javascript" src="/scripts/main.js"></script>
+      <script type="text/javascript">
+        setTimeout(function () {
+          $(".home-nav-link, .team-nav-link, .projects-nav-link, .publications-nav-link").removeClass("active");
+          $(".projects-nav-link").addClass("active");
+        }, 50);
+      </script>
+    </div>
+
+    <noscript>
+      <style type="text/css">
+        .page-container {
+          display: none;
+        }
+
+        .no-script-container {
+          margin: 0;
+          padding: 2rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%, -50%);
+          border-radius: 4px;
+          background-color: rgba(255 255 255 / 90%);
+        }
+
+        .no-script-msg {
+          margin: 0;
+          margin-bottom: 2rem;
+        }
+
+        .no-script-footer {
+          margin: 0;
+        }
+      </style>
+      <div class="no-script-container">
+        <h3 class="no-script-msg">The Georgia Tech Visual Analytics Lab site requires Javascript to be enabled!</h3>
+        <h6>Copyright &copy; 2022</h6>
+        <a href="https://vis.gatech.edu/" target="_blank">Georgia Tech Visualization Lab</a>
+        <br />
+        <a href="https://www.ic.gatech.edu/" target="_blank">School of Interactive Computing</a>
+        <br />
+        <a href="https://www.cc.gatech.edu/" target="_blank">College of Computing</a>
+        <br />
+        <a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
+      </div>
+    </noscript>
+  </body>
 </html>

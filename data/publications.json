@@ -1,0 +1,598 @@
+[
+  {
+    "2021": [
+      {
+        "title": "SafetyLens: Visual Data Analysis of Functional Safety of Vehicles",
+        "authors": "Arpit Narechania, Ahsan Qamar, and Alex Endert",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'20), 2021",
+        "image": "safetylens20vis.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://www.cc.gatech.edu/~anarechania3/docs/publications/safetylens_vis_2020.pdf"
+          },
+          {
+            "text": "Video (Introduction)",
+            "link": "https://youtu.be/PrcJn_dWGwA"
+          },
+          {
+            "text": "Video (Demo)",
+            "link": "https://youtu.be/iLjTJakBNgI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2020": [
+      {
+        "title": "LEGION: Visually compare modeling techniques for regression",
+        "authors": "Subhajit Das, and Alex Endert",
+        "venue": "IEEEVIS, Visualization in Data Science (VDS) 2020",
+        "image": "legion_1.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "/assets/files/20-vds-legion.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://youtu.be/2lJu1SEzO50"
+          },
+          {
+            "text": "Website",
+            "link": "/projects/legion.html"
+          }
+        ]
+      },
+      {
+        "title": "CAVA: A Visual Analytics System for Exploratory Columnar Data Augmentation Using Knowledge Graphs",
+        "authors": "Dylan Cashman, Shenyu Xu, Subhajit Das, Florian Heimerl, Cong Liu, Shah Rukh Humayoun, Michael Gleicher, Alex Endert, and Remco Chang",
+        "venue": "IEEE TVCG 2021, In IEEE VAST 2020",
+        "image": "cava_1.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "/assets/files/20-vis-cava.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "/projects/cava.html"
+          }
+        ]
+      },
+      {
+        "title": "Geono-Cluster: Interactive Visual Cluster Analysis for Biologists",
+        "authors": "Subhajit Das*, Bahador Saket*, Bum Chul Kwon, and Alex Endert",
+        "venue": "IEEE TVCG 2021",
+        "image": "geono_2.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "/assets/files/20-tvcg-geonocluster.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://youtu.be/BNDMXFtmrqY"
+          },
+          {
+            "text": "Website",
+            "link": "/projects/geonocluster.html"
+          }
+        ]
+      },
+      {
+        "title": "Gaggle: Visual Analytics for Model Space Navigation",
+        "authors": "Subhajit Das, Dylan Cashman, Remco Chang, and Alex Endert",
+        "venue": "Graphics Interface Conference 2020",
+        "image": "model_steer_rank_chain.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://openreview.net/pdf?id=KyMw0p9rWL"
+          },
+          {
+            "text": "Video",
+            "link": "https://streamable.com/5oiyxf"
+          },
+          {
+            "text": "Website",
+            "link": "/projects/gaggle.html"
+          }
+        ]
+      },
+      {
+        "title": "QUESTO: Interactive Construction of Objective Functions for Classification Tasks",
+        "authors": "Subhajit Das, Shenyu Xu, Michael Gleicher, Remco Chang, and Alex Endert",
+        "venue": "Eurographics Conference on Visualization (EuroVis) 2020",
+        "image": "questo_1.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "/assets/files/Questo_cr.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://streamable.com/hm2fl1"
+          },
+          {
+            "text": "Website",
+            "link": "/projects/questo.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2019": [
+      {
+        "title": "Demonstrational Interaction for Data Visualization",
+        "authors": "Bahador Saket and Alex Endert",
+        "venue": "IEEE Computer Graphics and Applications, 2019",
+        "image": "VbDTheory.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/Saket2019CGADemonstration.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Investigating Direct Manipulation of Graphical Encodings as a Method for User Interaction",
+        "authors": "Bahador Saket, Samuel Huron, Charles Perin, and Alex Endert",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (InfoVis), 2019",
+        "image": "DM.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://www.researchgate.net/profile/Samuel-Huron/publication/335353438_Investigating_Direct_Manipulation_of_Graphical_Encodings_as_a_Method_for_User_Interaction/links/5e2862c392851c3aadd20a3c/Investigating-Direct-Manipulation-of-Graphical-Encodings-as-a-Method-for-User-Interaction.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Investigating the Manual View Specification and Visualization by Demonstration Paradigms for Visualization Construction",
+        "authors": "Bahador Saket and Alex Endert",
+        "venue": "Computer Graphics Forum (EuroVis), 2019",
+        "image": "VBDMVS.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/Saket2019Demonstration.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Toward a Design Space for Mitigating Cognitive Bias in Vis",
+        "authors": "Emily Wall, John Stasko, and Alex Endert",
+        "venue": "IEEE Information Visualization (VIS) Short Papers, 2019",
+        "image": "bias_design_space.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/DesignSpaceVISSHORT2019.pdf"
+          }
+        ]
+      },
+      {
+        "title": "A Markov Model of Users' Interactive Behavior in Scatterplots",
+        "authors": "Emily Wall, Arup Arcalgud, Kuhu Gupta, and Andrew Jo",
+        "venue": "IEEE Information Visualization (VIS) Short Papers, 2019",
+        "image": "bias_markov.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/MarkovVISSHORT2019.pdf"
+          }
+        ]
+      },
+      {
+        "title": "A Formative Study of Interactive Bias Metrics in Visual Analytics Using Anchoring Bias",
+        "authors": "Emily Wall, Leslie Blaha, Celeste Paul, and Alex Endert",
+        "venue": "Proceedings of the 17th IFIP TC 13 International Conference on Human-Computer Interaction (INTERACT'19), 2019",
+        "image": "bias_interact.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/BiasINTERACT19.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://youtu.be/Qis1YzYnCj4"
+          }
+        ]
+      },
+      {
+        "title": "Using Expert Patterns in Assisted Interactive Machine Learning: A Study in Machine Teaching",
+        "authors": "Emily Wall, Soroush Ghorashi, and Gonzalo Ramos",
+        "venue": "Proceedings of the 17th IFIP TC 13 International Conference on Human-Computer Interaction (INTERACT'19), 2019",
+        "image": "machine_teaching.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/MachineTeachingINTERACT19.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://youtu.be/cpkbanDNziQ"
+          }
+        ]
+      },
+      {
+        "title": "Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication",
+        "authors": "Arjun Srinivasan, Steven M. Drucker, Alex Endert, and John Stasko",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'18), 2019",
+        "image": "voder-teaser.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arjun010.github.io/static/papers/voder-infovis18.pdf"
+          },
+          {
+            "text": "Talk (IEEE VIS '18)",
+            "link": "https://vimeo.com/299862032"
+          },
+          {
+            "text": "Website",
+            "link": "https://arjun010.github.io/individual-projects/voder.html"
+          }
+        ]
+      },
+      {
+        "title": "A Heuristic Approach to Value-Driven Evaluation of Visualizations",
+        "authors": "Emily Wall, Meeshu Agnihotri, Laura Matzen, Kristin Divis, Michael Haass, Alex Endert, and John Stasko",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'18), 2019",
+        "image": "value_vis.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/ValueVIS18.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "http://visvalue.org"
+          }
+        ]
+      },
+      {
+        "title": "BEAMES: Interactive Multi-Model Steering, Selection, and Inspection for Regression Tasks",
+        "authors": "Subhajit Das, Dylan Cashman, Remco Chang, and Alex Endert",
+        "venue": "IEEE Computer Graphics and Applications (CGA), 2019",
+        "image": "beames_main.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "/assets/files/19-cga-beames.pdf"
+          }
+        ]
+      },
+      {
+        "title": "A User-based Visual Analytics Workflow for Exploratory Model Analysis",
+        "authors": "Dylan Cashman, Shah Rukh Humayoun, Florian Heimer, Kendall Park, Subhajit Das, John Thompson, Bahador Saket, Abigail Mosca, John Stasko, Alex Endert, Michael Gleicher, and Remco Chang",
+        "venue": "Eurographics Conference on Visualization (EuroVis) 2019",
+        "image": "darpa_main.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "http://www.cs.tufts.edu/~remco/publications/2019/EuroVis2019-Snowcat.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2018": [
+      {
+        "title": "Task-Based Effectiveness of Basic Visualizations",
+        "authors": "Bahador Saket, Alex Endert, Cagatay Demiralp",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'18), 2018",
+        "image": "2018-saket-task.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://hci.stanford.edu/~cagatay/projects/peng/peng-tvcg.pdf"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/gtvalab/ChartsEffectiveness"
+          },
+          {
+            "text": "Website",
+            "link": "https://kopoljs.github.io/"
+          }
+        ]
+      },
+      {
+        "title": "TexTonic: Interactive Visualization for Exploration and Discovery of Very Large Text Collections",
+        "authors": "Celeste L. Paul, Jessica Chang, Alex Endert, Nick Cramer, David Gillen, Shawn Hampton, Russ Burtner, Ralph Perko, Kristin A. Cook",
+        "venue": "Information Visualization, 2018",
+        "image": "textonic.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/Paul2018TexTonic.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://youtu.be/4z_n3J7bjGQ"
+          }
+        ]
+      },
+      {
+        "title": "Four Perspectives on Human Bias in Visual Analytics",
+        "authors": "Emily Wall, Leslie Blaha, Celeste Paul, Kristin Cook, and Alex Endert",
+        "venue": "Cognitive Biases in Visualizations (Chapter 3, pp. 29-42). Springer, 2018",
+        "image": "decisive_chapter.png",
+        "actions": [
+          {
+            "text": "Chapter",
+            "link": "https://link.springer.com/chapter/10.1007/978-3-319-95831-6_3"
+          },
+          {
+            "text": "Book",
+            "link": "https://link.springer.com/book/10.1007/978-3-319-95831-6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2017": [
+      {
+        "title": "Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization",
+        "authors": "Arjun Srinivasan, Hyunwoo Park, Alex Endert, and Rahul C. Basole",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. VAST'17), 2018",
+        "image": "graphiti.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "http://arjun010.github.io/static/papers/graphiti-vast17.pdf"
+          }
+        ]
+      },
+      {
+        "title": "VIGOR: Interactive Visual Exploration of Graph Query Results",
+        "authors": "Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris Gates, Shamkant Navathe, Duen Horng Chau",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. VAST'17), 2018",
+        "image": "17-vigor-vast.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://www.cc.gatech.edu/~dchau/papers/17-vast-vigor.pdf"
+          },
+          {
+            "text": "Preview",
+            "link": "https://vimeo.com/groups/480818/videos/230830163"
+          },
+          {
+            "text": "Video",
+            "link": "https://www.youtube.com/watch?v=-jeck0yrT_Q"
+          }
+        ]
+      },
+      {
+        "title": "Podium: Ranking Data Using Mixed-Initiative Visual Analytics",
+        "authors": "Emily Wall, Subhajit Das, Ravish Chawla, Bharath Kalidindi, Eli Brown, and Alex Endert",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. VAST'17), 2018",
+        "image": "podium.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/PodiumVAST17.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://vimeo.com/238467013"
+          }
+        ]
+      },
+      {
+        "title": "Warning, Bias May Occur: A Proposed Approach to Detecting Cognitive Bias in Interactive Visual Analytics",
+        "authors": "Emily Wall, Leslie M. Blaha, Lyndsey Franklin, and Alex Endert",
+        "venue": "IEEE Visual Analytics Science and Technology (VAST), 2017",
+        "image": "bias1.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/BiasVAST17.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://vimeo.com/238344585"
+          }
+        ]
+      },
+      {
+        "title": "The State of the Art in Integrating Machine Learning into Visual Analytics",
+        "authors": "Alex Endert, William Ribarsky, Cagatay Turkay, B. William Wong, Ian Nabney, Ignacio Diaz Blanco, and Fabrice Rossi",
+        "venue": "Computer Graphics Forum (Proc. EuroVis'17), 2017",
+        "image": "state-ml.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "http://www.cc.gatech.edu/~aendert3/resources/Endert2017State.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Evaluating Interactive Graphical Encodings for Data Visualization",
+        "authors": "Bahador Saket, Arjun Srinivasan, Eric Ragan, and Alex Endert",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics, 2017",
+        "image": "encodings.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "http://arjun010.github.io/static/papers/interactive-encodings.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Supporting Team-First Visual Analytics through Group Activity Representations",
+        "authors": "Karthik Badam, Zehua Zeng, Emily Wall, Alex Endert, and Niklas Elmqvist",
+        "venue": "Graphics Interface, 2017",
+        "image": "teamfirstva.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/GroupGI17.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Four Perspectives on Human Bias in Visual Analytics",
+        "authors": "Emily Wall, Leslie Blaha, Celeste Paul, Kristin Cook, and Alex Endert",
+        "venue": "DECISIVe: Workshop on Dealing with Cognitive Biases in Visualizations (at IEEE VIS'17), 2017",
+        "image": "decisive.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/BiasDECISIVe17.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2016": [
+      {
+        "title": "Visualization by Demonstration: An Interaction Paradigm for Visual Data Exploration",
+        "authors": "Bahador Saket, Hannah Kim, Eli T. Brown, and Alex Endert",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. InfoVis'16), 2017",
+        "image": "vis-by-demo.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://ieeexplore.ieee.org/abstract/document/7539327"
+          }
+        ]
+      },
+      {
+        "title": "Axisketcher: Interactive Nonlinear Axis Mapping of Visualizations through User Drawings",
+        "authors": "BC Kwon, Hannah Kim, Emily Wall, Jaegul Choo, Haesun Park, and Alex Endert",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. VAST'16), 2017",
+        "image": "axisketcher.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://emilywall.github.io/media/papers/AxiSketcherVAST16.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Toward Theoretical Techniques for Measuring the Use of Human Effort in Visual Analytic Systems",
+        "authors": "R. Jordan Crouser, Lyndsey Franklin, Alex Endert, and Kris Cook",
+        "venue": "IEEE Transactions on Visualization and Comuter Graphics (Proc. VAST'16), 2017",
+        "image": "crouser-theoretical.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://www.cc.gatech.edu/~aendert3/resources/Crouser2016Toward.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2015": [
+      {
+        "title": "Mixed-Initiative Visual Analytics using Task-Driven Recommendations",
+        "authors": "Kris Cook, Nick Cramer, David Isreal, Michael Wolverton, Joe Bruce, Russ Burtner, and Alex Endert",
+        "venue": "IEEE Visual Analytics Science and Technology (VAST), 2015",
+        "image": "activedata.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "http://www.cc.gatech.edu/~aendert3/resources/cook-vast-2015.pdf"
+          }
+        ]
+      },
+      {
+        "title": "InterAxis: Steering Scatterplot Axes via Observation-Level Interaction",
+        "authors": "Hannah Kim, Jaegul Choo, Haesun Park, and Alex Endert",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. VAST'15), 2015",
+        "image": "interaxis.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "http://www.cc.gatech.edu/~aendert3/resources/kim-vast-2015.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Characterizing Provenance in Visualization and Data Analysis: An Organizational Framework of Provenance Types and Purposes",
+        "authors": "Eric Ragan, Alex Endert, Jibonananda Sanyal, and Jian Chen",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (Proc. VAST'15), 2015",
+        "image": "",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://www.cc.gatech.edu/~aendert3/resources/ragan-vast-2015.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Semantic Interaction: Coupling Cognition with Computation through Usable Interactive Analytics",
+        "authors": "Alex Endert, Remco Chang, Chris North, and Michelle Zhou",
+        "venue": "Computer Graphics & Applications (CG&A), 2015",
+        "image": "high-low.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/endert-2015-viewpoints.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Toward a Deeper Understanding of Data Analysis, Sensemaking, and Signature Discovery",
+        "authors": "Sheriff Jolaoso, Russ Burtner, and Alex Endert",
+        "venue": "Human-Computer Interaction -- INTERACT, 2015",
+        "image": "",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/Jolaoso2015Signature.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2014": [
+      {
+        "title": "The Human is the Loop: New Directions for Visual Analytics",
+        "authors": "Alex Endert, M. Shahriar Hossain, Naren Ramakrishnan, Chris North, Patrick Fiaux, and Christopher Andrews",
+        "venue": "IEEE Computer Graphics & Applications (CG&A), 2014",
+        "image": "human-is-the-loop.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/human-is-the-loop-FINAL.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Large Display Interaction via Multiple Acceleration Curves and Multifinger Pointer Control",
+        "authors": "Andrey Esakia, Alex Endert, and Chris North",
+        "venue": "Advances in Human-Computer Interaction, 2014",
+        "image": "multi-finger-touch.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/AHCI-multiTouch-printed.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Semantic Interaction for Visual Analytics: Toward Coupling Cognition and Computation",
+        "authors": "Alex Endert",
+        "venue": "IEEE Computer Graphics & Applications (CG&A), 2014 -- Dissertation Impact Award",
+        "image": "semantic-interaction-pipe.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://faculty.cc.gatech.edu/~aendert3/resources/EndertCGA2014-Dissertation.pdf"
+          }
+        ]
+      }
+    ]
+  }
+]

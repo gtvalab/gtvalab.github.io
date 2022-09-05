@@ -1,0 +1,58 @@
+[
+  {
+    "fullName": "Subhajit Das",
+    "firstName": "Subhajit",
+    "lastName": "Das",
+    "degreeTitle": "PhD",
+    "websiteURL": "https://subhdas.github.io/"
+  },
+  {
+    "fullName": "Julia Deeb-Swihart",
+    "firstName": "Julia",
+    "lastName": "Deeb-Swihart",
+    "degreeTitle": "PhD",
+    "websiteURL": "https://www.julia.deebswih.art/"
+  },
+  {
+    "fullName": "Fred Hohman",
+    "firstName": "Fred",
+    "lastName": "Hohman",
+    "degreeTitle": "PhD",
+    "websiteURL": "https://fredhohman.com/"
+  },
+  {
+    "fullName": "Hannah Kim",
+    "firstName": "Hannah",
+    "lastName": "Kim",
+    "degreeTitle": "PhD",
+    "websiteURL": "https://www.cc.gatech.edu/grads/h/hkim708/"
+  },
+  {
+    "fullName": "Terrance Law",
+    "firstName": "Terrance",
+    "lastName": "Law",
+    "degreeTitle": "PhD",
+    "websiteURL": "https://terrancelaw.github.io/"
+  },
+  {
+    "fullName": "Bahador Saket",
+    "firstName": "Bahador",
+    "lastName": "Saket",
+    "degreeTitle": "PhD",
+    "websiteURL": "https://www.linkedin.com/in/bahador-saket-3b9b9449"
+  },
+  {
+    "fullName": "Emily Wall",
+    "firstName": "Emily",
+    "lastName": "Wall",
+    "degreeTitle": "PhD",
+    "websiteURL": "https://emilywall.github.io/"
+  },
+  {
+    "fullName": "Matt Britton",
+    "firstName": "Matt",
+    "lastName": "Britton",
+    "degreeTitle": "MS",
+    "websiteURL": "https://mattbritton.info/"
+  }
+]
