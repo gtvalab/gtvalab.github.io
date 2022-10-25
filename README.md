@@ -22,9 +22,9 @@ If you are unfamiliar with forking and submitting pull requests,
 [here is a 4-minute guide](https://guides.github.com/activities/forking/) to get you started.
 
 1. Fork this repository.
-2. Make your edits on the `main` branch of the forked repository and commit them.
-3. Submit a Pull Request on the original (non-forked) repository, from your forked repository's `main` branch to the
-   original repository's `main` branch, and an admin will merge it.
+2. Make your edits on the `master` branch of the forked repository and commit them.
+3. Submit a Pull Request on the original (non-forked) repository, from your forked repository's `master` branch to the
+   original repository's `master` branch, and an admin will merge it.
 
 ## Contact
 
