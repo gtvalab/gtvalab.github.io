@@ -1,18 +1,26 @@
 [
   {
-    "image": "techsquare.png",
-    "caption": "Our office is located in the Technology Square Research Building (TSRB), Atlanta GA."
+    "image": "2210-ieeevis-labatminigolf.jpg",
+    "caption": "The annual IEEE VIS Open: Beginning of a new lab tradition at IEEE VIS 2022 in Oklahoma City, OK, USA!"
   },
   {
     "image": "2210-ieeevis-arpitpresenting.jpg",
-    "caption": "Arpit Narechania presenting <a href='https://nl4dv.github.io' target='_blank'>NL4DV</a> at IEEE VIS 2022 in Oklahoma City, OK."
+    "caption": "<a href='http://arpit.narechania.com/' target='_blank'>Arpit Narechania</a> presenting <a href='https://nl4dv.github.io' target='_blank'>NL4DV</a> at IEEE VIS, October 2022."
+  },
+  {
+    "image": "2210-ieeevis-labatthebanquet.jpg",
+    "caption": "Good times and good friends at the IEEE VIS conference banquet, October 2022."
   },
   {
     "image": "2208-aloedonlonvisit-gracepresenting.jpg",
-    "caption": "Grace Guo presenting visual analytics work at a meeting of the NSF AI Institute for Adult Learning and Online Education (ALOE), August 2022."
+    "caption": "<a href='https://gracegsy.github.io/' target='_blank'>Grace Guo</a> presenting her on-going visual analytics research at a meeting of the NSF AI Institute for Adult Learning and Online Education (ALOE), August 2022."
   },
   {
     "image": "2208-aloedonlonvisit-adampresenting.jpg",
-    "caption": "Adam Coscia presenting visual analytics work at a meeting of the NSF AI Institute for Adult Learning and Online Education (ALOE), August 2022."
+    "caption": "<a href='https://adamcoscia.github.io/' target='_blank'>Adam Coscia</a> presenting his on-going visual analytics research at a meeting of the NSF AI Institute for Adult Learning and Online Education (ALOE), August 2022."
+  },
+  {
+    "image": "techsquare.png",
+    "caption": "Our office is located in the beautiful Technology Square Research Building (TSRB), Atlanta GA."
   }
 ]

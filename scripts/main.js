@@ -781,9 +781,13 @@ function saveTheme() {
  */
 function setTheme() {
   document.documentElement.setAttribute("data-theme", darkThemeEnabled ? "dark" : "light");
+  $("#header-logo").attr(
+    "src",
+    darkThemeEnabled ? "/assets/images/logo/dk-nobg-700x150.svg" : "/assets/images/logo/lt-nobg-700x150.svg"
+  );
   $("#about-logo").attr(
     "src",
-    darkThemeEnabled ? "/assets/images/logo/logo-white.svg" : "/assets/images/logo/logo.svg"
+    darkThemeEnabled ? "/assets/images/logo/dk-nobg-160x160.svg" : "/assets/images/logo/lt-nobg-160x160.svg"
   );
   const btns = $(".dark-theme-button").get();
   for (let i = 0; i < btns.length; i++) {
