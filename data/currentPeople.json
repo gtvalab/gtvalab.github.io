@@ -17,10 +17,10 @@
     "firstName": "Arpit",
     "lastName": "Narechania",
     "title": "PhD Student, CS",
-    "keywords": "Bias; NLP; Automobiles; Chessmaster",
+    "keywords": "Guidance; Natural Language Processing; Chessmaster",
     "image": "arpit.jpeg",
     "email": "arpitnarechania@gatech.edu",
-    "websiteURL": "https://www.cc.gatech.edu/~anarechania3/",
+    "websiteURL": "http://arpit.narechania.com",
     "linkedinURL": "https://www.linkedin.com/in/narechania",
     "twitterURL": "https://twitter.com/arpitnarechania",
     "googlescholarURL": "https://scholar.google.com/citations?user=k1S8Sc4AAAAJ"
@@ -30,7 +30,7 @@
     "firstName": "Grace",
     "lastName": "Guo",
     "title": "PhD Student, HCC",
-    "keywords": "HCI; Musical theatre enthusiast",
+    "keywords": "Recommenders; Annotations; Musical theatre enthusiast",
     "image": "grace.jpeg",
     "email": "gguo31@gatech.edu",
     "websiteURL": "https://gracegsy.github.io/",
@@ -39,24 +39,11 @@
     "googlescholarURL": ""
   },
   {
-    "fullName": "Shenyu Xu",
-    "firstName": "Shenyu",
-    "lastName": "Xu",
-    "title": "PhD Student, CS",
-    "keywords": "HCI; Opera",
-    "image": "shenyu.jpeg",
-    "email": "shenyuxu@gatech.edu",
-    "websiteURL": "https://thomasxu2009.github.io/",
-    "linkedinURL": "https://www.linkedin.com/in/shenyuxu/",
-    "twitterURL": "https://twitter.com/XuShenyu",
-    "googlescholarURL": "https://scholar.google.com/citations?user=5ZWZcmcAAAAJ&hl=en"
-  },
-  {
     "fullName": "Adam Coscia",
     "firstName": "Adam",
     "lastName": "Coscia",
     "title": "PhD Student, HCC",
-    "keywords": "AI; Knowledge Graphs; Sensemaking; Snowboarding",
+    "keywords": "AI; Language models; Knowledge graphs; Snowboarding",
     "image": "adam.jpg",
     "email": "acoscia6@gatech.edu",
     "websiteURL": "https://adamcoscia.github.io/",
@@ -76,6 +63,19 @@
     "linkedinURL": "https://www.linkedin.com/in/sichen-jin-521286205/",
     "twitterURL": "https://twitter.com/jin_sichen",
     "googlescholarURL": ""
+  },
+  {
+    "fullName": "Shenyu Xu",
+    "firstName": "Shenyu",
+    "lastName": "Xu",
+    "title": "MS Student, CS",
+    "keywords": "Data-driven storytelling; HCI; Opera",
+    "image": "shenyu.jpeg",
+    "email": "shenyuxu@gatech.edu",
+    "websiteURL": "https://thomasxu2009.github.io/",
+    "linkedinURL": "https://www.linkedin.com/in/shenyuxu/",
+    "twitterURL": "https://twitter.com/XuShenyu",
+    "googlescholarURL": "https://scholar.google.com/citations?user=5ZWZcmcAAAAJ&hl=en"
   },
   {
     "fullName": "Jamal Paden",

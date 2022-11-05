@@ -781,9 +781,17 @@ function saveTheme() {
  */
 function setTheme() {
   document.documentElement.setAttribute("data-theme", darkThemeEnabled ? "dark" : "light");
+  $("#header-logo").attr(
+    "src",
+    darkThemeEnabled
+      ? "/assets/images/logo/VALab_withGT_nobg_dark_700x150.svg"
+      : "/assets/images/logo/VALab_withGT_nobg_light_700x150.svg"
+  );
   $("#about-logo").attr(
     "src",
-    darkThemeEnabled ? "/assets/images/logo/logo-white.svg" : "/assets/images/logo/logo.svg"
+    darkThemeEnabled
+      ? "/assets/images/logo/VALab_nobg_dark_160x160.svg"
+      : "/assets/images/logo/VALab_nobg_light_160x160.svg"
   );
   const btns = $(".dark-theme-button").get();
   for (let i = 0; i < btns.length; i++) {

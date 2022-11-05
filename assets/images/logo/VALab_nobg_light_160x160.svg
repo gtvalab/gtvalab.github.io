@@ -1,0 +1,33 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M99 16L99 144" stroke="#E6E6E6" stroke-width="3" stroke-linecap="round"/>
+<path d="M136 16L136 144" stroke="#E6E6E6" stroke-width="3" stroke-linecap="round"/>
+<path d="M61 16L61 144" stroke="#E6E6E6" stroke-width="3" stroke-linecap="round"/>
+<path d="M24 16L24 144" stroke="#E6E6E6" stroke-width="3" stroke-linecap="round"/>
+<path d="M136 105L99 93" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 93L61 107" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 98L61 120" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 98L136 109" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 53L61 68" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M136 132.706L99 121.412" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 121.412L61 132.706" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M24 53L61 68" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M24 56L61 107" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M24 74L61 120" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 53L136 96" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 22L136 90" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M99 22L61 62" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M24 22L61 62" stroke="#E6E6E6" stroke-width="2"/>
+<path d="M61 133L99 67" stroke="#3A5DAE" stroke-width="16"/>
+<path d="M61 133L99 115" stroke="#3A5DAE" stroke-width="16"/>
+<path d="M99 67L136 133" stroke="#3A5DAE" stroke-width="16"/>
+<path d="M99 115L136 133" stroke="#3A5DAE" stroke-width="16"/>
+<circle cx="136" cy="133" r="7" fill="#D6DBD4" stroke="#3A5DAE" stroke-width="2"/>
+<circle cx="99" cy="67" r="7" fill="#D6DBD4" stroke="#3A5DAE" stroke-width="2"/>
+<circle cx="61" cy="133" r="7" fill="#D6DBD4" stroke="#3A5DAE" stroke-width="2"/>
+<circle cx="99" cy="115" r="7" fill="#D6DBD4" stroke="#3A5DAE" stroke-width="2"/>
+<path d="M61 93L99 27" stroke="#A4925A" stroke-width="16"/>
+<circle cx="99" cy="27" r="7" fill="#D6DBD4" stroke="#A4925A" stroke-width="2"/>
+<path d="M24 27L61 93" stroke="#A4925A" stroke-width="16"/>
+<circle cx="61" cy="93" r="7" fill="#D6DBD4" stroke="#A4925A" stroke-width="2"/>
+<circle cx="24" cy="27" r="7" fill="#D6DBD4" stroke="#A4925A" stroke-width="2"/>
+</svg>

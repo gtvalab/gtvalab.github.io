@@ -1,13 +1,17 @@
 [
   {
     "title": "Visual Analytics for Automobile Systems Engineering",
-    "image": "pathping.png",
-    "pageLink": "",
-    "text": "Automotive Safety Engineering data comprises several heterogenous datasets - Requirements, Failure Mode Effect Analysis, Functional Safety, Tests, etc. Using these datasets, this project builds interactive visual analytics systems to help answer specific questions as well as allow exploratory data analysis with an aim to enable better decision making and eventually safer cars!",
+    "image": "automotive-va-teaser.png",
+    "pageLink": "/projects/automotive-va.html",
+    "text": "Automotive Systems Engineering data comprises several heterogenous datasets - Requirements, Failure Mode Effect Analysis, Functional Safety, Quality Control, etc. Leveraging these datasets, this project builds interactive visual analytics systems to help automotive systems engineers to answer specific questions as well as promote exploratory data analysis with an aim to better decision making and eventually safer cars!",
     "related": [
       {
         "text": "SafetyLens: Visual Data Analysis of Functional Safety of Vehicles",
         "link": "https://www.cc.gatech.edu/~anarechania3/docs/publications/safetylens_vis_2020.pdf"
+      },
+      {
+        "text": "Understanding Failure Mode Effect Analysis Data using Interactive Visual Analytics",
+        "link": "https://sites.cc.gatech.edu/~anarechania3/docs/publications/datahawk_cga_2019.pdf"
       }
     ]
   },
