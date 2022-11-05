@@ -1,5 +1,9 @@
 [
   {
+    "date": "Nov 2022",
+    "text": "<a href='http://arpit.narechania.com/' target='_blank'>Arpit</a>, <a href='https://gracegsy.github.io/' target='_blank'>Grace</a>, and <a href='https://adamcoscia.github.io/' target='_blank'>Adam</a> presented at the annual <a href='https://twitter.com/GT_Vis/status/1588237174708707328' target='_blank'>GVU research showcase</a>."
+  },
+  {
     "date": "Oct 2022",
     "text": "<a href='http://arpit.narechania.com/' target='_blank'>Arpit Narechania</a> presented <a href='https://arxiv.org/abs/2207.00189' target='_blank'><i>\"Facilitating Conversational Interaction in Natural Language Interfaces for Visualization\"</i></a> at IEEE VIS 2022."
   },
@@ -9,6 +13,6 @@
   },
   {
     "date": "Oct 2022",
-    "text": "Our lab attended the IEEE VIS 2022 conference in Oklahoma City, Oklahoma, USA!"
+    "text": "Our lab attended the <a href='https://ieeevis.org/year/2022/welcome' target='_blank'>IEEE VIS 2022</a> conference in Oklahoma City, Oklahoma, USA!"
   }
 ]
