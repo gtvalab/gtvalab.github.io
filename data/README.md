@@ -27,8 +27,8 @@ Example format:
 ```(json)
 [
   {
-    "date": "DD MM YYYY",        // **REQUIRED** (e.g., 01 Jan 1970)
-    "text": "Sample news text."  // **REQUIRED** (keep it short please!)
+    "date": "MMM YYYY",        // **REQUIRED** (e.g., Jan 1970)
+    "text": "Sample news text."  // **REQUIRED** (keep it short please! Can include HTML, e.g., <a> tags for links.)
   },
   ...
 ]
