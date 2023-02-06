@@ -263,13 +263,19 @@ function createGalleryElements(data) {
 function createNewsElements(data) {
   let items = [];
   let elem;
+  let text;
   for (let i = 0; i < data.length; i++) {
     const n = data[i];
+    if (typeof n.text !== "string") {
+      text = n.text.map((t) => `<div class="news-item-text">${t}</div>`).join("");
+    } else {
+      text = `<div class="news-item-text">${n.text}</div>`;
+    }
     elem = `
       <div class="row">
         <div class="col news-item">
           <div class="news-item-date">${n.date}</div>
-          <div class="news-item-text">${n.text}</div>
+          ${text}
         </div>
       </div>
     `;

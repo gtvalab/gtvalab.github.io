@@ -1,18 +1,22 @@
 [
   {
+    "date": "Feb 2023",
+    "text": "Arpit Narechania and Adam Coscia presented posters at the 2023 Georgia Tech <a href='https://grad.gatech.edu/cridc' target='_blank'>Career, Research, and Innovation Development Conference</a>. They won travel awards!"
+  },
+  {
     "date": "Nov 2022",
-    "text": "<a href='http://arpit.narechania.com/' target='_blank'>Arpit</a>, <a href='https://gracegsy.github.io/' target='_blank'>Grace</a>, and <a href='https://adamcoscia.github.io/' target='_blank'>Adam</a> presented at the annual <a href='https://twitter.com/GT_Vis/status/1588237174708707328' target='_blank'>GVU research showcase</a>."
+    "text": "Arpit Narechania, Grace Guo, and Adam Coscia presented at the annual <a href='https://twitter.com/GT_Vis/status/1588237174708707328' target='_blank'>GVU research showcase</a>."
   },
   {
     "date": "Oct 2022",
-    "text": "<a href='http://arpit.narechania.com/' target='_blank'>Arpit Narechania</a> presented <a href='https://arxiv.org/abs/2207.00189' target='_blank'><i>\"Facilitating Conversational Interaction in Natural Language Interfaces for Visualization\"</i></a> at IEEE VIS 2022."
+    "text": [
+      "Our lab attended the <a href='https://ieeevis.org/year/2022/welcome' target='_blank'>IEEE VIS 2022</a> conference in Oklahoma City, Oklahoma, USA!",
+      "Grace Guo presented her research at the <a href='https://ieeevis.org/year/2022/info/call-participation/doctoral-colloquium' target='_blank'>Doctoral Colloquium</a>.",
+      "Arpit Narechania presented <a href='https://arxiv.org/abs/2207.00189' target='_blank'><i>\"Facilitating Conversational Interaction in Natural Language Interfaces for Visualization\"</i></a>."
+    ]
   },
   {
-    "date": "Oct 2022",
-    "text": "<a href='https://gracegsy.github.io/' target='_blank'>Grace Guo</a> presented her research at the <a href='https://ieeevis.org/year/2022/info/call-participation/doctoral-colloquium' target='_blank'>Doctoral Colloquium</a> for IEEE VIS 2022."
-  },
-  {
-    "date": "Oct 2022",
-    "text": "Our lab attended the <a href='https://ieeevis.org/year/2022/welcome' target='_blank'>IEEE VIS 2022</a> conference in Oklahoma City, Oklahoma, USA!"
+    "date": "Aug 2022",
+    "text": "Grace Guo and Adam Coscia presented their work at a meeting of the <a href='https://aialoe.org/' target='_blank'>NSF AI Institute for Adult Learning and Online Education (AI-ALOE)</a>."
   }
 ]
