@@ -2,7 +2,7 @@
 
 Website for the Georgia Tech Visual Analytics Lab, deployed at <https://gtvalab.github.io/>
 
-Last updated: November 2022
+Last updated: February 2023
 
 ## Setup and run
 

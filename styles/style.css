@@ -451,7 +451,7 @@ h5 {
 .people-card {
   display: flex;
   flex-flow: column nowrap;
-  max-width: 144px;
+  max-width: 160px;
   margin: 8px 4px;
 }
 @media only screen and (max-width: 601px) {
@@ -460,15 +460,15 @@ h5 {
   }
 }
 .people-card-img {
-  width: 144px;
-  height: 144px;
+  width: 160px !important;
+  height: 160px !important;
   object-fit: cover;
   overflow: hidden;
 }
 @media only screen and (max-width: 601px) {
   .people-card-img {
-    width: 112px;
-    height: 112px;
+    width: 112px !important;
+    height: 112px !important;
   }
 }
 .people-card .card-image .card-title {
@@ -559,7 +559,7 @@ h5 {
   font-size: 1.3rem;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min-content, 256px));
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
   gap: 6px 12px;
 }
 .team-alumni-container span {

@@ -65,17 +65,30 @@
     "googlescholarURL": ""
   },
   {
-    "fullName": "Shenyu Xu",
-    "firstName": "Shenyu",
-    "lastName": "Xu",
+    "fullName": "Aishwarya Mudgal",
+    "firstName": "Aishwarya",
+    "lastName": "Mudgal",
     "title": "MS Student, CS",
-    "keywords": "Data-driven storytelling; HCI; Opera",
-    "image": "shenyu.jpeg",
-    "email": "shenyuxu@gatech.edu",
-    "websiteURL": "https://thomasxu2009.github.io/",
-    "linkedinURL": "https://www.linkedin.com/in/shenyuxu/",
-    "twitterURL": "https://twitter.com/XuShenyu",
-    "googlescholarURL": "https://scholar.google.com/citations?user=5ZWZcmcAAAAJ&hl=en"
+    "keywords": "Visual Analytics",
+    "image": "aishwarya.png",
+    "email": "amsk3@gatech.edu",
+    "websiteURL": "https://aishwaryamsk.github.io/",
+    "linkedinURL": "https://www.linkedin.com/in/aishwarya-mudgal/",
+    "twitterURL": "",
+    "googlescholarURL": ""
+  },
+  {
+    "fullName": "Kaustubh Odak",
+    "firstName": "Kaustubh",
+    "lastName": "Odak",
+    "title": "MS Student, CS",
+    "keywords": "Visual Analytics",
+    "image": "kaustubhodak.png",
+    "email": "kaustubhodak1@gmail.com",
+    "websiteURL": "https://kaustubhodak.me/",
+    "linkedinURL": "https://www.linkedin.com/in/kaustubh-odak/",
+    "twitterURL": "",
+    "googlescholarURL": ""
   },
   {
     "fullName": "Jamal Paden",

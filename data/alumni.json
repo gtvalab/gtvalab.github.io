@@ -3,49 +3,56 @@
     "fullName": "Subhajit Das",
     "firstName": "Subhajit",
     "lastName": "Das",
-    "degreeTitle": "PhD",
+    "degreeTitle": "CS PhD",
     "websiteURL": "https://subhdas.github.io/"
   },
   {
     "fullName": "Julia Deeb-Swihart",
     "firstName": "Julia",
     "lastName": "Deeb-Swihart",
-    "degreeTitle": "PhD",
+    "degreeTitle": "CS PhD",
     "websiteURL": "https://www.julia.deebswih.art/"
   },
   {
     "fullName": "Fred Hohman",
     "firstName": "Fred",
     "lastName": "Hohman",
-    "degreeTitle": "PhD",
+    "degreeTitle": "CSE PhD",
     "websiteURL": "https://fredhohman.com/"
   },
   {
     "fullName": "Hannah Kim",
     "firstName": "Hannah",
     "lastName": "Kim",
-    "degreeTitle": "PhD",
-    "websiteURL": "https://www.cc.gatech.edu/grads/h/hkim708/"
+    "degreeTitle": "CS PhD",
+    "websiteURL": "https://www.linkedin.com/in/hannah-kim-gt/"
   },
   {
     "fullName": "Terrance Law",
     "firstName": "Terrance",
     "lastName": "Law",
-    "degreeTitle": "PhD",
+    "degreeTitle": "CS PhD",
     "websiteURL": "https://terrancelaw.github.io/"
   },
   {
     "fullName": "Bahador Saket",
     "firstName": "Bahador",
     "lastName": "Saket",
-    "degreeTitle": "PhD",
+    "degreeTitle": "CS PhD",
     "websiteURL": "https://www.linkedin.com/in/bahador-saket-3b9b9449"
   },
   {
     "fullName": "Emily Wall",
     "firstName": "Emily",
     "lastName": "Wall",
-    "degreeTitle": "PhD",
+    "degreeTitle": "CS PhD",
     "websiteURL": "https://emilywall.github.io/"
+  },
+  {
+    "fullName": "Shenyu Xu",
+    "firstName": "Shenyu",
+    "lastName": "Xu",
+    "degreeTitle": "CS MS",
+    "websiteURL": "https://thomasxu2009.github.io/"
   }
 ]
