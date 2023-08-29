@@ -1,5 +1,49 @@
 [
   {
+    "2023": [
+      {
+        "title": "DataPilot: Utilizing Quality and Usage Information for Subset Selection during Visual Data Preparation",
+        "authors": "Arpit Narechania, Fan Du, Atanu R. Sinha, Ryan A. Rossi, Jane Hoffswell, Shunan Guo, Eunyee Koh, Shamkant B. Navathe, Alex Endert",
+        "venue": "ACM CHI 2023",
+        "image": "23-chi-datapilot.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://sites.cc.gatech.edu/~anarechania3/docs/publications/datapilot_chi_2023.pdf"
+          },
+          {
+            "text": "Video (Overview)",
+            "link": "https://youtu.be/0NShjCXeLKc"
+          }
+        ]
+      },
+      {
+        "title": "Causalvis: Visualizations for Causal Inference",
+        "authors": "Grace Guo, Ehud Karavani, Alex Endert, Bum Chul Kwon",
+        "venue": "ACM CHI 2023",
+        "image": "23-chi-causalvis.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "/assets/files/23-chi-causalvis.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "https://gracegsy.github.io/causalvis/causalvis.html"
+          },
+          {
+            "text": "Video",
+            "link": "https://vimeo.com/804159211"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/causalvis/causalvis"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "2022": [
       {
         "title": "Facilitating Conversational Interaction in Natural Language Interfaces for Visualization",

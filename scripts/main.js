@@ -448,9 +448,37 @@ function createAlumniElements(data) {
   for (let i = 0; i < data.length; i++) {
     const p = data[i];
     if (p.websiteURL) {
-      elem = `<span><a href="${p.websiteURL}" target="_blank">${p.fullName}</a> (${p.degreeTitle})</span>`;
+      cardImage = `
+        <div class="alumni-image-container">
+          <a href="${p.websiteURL}" target="_blank">
+            <img src="/assets/images/team/${p.image}" class="alumni-image" />
+          </a>
+        </div>
+      `;
+      elem = `
+        <div class="alumni-container">
+          ${cardImage}
+          <div class="alumni-details-container">
+            <a href="${p.websiteURL}" target="_blank" class="alumni-details-name">${p.fullName}</a> 
+            <span class="alumni-details-degree">(${p.degreeTitle})</span>
+          </div>
+        </div>
+      `;
     } else {
-      elem = `<span>${p.fullName} (${p.degreeTitle})</span>`;
+      cardImage = `
+        <div class="alumni-image-container">
+          <img src="/assets/images/team/${p.image}" class="alumni-image" />
+        </div>
+      `;
+      elem = `
+        <div class="alumni-container">
+          ${cardImage}
+          <div class="alumni-details-container">
+            <span class="alumni-details-name">${p.fullName}</span>
+            <span class="alumni-details-degree">(${p.degreeTitle})</span>
+          </div>
+        </div>
+      `;
     }
     items.push(elem);
   }

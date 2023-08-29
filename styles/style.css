@@ -94,6 +94,7 @@ body,
   transition: color 100ms linear, background-color 200ms linear;
 }
 .people-card,
+.alumni-container,
 .project-wrapper,
 .publication-wrapper {
   background-color: var(--card-bg-color);
@@ -102,6 +103,7 @@ body,
   transition: color 100ms linear, background-color 200ms linear, transform 0.2s ease-in-out;
 }
 .people-card:hover,
+.alumni-container:hover,
 .project-wrapper:hover,
 .publication-wrapper:hover {
   transform: scale(1.025);
@@ -349,7 +351,7 @@ h5 {
 }
 .carousel-img {
   max-width: 70vw;
-  max-height: 300px;
+  max-height: 250px;
   border-radius: 6px;
   object-fit: contain;
   overflow: hidden;
@@ -556,21 +558,63 @@ h5 {
   border-bottom: 2px solid #f0b310;
 }
 .team-alumni-container {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
-  gap: 6px 12px;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 208px));
+  gap: 8px 12px;
 }
-.team-alumni-container span {
+.team-alumni-container > div {
+  display: flex;
+  height: 96px;
   background-color: var(--card-bg-color);
-  padding: 12px;
-  border-radius: 24px;
+  border-radius: 12px;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
 }
 @media only screen and (max-width: 601px) {
   .team-alumni-container {
     justify-content: center;
+  }
+}
+.alumni-image-container {
+  flex: 0;
+}
+.alumni-image {
+  width: 96px !important;
+  height: 96px !important;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.alumni-details-container {
+  padding: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.alumni-details-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.alumni-details-degree {
+  color: var(--people-card-title-font-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 601px) {
+  .team-alumni-container {
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 168px));
+  }
+  .team-alumni-container > div {
+    height: 72px;
+  }
+  .alumni-image {
+    width: 72px !important;
+    height: 72px !important;
+  }
+  .alumni-details-container {
+    padding: 4px;
   }
 }
 

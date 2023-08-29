@@ -4,6 +4,7 @@
     "firstName": "Subhajit",
     "lastName": "Das",
     "degreeTitle": "CS PhD",
+    "image": "subhajit.jpg",
     "websiteURL": "https://subhdas.github.io/"
   },
   {
@@ -11,6 +12,7 @@
     "firstName": "Julia",
     "lastName": "Deeb-Swihart",
     "degreeTitle": "CS PhD",
+    "image": "julia.jpg",
     "websiteURL": "https://www.julia.deebswih.art/"
   },
   {
@@ -18,6 +20,7 @@
     "firstName": "Fred",
     "lastName": "Hohman",
     "degreeTitle": "CSE PhD",
+    "image": "fred.jpg",
     "websiteURL": "https://fredhohman.com/"
   },
   {
@@ -25,6 +28,7 @@
     "firstName": "Hannah",
     "lastName": "Kim",
     "degreeTitle": "CS PhD",
+    "image": "hannah.jpg",
     "websiteURL": "https://www.linkedin.com/in/hannah-kim-gt/"
   },
   {
@@ -32,6 +36,7 @@
     "firstName": "Terrance",
     "lastName": "Law",
     "degreeTitle": "CS PhD",
+    "image": "terrance.jpg",
     "websiteURL": "https://terrancelaw.github.io/"
   },
   {
@@ -39,6 +44,7 @@
     "firstName": "Bahador",
     "lastName": "Saket",
     "degreeTitle": "CS PhD",
+    "image": "bahador.jpg",
     "websiteURL": "https://www.linkedin.com/in/bahador-saket-3b9b9449"
   },
   {
@@ -46,13 +52,31 @@
     "firstName": "Emily",
     "lastName": "Wall",
     "degreeTitle": "CS PhD",
+    "image": "Emily.jpg",
     "websiteURL": "https://emilywall.github.io/"
+  },
+  {
+    "fullName": "Aishwarya Mudgal",
+    "firstName": "Aishwarya",
+    "lastName": "Mudgal",
+    "degreeTitle": "CS MS",
+    "image": "aishwarya.png",
+    "websiteURL": "https://aishwaryamsk.github.io/"
   },
   {
     "fullName": "Shenyu Xu",
     "firstName": "Shenyu",
     "lastName": "Xu",
     "degreeTitle": "CS MS",
+    "image": "shenyu.jpeg",
     "websiteURL": "https://thomasxu2009.github.io/"
+  },
+  {
+    "fullName": "Jamal Paden",
+    "firstName": "Jamal",
+    "lastName": "Paden",
+    "degreeTitle": "BS CS",
+    "image": "jamal.jpg",
+    "websiteURL": "https://www.linkedin.com/in/jamal-paden"
   }
 ]

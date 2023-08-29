@@ -65,19 +65,6 @@
     "googlescholarURL": ""
   },
   {
-    "fullName": "Aishwarya Mudgal",
-    "firstName": "Aishwarya",
-    "lastName": "Mudgal",
-    "title": "MS Student, CS",
-    "keywords": "Visual Analytics",
-    "image": "aishwarya.png",
-    "email": "amsk3@gatech.edu",
-    "websiteURL": "https://aishwaryamsk.github.io/",
-    "linkedinURL": "https://www.linkedin.com/in/aishwarya-mudgal/",
-    "twitterURL": "",
-    "googlescholarURL": ""
-  },
-  {
     "fullName": "Kaustubh Odak",
     "firstName": "Kaustubh",
     "lastName": "Odak",
@@ -87,19 +74,6 @@
     "email": "kaustubhodak1@gmail.com",
     "websiteURL": "https://kaustubhodak.me/",
     "linkedinURL": "https://www.linkedin.com/in/kaustubh-odak/",
-    "twitterURL": "",
-    "googlescholarURL": ""
-  },
-  {
-    "fullName": "Jamal Paden",
-    "firstName": "Jamal",
-    "lastName": "Paden",
-    "title": "BS Student, CS",
-    "keywords": "HCI; Data science; Burritos",
-    "image": "jamal.jpg",
-    "email": "jpaden@gatech.edu",
-    "websiteURL": "",
-    "linkedinURL": "https://www.linkedin.com/in/jamal-paden",
     "twitterURL": "",
     "googlescholarURL": ""
   }
