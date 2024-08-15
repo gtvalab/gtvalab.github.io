@@ -78,16 +78,16 @@
     "googlescholarURL": ""
   },
   {
-		"fullName": "Donald Bertucci",
-		"firstName": "Donny",
-		"lastName": "Bertucci",
-		"title": "PhD Student, CS",
-		"keywords": "Visualization; Machine Learning; Reading",
-		"image": "donny.jpg",
-		"email": "bertucci@gatech.edu",
-		"websiteURL": "https://donnybertucci.com/",
-		"linkedinURL": "https://www.linkedin.com/in/donny-bertucci/",
-		"twitterURL": "https://twitter.com/donny_bertucci",
-		"googlescholarURL": "https://scholar.google.com/citations?hl=en&user=0Dtmgf8AAAAJ"
-	}
+    "fullName": "Donald Bertucci",
+    "firstName": "Donny",
+    "lastName": "Bertucci",
+    "title": "PhD Student, CS",
+    "keywords": "Visualization; Machine Learning; Reading",
+    "image": "donny.jpg",
+    "email": "bertucci@gatech.edu",
+    "websiteURL": "https://donnybertucci.com/",
+    "linkedinURL": "https://www.linkedin.com/in/donny-bertucci/",
+    "twitterURL": "https://twitter.com/donny_bertucci",
+    "googlescholarURL": "https://scholar.google.com/citations?hl=en&user=0Dtmgf8AAAAJ"
+  }
 ]
