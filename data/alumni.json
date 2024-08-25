@@ -16,6 +16,14 @@
     "websiteURL": "https://www.julia.deebswih.art/"
   },
   {
+    "fullName": "Grace Guo",
+    "firstName": "Grace",
+    "lastName": "Guo",
+    "degreeTitle": "HCC PhD",
+    "image": "grace.jpeg",
+    "websiteURL": "https://gracegsy.github.io/"
+  },
+  {
     "fullName": "Fred Hohman",
     "firstName": "Fred",
     "lastName": "Hohman",
@@ -62,6 +70,14 @@
     "degreeTitle": "CS MS",
     "image": "aishwarya.png",
     "websiteURL": "https://aishwaryamsk.github.io/"
+  },
+  {
+    "fullName": "Kaustubh Odak",
+    "firstName": "Kaustubh",
+    "lastName": "Odak",
+    "degreeTitle": "CS MS",
+    "image": "kaustubhodak.png",
+    "websiteURL": "https://kaustubhodak.me/"
   },
   {
     "fullName": "Shenyu Xu",

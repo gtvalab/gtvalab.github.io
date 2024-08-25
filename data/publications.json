@@ -1,25 +1,235 @@
 [
   {
-    "2023": [
+    "2024": [
       {
-        "title": "DataPilot: Utilizing Quality and Usage Information for Subset Selection during Visual Data Preparation",
-        "authors": "Arpit Narechania, Fan Du, Atanu R. Sinha, Ryan A. Rossi, Jane Hoffswell, Shunan Guo, Eunyee Koh, Shamkant B. Navathe, Alex Endert",
-        "venue": "ACM CHI 2023",
-        "image": "23-chi-datapilot.png",
+        "title": "BiasBuzz: Combining Visual Guidance with Haptic Feedback to Increase Awareness of Analytic Behavior during Visual Data Analysis",
+        "authors": "Jamal Paden*, Arpit Narechania*, Alex Endert",
+        "venue": "ACM CHI 2024 (LBW)",
+        "image": "24-chi-biasbuzz.png",
         "actions": [
           {
             "text": "PDF",
-            "link": "https://sites.cc.gatech.edu/~anarechania3/docs/publications/datapilot_chi_2023.pdf"
+            "link": "https://arpitnarechania.github.io/docs/publications/biasbuzz_chi_2024.pdf"
           },
           {
-            "text": "Video (Overview)",
-            "link": "https://youtu.be/0NShjCXeLKc"
+            "text": "Video (Talk)",
+            "link": "https://youtu.be/8Wm7GvN9c90"
           }
         ]
       },
       {
+        "title": "DeepSee: Multidimensional Visualizations of Seabed Ecosystems",
+        "authors": "Adam Coscia, Haley M. Sapers, Noah Deutsch, Malika Khurana, John S. Magyar, Sergio A. Parra, Daniel R. Utter, Rebecca L. Wipfler, David W. Caress, Eric J. Martin, Jennifer B. Paduan, Maggie Hendrie, Santiago Lombeyda, Hillary Mushkin, Alex Endert, Scott Davidoff, and Victoria J. Orphan",
+        "venue": "ACM CHI 2024",
+        "image": "24-chi-deepsee.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/pdf/2403.04761.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "https://adamcoscia.com/papers/deepsee/"
+          },
+          {
+            "text": "Video (Talk)",
+            "link": "https://youtu.be/FqJIZJqfeTM"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/orphanlab/DeepSee"
+          },
+          {
+            "text": "Live Demo",
+            "link": "https://www.its.caltech.edu/~datavis/deepsee/"
+          }
+        ]
+      },
+      {
+        "title": "Explainability in JupyterLab and Beyond: Interactive XAI Systems for Integrated and Collaborative Workflows",
+        "authors": "Grace Guo, Dustin Arendt, and Alex Endert",
+        "venue": "ACM CHI 2024 (workshop)",
+        "image": "24-chi-bonxai.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/pdf/2404.02081"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/GraceGSy/bonXAI"
+          }
+        ]
+      },
+      {
+        "title": "Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models",
+        "authors": "Subham Sah*, Rishab Mitra*, Arpit Narechania*, Alex Endert, John Stasko, Wenwen Dou",
+        "venue": "IEEE VIS 2024 (NLVIZ workshop)",
+        "image": "24-vis-nl4dvllm.png",
+        "actions": []
+      },
+      {
+        "title": "iScore: Visual Analytics for Interpreting How Language Models Automatically Score Summaries",
+        "authors": "Adam Coscia, Langdon Holmes, Wesley Morris, Joon Suh Choi, Scott Crossley, and Alex Endert",
+        "venue": "ACM IUI 2024",
+        "image": "24-iui-iscore.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/pdf/2403.04760.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "https://adamcoscia.com/papers/iscore/"
+          },
+          {
+            "text": "Video (demo)",
+            "link": "https://youtu.be/EYJX-_fQPf0"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/AdamCoscia/iScore"
+          }
+        ]
+      },
+      {
+        "title": "KnowledgeVIS: Interpreting Language Models by Comparing Fill-in-the-Blank Prompts",
+        "authors": "Adam Coscia, and Alex Endert",
+        "venue": "IEEE TVCG 2024",
+        "image": "24-tvcg-knowledgevis.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/pdf/2403.04758.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "https://adamcoscia.com/papers/knowledgevis/"
+          },
+          {
+            "text": "Video (demo)",
+            "link": "https://youtu.be/hBX4rSUMr_I"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/AdamCoscia/KnowledgeVIS"
+          },
+          {
+            "text": "Live Demo",
+            "link": "https://adamcoscia.com/papers/knowledgevis/demo/"
+          }
+        ]
+      },
+      {
+        "title": "MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models",
+        "authors": "Grace Guo, Lifu Deng, Animesh Tandon, Alex Endert, and Bum Chul Kwon",
+        "venue": "ACM FAccT 2024",
+        "image": "24-facct-mimicri.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://dl.acm.org/doi/pdf/10.1145/3630106.3659011"
+          },
+          {
+            "text": "Website",
+            "link": "https://gracegsy.github.io/mimicri/mimicri.html"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/IBM/mimicri"
+          }
+        ]
+      },
+      {
+        "title": "Preliminary Guidelines For Combining Data Integration and Visual Data Analysis",
+        "authors": "Adam Coscia, Ashley Suh, Remco Chang, and Alex Endert",
+        "venue": "IEEE TVCG 2024",
+        "image": "24-tvcg-integration-guidelines.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/pdf/2403.04757.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "https://adamcoscia.com/papers/guidelines/"
+          },
+          {
+            "text": "Video (study)",
+            "link": "https://youtu.be/NzVxHn-OpqQ"
+          },
+          {
+            "text": "Data",
+            "link": "https://github.com/AdamCoscia/Integration-Guidelines-VA"
+          }
+        ]
+      },
+      {
+        "title": "ProvenanceWidgets: A Library of UI Control Elements to Track and Dynamically Overlay Analytic Provenance",
+        "authors": "Arpit Narechania, Kaustubh Odak, Mennatallah El-Assady, and Alex Endert",
+        "venue": "IEEE VIS 2024",
+        "image": "24-vis-provenancewidgets.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/pdf/2407.17431"
+          },
+          {
+            "text": "Website",
+            "link": "https://provenancewidgets.github.io/"
+          },
+          {
+            "text": "Video (demo)",
+            "link": "https://youtu.be/7l6jKbS2SFI"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/ProvenanceWidgets/ProvenanceWidgets"
+          },
+          {
+            "text": "Live Demo",
+            "link": "https://provenancewidgets.github.io/showcase/#/playground"
+          }
+        ]
+      },
+      {
+        "title": "Visualizing Intelligent Tutor Interactions for Responsive Pedagogy",
+        "authors": "Grace Guo*, Aishwarya Mudgal Sunil Kumar*, Adit Gupta, Adam Coscia, Chris Maclellan, and Alex Endert",
+        "venue": "ACM AVI 2024",
+        "image": "24-avi-vista.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://dl.acm.org/doi/pdf/10.1145/3656650.3656667"
+          }
+        ]
+      },
+      {
+        "title": "vitaLITy 2: Reviewing Academic Literature Using Large Language Models",
+        "authors": "Hongye An, Arpit Narechania, Emily Wall, and Kai Xu",
+        "venue": "IEEE VIS 2024 (NLVIZ workshop)",
+        "image": "24-vis-vitality2.png",
+        "actions": []
+      },
+      {
+        "title": "What We Augment When We Augment Visualizations: A Design Elicitation Study of How We Visually Express Data Relationships",
+        "authors": "Grace Guo, John Stasko, and Alex Endert",
+        "venue": "ACM AVI 2024",
+        "image": "24-avi-elicitation.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://dl.acm.org/doi/pdf/10.1145/3656650.3656666"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2023": [
+      {
         "title": "Causalvis: Visualizations for Causal Inference",
-        "authors": "Grace Guo, Ehud Karavani, Alex Endert, Bum Chul Kwon",
+        "authors": "Grace Guo, Ehud Karavani, Alex Endert, and Bum Chul Kwon",
         "venue": "ACM CHI 2023",
         "image": "23-chi-causalvis.png",
         "actions": [
@@ -40,14 +250,70 @@
             "link": "https://github.com/causalvis/causalvis"
           }
         ]
+      },
+      {
+        "title": "DataCockpit: A Toolkit for Data Lake Navigation and Monitoring Utilizing Quality and Usage Information",
+        "authors": "Arpit Narechania, Surya Chakraborty, Shivam Agarwal, Atanu R Sinha, Ryan A. Rossi, Fan Du, Jane Hoffswell, Shunan Guo, Eunyee Koh, Alex Endert, and Shamkant Navathe",
+        "venue": "IEEE BigData 2023",
+        "image": "23-bigdata-datacockpit.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arpitnarechania.github.io/docs/publications/datacockpit_mlbd_2023.pdf"
+          },
+          {
+            "text": "Video",
+            "link": "https://youtu.be/T-TbsqpNX5M"
+          }
+        ]
+      },
+      {
+        "title": "DataPilot: Utilizing Quality and Usage Information for Subset Selection during Visual Data Preparation",
+        "authors": "Arpit Narechania, Fan Du, Atanu R. Sinha, Ryan A. Rossi, Jane Hoffswell, Shunan Guo, Eunyee Koh, Shamkant B. Navathe, and Alex Endert",
+        "venue": "ACM CHI 2023",
+        "image": "23-chi-datapilot.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://sites.cc.gatech.edu/~anarechania3/docs/publications/datapilot_chi_2023.pdf"
+          },
+          {
+            "text": "Video (Overview)",
+            "link": "https://youtu.be/0NShjCXeLKc"
+          }
+        ]
+      },
+      {
+        "title": "Resiliency: A Consensus Data Binning Method",
+        "authors": "Arpit Narechania, Alex Endert, and Clio Andris",
+        "venue": "12th International Conference on Geographic Information Science (GIScience 2023)",
+        "image": "23-giscience-resiliency.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol277-giscience2023/LIPIcs.GIScience.2023.55/LIPIcs.GIScience.2023.55.pdf"
+          }
+        ]
       }
     ]
   },
   {
     "2022": [
       {
+        "title": "Ethical Tensions in Applications of AI for Addressing Human Trafficking: A Human Rights Perspective",
+        "authors": "Julia Deeb-Swihart, Alex Endert, and Amy Bruckman",
+        "venue": "ACM CSCW 2022",
+        "image": "22-cscw-trafficking.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://dl.acm.org/doi/pdf/10.1145/3555186"
+          }
+        ]
+      },
+      {
         "title": "Facilitating Conversational Interaction in Natural Language Interfaces for Visualization",
-        "authors": "Rishab Mitra, Arpit Narechania, Alex Endert, John Stasko",
+        "authors": "Rishab Mitra, Arpit Narechania, Alex Endert, and John Stasko",
         "venue": "IEEE VIS 2022",
         "image": "22-vis-conversational-interaction-nl4dv.png",
         "actions": [
@@ -178,6 +444,30 @@
           {
             "text": "Live Demo",
             "link": "https://gracegsy.github.io/vaine_dev/"
+          }
+        ]
+      },
+      {
+        "title": "VITALITY: Promoting Serendipitous Discovery of Academic Literature with Transformers & Visual Analytics",
+        "authors": "Arpit Narechania, Alireza Karduni, Ryan Wesslen, and Emily Wall",
+        "venue": "IEEE VIS 2021",
+        "image": "21-vis-vitality.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://vitality-vis.github.io/vitality_research_paper_vis_2021.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "https://vitality-vis.github.io/"
+          },
+          {
+            "text": "Video",
+            "link": "https://youtu.be/fSgxSL4txzA"
+          },
+          {
+            "text": "Live Demo",
+            "link": "https://vitality.mathcs.emory.edu/app"
           }
         ]
       }

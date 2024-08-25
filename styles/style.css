@@ -388,7 +388,12 @@ h5 {
   padding-bottom: 4px;
 }
 .about-text-wrapper {
+  color: #515151;
+  font-weight: 400;
   margin-bottom: 24px;
+}
+.about-text-wrapper b {
+  color: #2b2b2b;
 }
 .about-text-wrapper p {
   margin: 0;
@@ -398,6 +403,7 @@ h5 {
 }
 .about-text-wrapper li {
   list-style-type: disc !important;
+  color: #2b2b2b;
   font-weight: 700;
 }
 .about-logo-wrapper {
