@@ -183,7 +183,11 @@ function loadProjects() {
   let p;
   if ($("#projects").length) {
     p = $.getJSON("/data/projects.json", function (data) {
-      createProjectsElements(data);
+      if ($(".projects-container.home").length) {
+        createProjectsElements(data.slice(0, 4));
+      } else {
+        createProjectsElements(data);
+      }
     });
   } else {
     p = new Promise((resolve, reject) => {
@@ -200,7 +204,11 @@ function loadPublications() {
   let p;
   if ($("#publications").length) {
     p = $.getJSON("/data/publications.json", function (data) {
-      createPublicationsElements(data);
+      if ($(".projects-container.home").length) {
+        createPublicationsElements(data.slice(0, 4));
+      } else {
+        createPublicationsElements(data);
+      }
     });
   } else {
     p = new Promise((resolve, reject) => {
@@ -520,14 +528,14 @@ function createAlumniElements(data) {
  * </div>
  * ```
  *
- * @param {*} data
+ * @param {*} projects
  */
-function createProjectsElements(data) {
+function createProjectsElements(projects) {
   let items = [];
   let projImage, projContent, projRelated;
 
-  for (let i = 0; i < data.length; i++) {
-    const p = data[i];
+  for (let i = 0; i < projects.length; i++) {
+    const p = projects[i];
 
     // project image
     if (p.image) {
@@ -630,15 +638,15 @@ function createProjectsElements(data) {
  *   </div>
  * </div>
  * ```
- * @param {*} data
+ * @param {*} publications
  */
-function createPublicationsElements(data) {
+function createPublicationsElements(publications) {
   let items = [];
   let elemImage, elemContent, elemAction;
 
   // for each year
-  for (let i = 0; i < data.length; i++) {
-    const y = Object.entries(data[i])[0];
+  for (let i = 0; i < publications.length; i++) {
+    const y = Object.entries(publications[i])[0];
     const year = y[0];
     const pubs = y[1];
 

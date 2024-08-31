@@ -188,7 +188,7 @@
           },
           {
             "text": "Live Demo",
-            "link": "https://provenancewidgets.github.io/showcase/#/playground"
+            "link": "https://provenancewidgets.github.io/showcase/#playground"
           }
         ]
       },
@@ -203,13 +203,6 @@
             "link": "https://dl.acm.org/doi/pdf/10.1145/3656650.3656667"
           }
         ]
-      },
-      {
-        "title": "vitaLITy 2: Reviewing Academic Literature Using Large Language Models",
-        "authors": "Hongye An, Arpit Narechania, Emily Wall, and Kai Xu",
-        "venue": "IEEE VIS 2024 (NLVIZ workshop)",
-        "image": "24-vis-vitality2.png",
-        "actions": []
       },
       {
         "title": "What We Augment When We Augment Visualizations: A Design Elicitation Study of How We Visually Express Data Relationships",
@@ -444,30 +437,6 @@
           {
             "text": "Live Demo",
             "link": "https://gracegsy.github.io/vaine_dev/"
-          }
-        ]
-      },
-      {
-        "title": "VITALITY: Promoting Serendipitous Discovery of Academic Literature with Transformers & Visual Analytics",
-        "authors": "Arpit Narechania, Alireza Karduni, Ryan Wesslen, and Emily Wall",
-        "venue": "IEEE VIS 2021",
-        "image": "21-vis-vitality.png",
-        "actions": [
-          {
-            "text": "PDF",
-            "link": "https://vitality-vis.github.io/vitality_research_paper_vis_2021.pdf"
-          },
-          {
-            "text": "Website",
-            "link": "https://vitality-vis.github.io/"
-          },
-          {
-            "text": "Video",
-            "link": "https://youtu.be/fSgxSL4txzA"
-          },
-          {
-            "text": "Live Demo",
-            "link": "https://vitality.mathcs.emory.edu/app"
           }
         ]
       }
