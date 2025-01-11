@@ -9,7 +9,7 @@
         "actions": [
           {
             "text": "PDF",
-            "link": "https://arpitnarechania.github.io/docs/publications/biasbuzz_chi_2024.pdf"
+            "link": "https://narechania.com/docs/publications/biasbuzz_chi_2024.pdf"
           },
           {
             "text": "Video (Talk)",
@@ -66,7 +66,22 @@
         "authors": "Subham Sah*, Rishab Mitra*, Arpit Narechania*, Alex Endert, John Stasko, Wenwen Dou",
         "venue": "IEEE VIS 2024 (NLVIZ workshop)",
         "image": "24-vis-nl4dvllm.png",
-        "actions": []
+        "actions": [{
+          "text": "PDF",
+          "link": "https://narechania.com/docs/publications/nl4dv-llm_nlviz_2024.pdf"
+        },
+        {
+          "text": "Website",
+          "link": "https://nl4dv.github.io"
+        },
+        {
+          "text": "Video (demo)",
+          "link": "https://youtu.be/3YxloJgnV9I"
+        },
+        {
+          "text": "Code",
+          "link": "https://github.com/nl4dv/nl4dv"
+        }]
       },
       {
         "title": "iScore: Visual Analytics for Interpreting How Language Models Automatically Score Summaries",
@@ -172,7 +187,7 @@
         "actions": [
           {
             "text": "PDF",
-            "link": "https://arxiv.org/pdf/2407.17431"
+            "link": "https://narechania.com/docs/publications/provenance_widgets_2024.pdf"
           },
           {
             "text": "Website",
@@ -252,7 +267,7 @@
         "actions": [
           {
             "text": "PDF",
-            "link": "https://arpitnarechania.github.io/docs/publications/datacockpit_mlbd_2023.pdf"
+            "link": "https://narechania.com/docs/publications/datacockpit_mlbd_2023.pdf"
           },
           {
             "text": "Video",
@@ -268,7 +283,7 @@
         "actions": [
           {
             "text": "PDF",
-            "link": "https://sites.cc.gatech.edu/~anarechania3/docs/publications/datapilot_chi_2023.pdf"
+            "link": "https://narechania.com/docs/publications/datapilot_chi_2023.pdf"
           },
           {
             "text": "Video (Overview)",
@@ -404,11 +419,11 @@
           },
           {
             "text": "Poster",
-            "link": "https://sites.cc.gatech.edu/~anarechania3/docs/posters/lumos_cridc_2021.pdf"
+            "link": "https://narechania.com/docs/posters/lumos_cridc_2021.pdf"
           },
           {
             "text": "Slides",
-            "link": "https://sites.cc.gatech.edu/~anarechania3/docs/slides/lumos_vis_2021.pdf"
+            "link": "https://narechania.com/docs/slides/lumos_vis_2021.pdf"
           },
           {
             "text": "Live Demo",
@@ -568,7 +583,7 @@
           },
           {
             "text": "Slides",
-            "link": "https://sites.cc.gatech.edu/~anarechania3/docs/slides/nl4dv_vis_2020.pdf"
+            "link": "https://narechania.com/docs/slides/nl4dv_vis_2020.pdf"
           }
         ]
       },
@@ -600,7 +615,7 @@
         "actions": [
           {
             "text": "PDF",
-            "link": "https://www.cc.gatech.edu/~anarechania3/docs/publications/safetylens_vis_2020.pdf"
+            "link": "https://narechania.com/docs/publications/safetylens_vis_2020.pdf"
           },
           {
             "text": "Video (Introduction)",
