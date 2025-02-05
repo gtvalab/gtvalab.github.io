@@ -37,18 +37,5 @@
     "linkedinURL": "https://www.linkedin.com/in/sichen-jin-521286205/",
     "twitterURL": "https://twitter.com/jin_sichen",
     "googlescholarURL": ""
-  },
-  {
-    "fullName": "Donald Bertucci",
-    "firstName": "Donny",
-    "lastName": "Bertucci",
-    "title": "PhD Student, CS",
-    "keywords": "Visualization; Machine Learning; Reading",
-    "image": "donny.jpg",
-    "email": "bertucci@gatech.edu",
-    "websiteURL": "https://donnybertucci.com/",
-    "linkedinURL": "https://www.linkedin.com/in/donny-bertucci/",
-    "twitterURL": "https://twitter.com/donny_bertucci",
-    "googlescholarURL": "https://scholar.google.com/citations?hl=en&user=0Dtmgf8AAAAJ"
   }
 ]
