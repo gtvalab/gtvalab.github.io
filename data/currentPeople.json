@@ -51,6 +51,7 @@
     "twitterURL": "",
     "googlescholarURL": ""
   },
+  {
     "fullName": "Zeyu Hua",
     "firstName": "Zeyu",
     "lastName": "Hua",
@@ -60,6 +61,19 @@
     "email": "zhua37@gatech.edu",
     "websiteURL": "",
     "linkedinURL": "",
+    "twitterURL": "",
+    "googlescholarURL": ""
+  },
+  {
+    "fullName": "Yuhan Wang",
+    "firstName": "Yuhan",
+    "lastName": "Wang",
+    "title": "PhD Student, HCC",
+    "keywords": "Visual Analytics; Sensemaking; HCI",
+    "image": "yuhanwang.jpeg",
+    "email": "yuhan_wang@gatech.edu",
+    "websiteURL": "https://yuhanwww.github.io/",
+    "linkedinURL": "https://www.linkedin.com/in/yuhan-wang-yw/",
     "twitterURL": "",
     "googlescholarURL": ""
   }
