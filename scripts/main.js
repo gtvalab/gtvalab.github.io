@@ -434,7 +434,9 @@ function createCurrentPeopleElements(data) {
       </div>
     `);
   }
+
   $(".team-current-container").get(0).innerHTML = items.join("");
+  $("#teamcount").get(0).innerHTML = `(${items.length})`;
 }
 
 /**
@@ -453,6 +455,7 @@ function createCurrentPeopleElements(data) {
 function createAlumniElements(data) {
   let items = [];
   let elem;
+
   for (let i = 0; i < data.length; i++) {
     const p = data[i];
     if (p.websiteURL) {
@@ -490,7 +493,9 @@ function createAlumniElements(data) {
     }
     items.push(elem);
   }
+
   $(".team-alumni-container").get(0).innerHTML = items.join("");
+  $("#alumcount").get(0).innerHTML = `(${items.length})`;
 }
 
 /**
