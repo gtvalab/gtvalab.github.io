@@ -1,5 +1,61 @@
 [
   {
+    "2026": [
+      {
+        "title": "VisPile: A Visual Analytics System for Analyzing Multiple Text Documents With Large Language Models and Knowledge Graphs",
+        "authors": "Adam Coscia and Alex Endert",
+        "venue": "HICSS 2026",
+        "image": "26-hicss-vispile.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/abs/2510.09605"
+          },
+          {
+            "text": "Website",
+            "link": "https://adamcoscia.com/papers/vispile/"
+          },
+          {
+            "text": "Video (Talk)",
+            "link": "https://youtu.be/W3gHFm8xJTc"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/AdamCoscia/VisPile"
+          },
+          {
+            "text": "Live Demo",
+            "link": "https://adamcoscia.com/papers/vispile/demo/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "2025": [
+      {
+        "title": "OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models",
+        "authors": "Adam Coscia, Shunan Guo, Eunyee Koh, and Alex Endert",
+        "venue": "ACM UIST 2025",
+        "image": "25-uist-ongoal.png",
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://arxiv.org/abs/2508.21061"
+          },
+          {
+            "text": "Website",
+            "link": "https://adamcoscia.com/papers/ongoal/"
+          },
+          {
+            "text": "Demo video",
+            "link": "https://youtu.be/uobhmxo6EIE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "2024": [
       {
         "title": "BiasBuzz: Combining Visual Guidance with Haptic Feedback to Increase Awareness of Analytic Behavior during Visual Data Analysis",
@@ -66,22 +122,24 @@
         "authors": "Subham Sah*, Rishab Mitra*, Arpit Narechania*, Alex Endert, John Stasko, Wenwen Dou",
         "venue": "IEEE VIS 2024 (NLVIZ workshop)",
         "image": "24-vis-nl4dvllm.png",
-        "actions": [{
-          "text": "PDF",
-          "link": "https://narechania.com/docs/publications/nl4dv-llm_nlviz_2024.pdf"
-        },
-        {
-          "text": "Website",
-          "link": "https://nl4dv.github.io"
-        },
-        {
-          "text": "Video (demo)",
-          "link": "https://youtu.be/3YxloJgnV9I"
-        },
-        {
-          "text": "Code",
-          "link": "https://github.com/nl4dv/nl4dv"
-        }]
+        "actions": [
+          {
+            "text": "PDF",
+            "link": "https://narechania.com/docs/publications/nl4dv-llm_nlviz_2024.pdf"
+          },
+          {
+            "text": "Website",
+            "link": "https://nl4dv.github.io"
+          },
+          {
+            "text": "Video (demo)",
+            "link": "https://youtu.be/3YxloJgnV9I"
+          },
+          {
+            "text": "Code",
+            "link": "https://github.com/nl4dv/nl4dv"
+          }
+        ]
       },
       {
         "title": "iScore: Visual Analytics for Interpreting How Language Models Automatically Score Summaries",

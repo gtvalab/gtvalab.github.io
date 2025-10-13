@@ -67,7 +67,6 @@ Example format:
 
 ```(json)
 [
-[
   {
     "fullName": "Jane Rose Smith",            // **REQUIRED**
     "firstName": "Jane",                      // **REQUIRED**
