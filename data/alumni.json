@@ -1,5 +1,13 @@
 [
   {
+    "fullName": "Adam Coscia",
+    "firstName": "Adam",
+    "lastName": "Coscia",
+    "degreeTitle": "HCC PhD",
+    "image": "adam.jpg",
+    "websiteURL": "https://adamcoscia.com/"
+  },
+  {
     "fullName": "Subhajit Das",
     "firstName": "Subhajit",
     "lastName": "Das",
@@ -30,6 +38,14 @@
     "degreeTitle": "CSE PhD",
     "image": "fred.jpg",
     "websiteURL": "https://fredhohman.com/"
+  },
+  {
+    "fullName": "Sichen Jin",
+    "firstName": "Sichen",
+    "lastName": "Jin",
+    "degreeTitle": "CS PhD",
+    "image": "sichen.png",
+    "websiteURL": "https://sichenj.in/"
   },
   {
     "fullName": "Hannah Kim",

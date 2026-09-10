@@ -3,7 +3,7 @@
     "fullName": "Alex Endert",
     "firstName": "Alex",
     "lastName": "Endert",
-    "title": "Associate Professor",
+    "title": "Professor",
     "keywords": "Visual Analytics; HCI; Coffee",
     "image": "endert-portrait.jpg",
     "email": "endert@gatech.edu",
@@ -11,32 +11,6 @@
     "linkedinURL": "",
     "twitterURL": "https://twitter.com/endertalex",
     "googlescholarURL": "https://scholar.google.com/citations?user=_ZIAy3cAAAAJ&hl=en"
-  },
-  {
-    "fullName": "Adam Coscia",
-    "firstName": "Adam",
-    "lastName": "Coscia",
-    "title": "PhD Student, HCC",
-    "keywords": "LLMs; Knowledge Graphs; XAI; Sensemaking; Snowboarding",
-    "image": "adam.jpg",
-    "email": "acoscia6@gatech.edu",
-    "websiteURL": "https://adamcoscia.com/",
-    "linkedinURL": "https://www.linkedin.com/in/adam-coscia/",
-    "twitterURL": "https://twitter.com/AdamCoscia",
-    "googlescholarURL": "https://scholar.google.com/citations?user=diVuti8AAAAJ&hl=en"
-  },
-  {
-    "fullName": "Sichen Jin",
-    "firstName": "Sichen",
-    "lastName": "Jin",
-    "title": "PhD Student, CS",
-    "keywords": "Information visualization; Machine Learning",
-    "image": "sichen.png",
-    "email": "sjin86@gatech.edu",
-    "websiteURL": "https://sichenj.in/",
-    "linkedinURL": "https://www.linkedin.com/in/sichen-jin-521286205/",
-    "twitterURL": "https://twitter.com/jin_sichen",
-    "googlescholarURL": "https://scholar.google.com/citations?user=-sS6_uEAAAAJ&hl=en"
   },
   {
     "fullName": "Sujata Duwal",
