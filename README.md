@@ -26,6 +26,31 @@ If you are unfamiliar with forking and submitting pull requests,
 3. Submit a Pull Request on the original (non-forked) repository, from your forked repository's `master` branch to the
    original repository's `master` branch, and an admin will merge it.
 
+## How to sync your forked repo with the original lab repo
+
+If your local machine doesn't track the original repo, add it as a remote and fetch it:
+```
+git remote add valab-original https://github.com/gtvalab/gtvalab.github.io.git
+git fetch valab-original
+```
+
+Confirm your remotes are set up correctly by running `git remote -v`. You should see something similar to:
+
+```
+origin  git@github.com:[YourUserName]/gtvalab.github.io.git (fetch)
+origin  git@github.com:[YourUserName]/gtvalab.github.io.git (push)
+valab-original  https://github.com/gtvalab/gtvalab.github.io.git (fetch)
+valab-original  https://github.com/gtvalab/gtvalab.github.io.git (push)
+```
+
+After your Pull Request is merged, sync your fork back to the lab repo.
+
+> Warning: step 2 discards any local commits on `master` that aren't in the lab repo.
+
+1. `git fetch valab-original`
+2. `git reset --hard valab-original/master`
+3. `git push --force-with-lease origin master`
+
 ## Contact
 
 - endert \[at\] gatech \[dot\] edu
